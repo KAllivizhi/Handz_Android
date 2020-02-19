@@ -1,0 +1,651 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="iz_handz.handzforhire"
+    android:versionCode="6"
+    android:versionName="1.4" >
+
+    <uses-sdk
+        android:minSdkVersion="19"
+        android:targetSdkVersion="28" />
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <uses-permission android:name="info.androidhive.googlemapsv2.permission.MAPS_RECEIVE" />
+    <uses-permission android:name="com.google.android.providers.gsf.permission.READ_GSERVICES" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+
+    <!-- Samsung -->
+    <uses-permission android:name="com.sec.android.provider.badge.permission.READ" />
+    <uses-permission android:name="com.sec.android.provider.badge.permission.WRITE" />
+
+    <!-- Sony -->
+    <uses-permission android:name="com.sonyericsson.home.permission.BROADCAST_BADGE" />
+    <uses-permission android:name="com.google.android.gms.permission.ACTIVITY_RECOGNITION" />
+    <!-- HTC -->
+    <uses-permission android:name="com.htc.launcher.permission.READ_SETTINGS" />
+    <uses-permission android:name="com.htc.launcher.permission.UPDATE_SHORTCUT" />
+    <uses-permission android:name="net.simplifiedcoding.androidgcm.permission.C2D_MESSAGE" />
+\
+    <uses-feature
+        android:glEsVersion="0x00020000"
+        android:required="true" />
+
+    <uses-permission android:name="com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE" /> <!-- Required by older versions of Google Play services to create IID tokens -->
+    <uses-permission android:name="com.google.android.c2dm.permission.RECEIVE" />
+
+    <application
+        android:name="iz_handz.handzforhire.MyApplication"
+        android:allowBackup="false"
+        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+        android:icon="@drawable/logo"
+        android:label="@string/app_name"
+        android:largeHeap="true"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.AppCompat.Light.NoActionBar.FullScreen" >
+        <uses-library
+            android:name="org.apache.http.legacy"
+            android:required="false" />
+
+        <meta-data
+            android:name="asset_statements"
+            android:resource="@string/asset_statements" />
+
+        <activity
+            android:name="iz_handz.handzforhire.SplashScreen"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="iz_handz.handzforhire.MainActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAINACTIVITY" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="iz_handz.handzforhire.AlertTask"
+            android:windowSoftInputMode="stateHidden|adjustPan" />
+        <activity
+            android:name="iz_handz.handzforhire.AlertJobDetailPage"
+            android:windowSoftInputMode="stateHidden|adjustPan" />
+        <activity
+            android:name="iz_handz.handzforhire.EditUserProfile"
+            android:alwaysRetainTaskState="true"
+            android:windowSoftInputMode="stateHidden|adjustPan" />
+        <activity
+            android:name="iz_handz.handzforhire.ChangeCurrentAddress"
+            android:alwaysRetainTaskState="true"
+            android:windowSoftInputMode="stateHidden|adjustPan" />
+        <activity
+            android:name="iz_handz.handzforhire.ChangeCurrentEmailAddress"
+            android:alwaysRetainTaskState="true"
+            android:windowSoftInputMode="stateHidden|adjustPan" />
+        <activity
+            android:name="iz_handz.handzforhire.ChangeCurrentUsernamePassword"
+            android:alwaysRetainTaskState="true"
+            android:windowSoftInputMode="stateHidden|adjustPan" />
+        <activity
+            android:name="iz_handz.handzforhire.ConfirmationActivity"
+            android:alwaysRetainTaskState="true" />
+        <activity
+            android:name="iz_handz.handzforhire.ApplyJob"
+            android:launchMode="singleTask"
+            android:windowSoftInputMode="stateHidden|adjustPan" />
+        <activity
+            android:name="iz_handz.handzforhire.JobDetails"
+            android:alwaysRetainTaskState="true" />
+        <activity
+            android:name="iz_handz.handzforhire.LendComments"
+            android:alwaysRetainTaskState="true"
+            android:windowSoftInputMode="adjustPan|stateHidden" />
+        <activity
+            android:name="iz_handz.handzforhire.LendNeedHelp"
+            android:alwaysRetainTaskState="true"
+            android:windowSoftInputMode="adjustPan|stateHidden" />
+        <activity
+            android:name="iz_handz.handzforhire.LendRating"
+            android:alwaysRetainTaskState="true" />
+        <activity
+            android:name="iz_handz.handzforhire.LendEditRating"
+            android:alwaysRetainTaskState="true" />
+        <activity
+            android:name="iz_handz.handzforhire.LeaveComments"
+            android:alwaysRetainTaskState="true" />
+        <activity
+            android:name="iz_handz.handzforhire.LeaveRating"
+            android:alwaysRetainTaskState="true" />
+        <activity
+            android:name="iz_handz.handzforhire.EditComments"
+            android:alwaysRetainTaskState="true" />
+        <activity
+            android:name="iz_handz.handzforhire.LendEditComments"
+            android:alwaysRetainTaskState="true" />
+        <activity
+            android:name="iz_handz.handzforhire.IntegrationPaypal"
+            android:alwaysRetainTaskState="true"
+            android:windowSoftInputMode="stateHidden|adjustPan" />
+        <activity
+            android:name="iz_handz.handzforhire.LendLeaveRating"
+            android:alwaysRetainTaskState="true"
+            android:windowSoftInputMode="stateHidden|adjustPan" />
+        <activity
+            android:name="iz_handz.handzforhire.LendLeaveComments"
+            android:alwaysRetainTaskState="true"
+            android:windowSoftInputMode="stateHidden|adjustPan" />
+        <activity
+            android:name="iz_handz.handzforhire.JobCancelEditComments"
+            android:alwaysRetainTaskState="true"
+            android:windowSoftInputMode="stateHidden|adjustPan" />
+        <activity
+            android:name="iz_handz.handzforhire.JobCancelLeaveComments"
+            android:alwaysRetainTaskState="true"
+            android:windowSoftInputMode="stateHidden|adjustPan" />
+        <activity
+            android:name="iz_handz.handzforhire.LoginActivity"
+            android:alwaysRetainTaskState="true"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar.FullScreen"
+            android:windowSoftInputMode="stateHidden|adjustPan" >
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="android.intent.category.BROWSABLE" />
+
+                <data android:scheme="@string/fb_login_protocol_scheme" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="iz_handz.handzforhire.SelectJOBByCategory"
+            android:alwaysRetainTaskState="true"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar.FullScreen"
+            android:windowSoftInputMode="stateHidden|adjustPan" />
+        <activity
+            android:name="iz_handz.handzforhire.SearchJob"
+            android:alwaysRetainTaskState="true"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar.FullScreen"
+            android:windowSoftInputMode="stateHidden|adjustPan" />
+        <activity
+            android:name="iz_handz.handzforhire.MapActivity"
+            android:alwaysRetainTaskState="true"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar.FullScreen"
+            android:windowSoftInputMode="stateHidden|adjustPan" />
+        <activity
+            android:name="iz_handz.handzforhire.SwitchingSide"
+            android:alwaysRetainTaskState="true" />
+        <activity
+            android:name="iz_handz.handzforhire.PayEmployee"
+            android:alwaysRetainTaskState="true"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar.FullScreen"
+            android:windowSoftInputMode="adjustPan|stateHidden" />
+        <activity
+            android:name="iz_handz.handzforhire.PayEmployee1"
+            android:alwaysRetainTaskState="true"
+            android:windowSoftInputMode="adjustPan|stateHidden" />
+        <activity
+            android:name="iz_handz.handzforhire.ActiveJobs"
+            android:alwaysRetainTaskState="true" />
+        <activity
+            android:name="iz_handz.handzforhire.LendActiveJobs"
+            android:alwaysRetainTaskState="true" />
+        <activity
+            android:name="iz_handz.handzforhire.LendJobHistory"
+            android:alwaysRetainTaskState="true"
+            android:windowSoftInputMode="stateHidden|adjustPan" />
+        <activity
+            android:name="iz_handz.handzforhire.JobHistory"
+            android:alwaysRetainTaskState="true"
+            android:windowSoftInputMode="stateHidden|adjustPan" />
+        <activity
+            android:name="iz_handz.handzforhire.PaymentDetails"
+            android:alwaysRetainTaskState="true"
+            android:windowSoftInputMode="stateHidden|adjustPan" />
+        <activity
+            android:name="iz_handz.handzforhire.PendingJobs"
+            android:alwaysRetainTaskState="true" />
+        <activity
+            android:name="iz_handz.handzforhire.ViewApplicant"
+            android:alwaysRetainTaskState="true"
+            android:windowSoftInputMode="adjustPan|stateHidden" />
+        <activity
+            android:name="iz_handz.handzforhire.UpdateCard"
+            android:alwaysRetainTaskState="true"
+            android:windowSoftInputMode="stateHidden|adjustPan" />
+        <activity
+            android:name="iz_handz.handzforhire.RegisterPage1"
+            android:alwaysRetainTaskState="true"
+            android:windowSoftInputMode="stateHidden|adjustPan" />
+        <activity
+            android:name="iz_handz.handzforhire.RegisterPage2"
+            android:alwaysRetainTaskState="true"
+            android:windowSoftInputMode="stateHidden|adjustPan" />
+        <activity
+            android:name="iz_handz.handzforhire.RegisterPage3"
+            android:alwaysRetainTaskState="true"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar.FullScreen"
+            android:windowSoftInputMode="stateHidden|adjustPan" />
+        <activity
+            android:name="iz_handz.handzforhire.PaypalReturnActivity"
+            android:alwaysRetainTaskState="true" >
+            <intent-filter android:autoVerify="true" >
+                <action android:name="android.intent.action.VIEW" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="android.intent.category.BROWSABLE" />
+
+                <data
+                    android:host="handzadmin.com"
+                    android:scheme="https" />
+                <data android:scheme="http" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="android.intent.category.BROWSABLE" />
+
+                <data
+                    android:host="www.handzadmin.com"
+                    android:scheme="https" />
+                <data android:scheme="http" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="iz_handz.handzforhire.RegisterPage4"
+            android:alwaysRetainTaskState="true" />
+        <activity
+            android:name="iz_handz.handzforhire.MakePayment"
+            android:alwaysRetainTaskState="true" />
+        <activity
+            android:name="iz_handz.handzforhire.TermsAndConditions"
+            android:alwaysRetainTaskState="true" />
+        <activity
+            android:name="iz_handz.handzforhire.EditCreateJob"
+            android:alwaysRetainTaskState="true"
+            android:launchMode="singleTask"
+            android:windowSoftInputMode="adjustPan|stateHidden" />
+        <activity
+            android:name="iz_handz.handzforhire.EditCreateJob2"
+            android:alwaysRetainTaskState="true"
+            android:launchMode="singleTask"
+            android:windowSoftInputMode="adjustPan|stateHidden" />
+        <activity
+            android:name="iz_handz.handzforhire.ProfilePage"
+            android:alwaysRetainTaskState="true" />
+        <activity
+            android:name="iz_handz.handzforhire.CreateJob"
+            android:alwaysRetainTaskState="true"
+            android:launchMode="singleTask"
+            android:windowSoftInputMode="stateHidden|adjustPan" />
+        <activity
+            android:name="iz_handz.handzforhire.NeedHelp"
+            android:alwaysRetainTaskState="true"
+            android:windowSoftInputMode="stateHidden|adjustPan" />
+        <activity
+            android:name="iz_handz.handzforhire.PromoVideo"
+            android:alwaysRetainTaskState="true" />
+        <activity
+            android:name="iz_handz.handzforhire.ReviewRating"
+            android:alwaysRetainTaskState="true" />
+        <activity
+            android:name="iz_handz.handzforhire.LendReviewRating"
+            android:alwaysRetainTaskState="true"
+            android:launchMode="singleTask" />
+        <activity
+            android:name="iz_handz.handzforhire.LendEditUserProfile"
+            android:alwaysRetainTaskState="true"
+            android:windowSoftInputMode="stateHidden|adjustPan" />
+        <activity
+            android:name="iz_handz.handzforhire.CreateJob2"
+            android:alwaysRetainTaskState="true"
+            android:launchMode="singleTask"
+            android:theme="@style/Theme.AppCompat.NoActionBar"
+            android:windowSoftInputMode="stateHidden|adjustPan" />
+        <activity
+            android:name="iz_handz.handzforhire.ManagePaymentOptions"
+            android:alwaysRetainTaskState="true" />
+        <activity
+            android:name="iz_handz.handzforhire.ChatNeed"
+            android:alwaysRetainTaskState="true"
+            android:windowSoftInputMode="stateHidden" />
+        <activity
+            android:name="iz_handz.handzforhire.NeedComments"
+            android:alwaysRetainTaskState="true"
+            android:windowSoftInputMode="adjustPan|stateHidden" />
+        <activity
+            android:name="iz_handz.handzforhire.EditPostedJobs"
+            android:alwaysRetainTaskState="true" />
+        <activity
+            android:name="iz_handz.handzforhire.PostedJobs"
+            android:alwaysRetainTaskState="true" />
+        <activity
+            android:name="iz_handz.handzforhire.ForgotPassword"
+            android:alwaysRetainTaskState="true"
+            android:windowSoftInputMode="adjustPan|stateHidden" />
+        <activity
+            android:name="iz_handz.handzforhire.JobDescription"
+            android:alwaysRetainTaskState="true"
+            android:windowSoftInputMode="adjustPan|stateHidden" />
+        <activity
+            android:name="iz_handz.handzforhire.PaymentMethod"
+            android:alwaysRetainTaskState="true"
+            android:windowSoftInputMode="stateHidden|adjustPan" />
+        <activity
+            android:name="iz_handz.handzforhire.LendLoginPage"
+            android:alwaysRetainTaskState="true"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar.FullScreen"
+            android:windowSoftInputMode="stateHidden|adjustPan" >
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="android.intent.category.BROWSABLE" />
+
+                <data android:scheme="@string/fb_login_protocol_scheme" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="iz_handz.handzforhire.LendProfilePage"
+            android:alwaysRetainTaskState="true" />
+        <activity
+            android:name="iz_handz.handzforhire.LendRegisterPage2"
+            android:alwaysRetainTaskState="true"
+            android:windowSoftInputMode="stateHidden|adjustPan" />
+        <activity
+            android:name="iz_handz.handzforhire.LendRegisterPage3"
+            android:alwaysRetainTaskState="true"
+            android:windowSoftInputMode="stateHidden|adjustPan" />
+        <activity
+            android:name="iz_handz.handzforhire.LendRegisterPage4"
+            android:alwaysRetainTaskState="true" />
+        <activity
+            android:name="iz_handz.handzforhire.ViewSearchJob"
+            android:alwaysRetainTaskState="true" />
+        <activity
+            android:name="iz_handz.handzforhire.AddCheckingAccount"
+            android:alwaysRetainTaskState="true"
+            android:windowSoftInputMode="stateHidden|adjustPan" />
+        <activity
+            android:name="iz_handz.handzforhire.LendPaymentMethod"
+            android:alwaysRetainTaskState="true" />
+        <activity
+            android:name="iz_handz.handzforhire.UpdateAccount"
+            android:alwaysRetainTaskState="true"
+            android:windowSoftInputMode="stateHidden|adjustPan" />
+        <activity
+            android:name="iz_handz.handzforhire.LendPaypalAccount"
+            android:alwaysRetainTaskState="true"
+            android:windowSoftInputMode="stateHidden|adjustPan" />
+        <activity
+            android:name="iz_handz.handzforhire.LendCreditDebit"
+            android:alwaysRetainTaskState="true"
+            android:windowSoftInputMode="stateHidden|adjustPan" />
+        <activity
+            android:name="iz_handz.handzforhire.LendCheckingAccount"
+            android:alwaysRetainTaskState="true"
+            android:windowSoftInputMode="stateHidden|adjustPan" />
+        <activity
+            android:name="iz_handz.handzforhire.PayPalAccount"
+            android:alwaysRetainTaskState="true"
+            android:windowSoftInputMode="stateHidden|adjustPan" />
+        <activity
+            android:name="iz_handz.handzforhire.CreditDebit"
+            android:alwaysRetainTaskState="true"
+            android:windowSoftInputMode="stateHidden|adjustPan" />
+        <activity
+            android:name="iz_handz.handzforhire.EditRating"
+            android:alwaysRetainTaskState="true" />
+        <activity
+            android:name="iz_handz.handzforhire.SummaryAdd"
+            android:launchMode="singleTask"
+            android:windowSoftInputMode="stateHidden|adjustPan" />
+        <activity
+            android:name="iz_handz.handzforhire.SummaryMultiply"
+            android:launchMode="singleTask"
+            android:windowSoftInputMode="stateHidden|adjustPan" />
+        <activity
+            android:name="iz_handz.handzforhire.SummarySubtract"
+            android:launchMode="singleTask"
+            android:windowSoftInputMode="stateHidden|adjustPan" />
+        <activity
+            android:name="iz_handz.handzforhire.RehireJob"
+            android:alwaysRetainTaskState="true"
+            android:windowSoftInputMode="stateHidden|adjustPan" />
+        <activity
+            android:name="iz_handz.handzforhire.RehireAdd"
+            android:alwaysRetainTaskState="true"
+            android:windowSoftInputMode="stateHidden|adjustPan" />
+        <activity
+            android:name="iz_handz.handzforhire.RehireSubtract"
+            android:alwaysRetainTaskState="true"
+            android:launchMode="singleTask"
+            android:windowSoftInputMode="stateHidden|adjustPan" />
+        <activity
+            android:name="iz_handz.handzforhire.RehireMultiply"
+            android:alwaysRetainTaskState="true"
+            android:windowSoftInputMode="stateHidden|adjustPan" />
+        <activity
+            android:name="iz_handz.handzforhire.PlayTutorialVideo"
+            android:alwaysRetainTaskState="true"
+            android:windowSoftInputMode="stateHidden|adjustPan" />
+        <activity
+            android:name="com.theartofdev.edmodo.cropper.CropImageActivity"
+            android:alwaysRetainTaskState="true"
+            android:theme="@style/Base.Theme.AppCompat" />
+        <activity
+            android:name="iz_handz.handzforhire.LinkPaypal"
+            android:alwaysRetainTaskState="true"
+            android:theme="@style/Base.Theme.AppCompat" />
+        <activity
+            android:name="iz_handz.handzforhire.ArchievedJob"
+            android:alwaysRetainTaskState="true"
+            android:windowSoftInputMode="stateHidden|adjustPan" />
+        <activity
+            android:name="iz_handz.handzforhire.LinkedInActivity"
+            android:alwaysRetainTaskState="true"
+            android:windowSoftInputMode="stateHidden|adjustPan" />
+        <activity
+            android:name="iz_handz.handzforhire.AlertTaskLend"
+            android:alwaysRetainTaskState="true"
+            android:windowSoftInputMode="stateHidden|adjustPan" />
+        <activity
+            android:name="com.facebook.FacebookActivity"
+            android:alwaysRetainTaskState="true"
+            android:configChanges="keyboard|keyboardHidden|screenLayout|screenSize|orientation"
+            android:label="@string/app_name"
+            android:theme="@style/com_facebook_activity_theme" />
+
+        <meta-data
+            android:name="com.facebook.sdk.ApplicationId"
+            android:value="@string/facebook_app_id" />
+        <meta-data
+            android:name="com.google.android.gms.version"
+            android:value="@integer/google_play_services_version" />
+
+        <provider
+            android:name="com.facebook.FacebookContentProvider"
+            android:authorities="com.facebook.app.FacebookContentProvider333654204049944"
+            android:exported="true" />
+
+        <meta-data
+            android:name="com.google.android.maps.v2.API_KEY"
+            android:value="AIzaSyDJO1OOnQkjLYoFNGvVxa9J3pZ_J3jsS_Y" />
+
+        <!-- Firebase Notifications -->
+        <service android:name="iz_handz.handzforhire.MyFirebaseMessagingService" >
+            <intent-filter>
+                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+            </intent-filter>
+        </service>
+        <service
+            android:name="iz_handz.handzforhire.MyService"
+            android:enabled="true" />
+        <service android:name="com.service.MyFirebaseInstanceIDService" >
+            <intent-filter>
+                <action android:name="com.google.firebase.INSTANCE_ID_EVENT" />
+            </intent-filter>
+        </service>
+        <service
+            android:name="iz_handz.handzforhire.LocationUpdatesIntentService"
+            android:exported="false" />
+
+        <receiver
+            android:name="iz_handz.handzforhire.LocationUpdatesBroadcastReceiver"
+            android:exported="true" >
+            <intent-filter>
+                <action android:name="com.google.android.gms.location.sample.backgroundlocationupdates.LocationUpdatesBroadcastReceiver.ACTION_PROCESS_UPDATES" />
+            </intent-filter>
+        </receiver>
+        <!--
+        <receiver android:name=".MyNetworkReceiver">
+            <intent-filter>
+                <action android:name="android.net.conn.CONNECTIVITY_CHANGE" />
+            </intent-filter>
+        </receiver>
+        -->
+        <!-- ./Firebase Notifications -->
+
+        <activity android:name="com.paypal.android.sdk.payments.PaymentActivity" />
+        <activity android:name="com.paypal.android.sdk.payments.PaymentMethodActivity" />
+        <activity android:name="com.paypal.android.sdk.payments.PaymentConfirmActivity" />
+        <activity android:name="com.paypal.android.sdk.payments.LoginActivity" />
+        <activity android:name="com.paypal.android.sdk.payments.PayPalFuturePaymentActivity" />
+        <activity android:name="com.paypal.android.sdk.payments.FuturePaymentConsentActivity" />
+        <activity android:name="com.paypal.android.sdk.payments.FuturePaymentInfoActivity" />
+        <activity android:name="com.paypal.android.sdk.payments.PayPalProfileSharingActivity" />
+        <activity android:name="com.paypal.android.sdk.payments.ProfileSharingConsentActivity" />
+
+        <service
+            android:name="com.paypal.android.sdk.payments.PayPalService"
+            android:exported="false" />
+
+        <activity android:name="com.facebook.CustomTabMainActivity" />
+        <activity android:name="com.facebook.CustomTabActivity" />
+        <activity
+            android:name="com.google.firebase.auth.internal.FederatedSignInActivity"
+            android:excludeFromRecents="true"
+            android:exported="true"
+            android:launchMode="singleTask"
+            android:permission="com.google.firebase.auth.api.gms.permission.LAUNCH_FEDERATED_SIGN_IN"
+            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+
+        <service
+            android:name="com.google.firebase.components.ComponentDiscoveryService"
+            android:exported="false" >
+            <meta-data
+                android:name="com.google.firebase.components:com.google.firebase.auth.FirebaseAuthRegistrar"
+                android:value="com.google.firebase.components.ComponentRegistrar" />
+            <meta-data
+                android:name="com.google.firebase.components:com.google.firebase.analytics.connector.internal.AnalyticsConnectorRegistrar"
+                android:value="com.google.firebase.components.ComponentRegistrar" />
+            <meta-data
+                android:name="com.google.firebase.components:com.google.firebase.iid.Registrar"
+                android:value="com.google.firebase.components.ComponentRegistrar" />
+        </service>
+        <!--
+             FirebaseMessagingService performs security checks at runtime,
+             no need for explicit permissions despite exported="true"
+        -->
+        <service
+            android:name="com.google.firebase.messaging.FirebaseMessagingService"
+            android:exported="true" >
+            <intent-filter android:priority="-500" >
+                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+            </intent-filter>
+        </service>
+
+        <receiver
+            android:name="com.google.android.gms.measurement.AppMeasurementReceiver"
+            android:enabled="true"
+            android:exported="false" >
+        </receiver>
+        <receiver
+            android:name="com.google.android.gms.measurement.AppMeasurementInstallReferrerReceiver"
+            android:enabled="true"
+            android:exported="true"
+            android:permission="android.permission.INSTALL_PACKAGES" >
+            <intent-filter>
+                <action android:name="com.android.vending.INSTALL_REFERRER" />
+            </intent-filter>
+        </receiver>
+
+        <service
+            android:name="com.google.android.gms.measurement.AppMeasurementService"
+            android:enabled="true"
+            android:exported="false" />
+        <service
+            android:name="com.google.android.gms.measurement.AppMeasurementJobService"
+            android:enabled="true"
+            android:exported="false"
+            android:permission="android.permission.BIND_JOB_SERVICE" />
+
+        <receiver
+            android:name="com.google.firebase.iid.FirebaseInstanceIdReceiver"
+            android:exported="true"
+            android:permission="com.google.android.c2dm.permission.SEND" >
+            <intent-filter>
+                <action android:name="com.google.android.c2dm.intent.RECEIVE" />
+            </intent-filter>
+        </receiver>
+        <!--
+             FirebaseInstanceIdService performs security checks at runtime,
+             no need for explicit permissions despite exported="true"
+        -->
+        <service
+            android:name="com.google.firebase.iid.FirebaseInstanceIdService"
+            android:exported="true" >
+            <intent-filter android:priority="-500" >
+                <action android:name="com.google.firebase.INSTANCE_ID_EVENT" />
+            </intent-filter>
+        </service>
+
+        <activity
+            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+            android:exported="false"
+            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+
+        <provider
+            android:name="com.google.firebase.provider.FirebaseInitProvider"
+            android:authorities="iz_handz.handzforhire.firebaseinitprovider"
+            android:exported="false"
+            android:initOrder="100" />
+        <provider
+            android:name="com.facebook.marketing.internal.MarketingInitProvider"
+            android:authorities="iz_handz.handzforhire.MarketingInitProvider"
+            android:exported="false" />
+        <!--
+         The initialization ContentProvider will call FacebookSdk.sdkInitialize automatically
+         with the application context. This config is merged in with the host app's manifest,
+         but there can only be one provider with the same authority activated at any given
+         point; so if the end user has two or more different apps that use Facebook SDK, only the
+         first one will be able to use the provider. To work around this problem, we use the
+         following placeholder in the authority to identify each host application as if it was
+         a completely different provider.
+        -->
+        <provider
+            android:name="com.facebook.internal.FacebookInitProvider"
+            android:authorities="iz_handz.handzforhire.FacebookInitProvider"
+            android:exported="false" />
+
+        <receiver
+            android:name="com.facebook.CurrentAccessTokenExpirationBroadcastReceiver"
+            android:exported="false" >
+            <intent-filter>
+                <action android:name="com.facebook.sdk.ACTION_CURRENT_ACCESS_TOKEN_CHANGED" />
+            </intent-filter>
+        </receiver>
+    </application>
+
+</manifest>

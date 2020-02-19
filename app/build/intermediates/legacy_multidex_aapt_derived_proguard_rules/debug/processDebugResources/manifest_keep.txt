@@ -1,0 +1,2 @@
+# Referenced at D:\Anderoid Projects\Handz_11101\H\Handz_1110\app\build\intermediates\merged_manifests\debug\processDebugManifest\merged\AndroidManifest.xml:43
+-keep class iz_handz.handzforhire.MyApplication { <init>(...); }

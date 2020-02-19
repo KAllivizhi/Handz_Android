@@ -1,0 +1,1577 @@
+-- Merging decision tree log ---
+manifest
+ADDED from D:\Anderoid Projects\Handz_11101\H\Handz_1110\app\src\main\AndroidManifest.xml:2:1-657:12
+INJECTED from D:\Anderoid Projects\Handz_11101\H\Handz_1110\app\src\main\AndroidManifest.xml:2:1-657:12
+INJECTED from D:\Anderoid Projects\Handz_11101\H\Handz_1110\app\src\main\AndroidManifest.xml:2:1-657:12
+INJECTED from D:\Anderoid Projects\Handz_11101\H\Handz_1110\app\src\main\AndroidManifest.xml:2:1-657:12
+MERGED from [com.paypal.sdk:paypal-android-sdk:2.14.2] C:\Users\IZ-Parimala\.gradle\caches\transforms-1\files-1.1\paypal-android-sdk-2.14.2.aar\ac55b907516567927e74a110be5ea3e1\AndroidManifest.xml:2:1-28:12
+MERGED from [com.facebook.android:facebook-android-sdk:4.40.0] C:\Users\IZ-Parimala\.gradle\caches\transforms-1\files-1.1\facebook-android-sdk-4.40.0.aar\f1335c8943dbd415cf5aa8e11695b3fb\AndroidManifest.xml:21:1-31:12
+MERGED from [com.facebook.android:facebook-login:4.40.0] C:\Users\IZ-Parimala\.gradle\caches\transforms-1\files-1.1\jetified-facebook-login-4.40.0.aar\de3be3071e448f91aafcd7863fffc773\AndroidManifest.xml:21:1-31:12
+MERGED from [com.facebook.android:facebook-share:4.40.0] C:\Users\IZ-Parimala\.gradle\caches\transforms-1\files-1.1\jetified-facebook-share-4.40.0.aar\4e4990c9daa2c9874930c2f012707d6a\AndroidManifest.xml:21:1-31:12
+MERGED from [com.facebook.android:facebook-common:4.40.0] C:\Users\IZ-Parimala\.gradle\caches\transforms-1\files-1.1\jetified-facebook-common-4.40.0.aar\1d1de7b2c4cbcd6c1888ec67a73c87b7\AndroidManifest.xml:21:1-37:12
+MERGED from [com.google.android.material:material:1.0.0-rc01] C:\Users\IZ-Parimala\.gradle\caches\transforms-1\files-1.1\material-1.0.0-rc01.aar\11b856970d0afb17e80d518bbc939eda\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.cardview:cardview:1.0.0-rc01] C:\Users\IZ-Parimala\.gradle\caches\transforms-1\files-1.1\cardview-1.0.0-rc01.aar\78259c489e1e86750064f6d02be1ea1e\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.recyclerview:recyclerview:1.0.0-rc01] C:\Users\IZ-Parimala\.gradle\caches\transforms-1\files-1.1\recyclerview-1.0.0-rc01.aar\61d5cde7be22207408e52446d354a762\AndroidManifest.xml:17:1-22:12
+MERGED from [:library] D:\Anderoid Projects\Handz_11101\H\Handz_1110\library\build\intermediates\merged_manifests\debug\processDebugManifest\merged\AndroidManifest.xml:2:1-17:12
+MERGED from [com.github.wlmdvlp:CustomFontTextView:V1.0.0] C:\Users\IZ-Parimala\.gradle\caches\transforms-1\files-1.1\CustomFontTextView-V1.0.0.aar\ed95d3e48392ac3a048186b70beb71b7\AndroidManifest.xml:2:1-11:12
+MERGED from [com.theartofdev.edmodo:android-image-cropper:2.8.0] C:\Users\IZ-Parimala\.gradle\caches\transforms-1\files-1.1\android-image-cropper-2.8.0.aar\5ce8d11fb56f1a1b3a1aea793e48a4ef\AndroidManifest.xml:2:1-11:12
+MERGED from [androidx.appcompat:appcompat:1.0.0] C:\Users\IZ-Parimala\.gradle\caches\transforms-1\files-1.1\appcompat-1.0.0.aar\27f75d98a761bdd66a304d2970d2d0b1\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.constraintlayout:constraintlayout:1.1.3] C:\Users\IZ-Parimala\.gradle\caches\transforms-1\files-1.1\constraintlayout-1.1.3.aar\c4013843a5945b789fb01618b5bac83a\AndroidManifest.xml:2:1-11:12
+MERGED from [com.google.android.gms:play-services-maps:16.0.0] C:\Users\IZ-Parimala\.gradle\caches\transforms-1\files-1.1\jetified-play-services-maps-16.0.0.aar\61fe0225a99611376b86f9f9583bf2ce\AndroidManifest.xml:17:1-32:12
+MERGED from [com.google.android.gms:play-services-location:16.0.0] C:\Users\IZ-Parimala\.gradle\caches\transforms-1\files-1.1\jetified-play-services-location-16.0.0.aar\84372008585b9e3aeea74fbdeaa00db0\AndroidManifest.xml:2:1-9:12
+MERGED from [com.ramesh.mypicker:pickerview:1.0] C:\Users\IZ-Parimala\.gradle\caches\transforms-1\files-1.1\pickerview-1.0.aar\64583b4f3be342613dd533ca610d161f\AndroidManifest.xml:2:1-11:12
+MERGED from [com.google.firebase:firebase-storage:16.0.5] C:\Users\IZ-Parimala\.gradle\caches\transforms-1\files-1.1\jetified-firebase-storage-16.0.5.aar\4b01d013d6bf964895c3ff8a46d0757f\AndroidManifest.xml:15:1-26:12
+MERGED from [com.google.firebase:firebase-auth:16.0.5] C:\Users\IZ-Parimala\.gradle\caches\transforms-1\files-1.1\jetified-firebase-auth-16.0.5.aar\c177a358dd27485afce062e6f539c823\AndroidManifest.xml:17:1-42:12
+MERGED from [com.google.firebase:firebase-messaging:17.3.4] C:\Users\IZ-Parimala\.gradle\caches\transforms-1\files-1.1\jetified-firebase-messaging-17.3.4.aar\47135fa6b274aa4f40de1fe628f243bf\AndroidManifest.xml:17:1-37:12
+MERGED from [com.pierfrancescosoffritti.androidyoutubeplayer:core:8.0.1] C:\Users\IZ-Parimala\.gradle\caches\transforms-1\files-1.1\jetified-core-8.0.1.aar\3c42edb7e23dd88799ddb350607d31fb\AndroidManifest.xml:2:1-20:12
+MERGED from [:linkedin-sdk] D:\Anderoid Projects\Handz_11101\H\Handz_1110\linkedin-sdk\build\intermediates\merged_manifests\debug\processDebugManifest\merged\AndroidManifest.xml:2:1-15:12
+MERGED from [com.google.android.gms:play-services-flags:16.0.1] C:\Users\IZ-Parimala\.gradle\caches\transforms-1\files-1.1\play-services-flags-16.0.1.aar\2ca1b3fac9cbd7859d94edf8795f9ded\AndroidManifest.xml:17:1-22:12
+MERGED from [com.google.firebase:firebase-auth-interop:16.0.1] C:\Users\IZ-Parimala\.gradle\caches\transforms-1\files-1.1\jetified-firebase-auth-interop-16.0.1.aar\b99925a30d21650f3ff7c83f02c2b83a\AndroidManifest.xml:2:1-10:12
+MERGED from [com.google.firebase:firebase-core:16.0.0] C:\Users\IZ-Parimala\.gradle\caches\transforms-1\files-1.1\firebase-core-16.0.0.aar\6c77cd10dac7eb13d83788b0decb51cd\AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.firebase:firebase-measurement-connector-impl:16.0.0] C:\Users\IZ-Parimala\.gradle\caches\transforms-1\files-1.1\jetified-firebase-measurement-connector-impl-16.0.0.aar\fc9d1035837a504b02da961ceef068fe\AndroidManifest.xml:17:1-34:12
+MERGED from [com.google.firebase:firebase-analytics:16.0.0] C:\Users\IZ-Parimala\.gradle\caches\transforms-1\files-1.1\jetified-firebase-analytics-16.0.0.aar\1f6e724ccc3338ebbc2a57b459540762\AndroidManifest.xml:17:1-55:12
+MERGED from [com.google.firebase:firebase-analytics-impl:16.0.0] C:\Users\IZ-Parimala\.gradle\caches\transforms-1\files-1.1\jetified-firebase-analytics-impl-16.0.0.aar\45b2a8e3005734c3aa9de30f1593daa2\AndroidManifest.xml:17:1-41:12
+MERGED from [com.google.firebase:firebase-iid:17.0.4] C:\Users\IZ-Parimala\.gradle\caches\transforms-1\files-1.1\jetified-firebase-iid-17.0.4.aar\911371cef86e717a3926e39aad5206c2\AndroidManifest.xml:17:1-59:12
+MERGED from [com.google.firebase:firebase-iid-interop:16.0.1] C:\Users\IZ-Parimala\.gradle\caches\transforms-1\files-1.1\jetified-firebase-iid-interop-16.0.1.aar\36d2b3638732eef3d9a2a9e4a6f9c39c\AndroidManifest.xml:2:1-10:12
+MERGED from [com.google.android.gms:play-services-base:16.0.1] C:\Users\IZ-Parimala\.gradle\caches\transforms-1\files-1.1\jetified-play-services-base-16.0.1.aar\db6253749013d2f99e4b79df5d41b095\AndroidManifest.xml:17:1-29:12
+MERGED from [com.google.android.gms:play-services-places-placereport:16.0.0] C:\Users\IZ-Parimala\.gradle\caches\transforms-1\files-1.1\play-services-places-placereport-16.0.0.aar\bd33c2fb2e5cba500e5ca8eba0044e70\AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.android.gms:play-services-ads-identifier:15.0.1] C:\Users\IZ-Parimala\.gradle\caches\transforms-1\files-1.1\jetified-play-services-ads-identifier-15.0.1.aar\f8216b2a009189c2ee9e00a06eef5769\AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.firebase:firebase-common:16.0.4] C:\Users\IZ-Parimala\.gradle\caches\transforms-1\files-1.1\jetified-firebase-common-16.0.4.aar\995b2ec12d399a678b49d5444117f8f1\AndroidManifest.xml:2:1-17:12
+MERGED from [com.google.android.gms:play-services-stats:16.0.1] C:\Users\IZ-Parimala\.gradle\caches\transforms-1\files-1.1\jetified-play-services-stats-16.0.1.aar\285b36b71c1e12d558f3fa8d52849385\AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.firebase:firebase-measurement-connector:17.0.1] C:\Users\IZ-Parimala\.gradle\caches\transforms-1\files-1.1\jetified-firebase-measurement-connector-17.0.1.aar\a5f5f0af6b16be52bdb3419358171720\AndroidManifest.xml:17:1-25:12
+MERGED from [com.google.android.gms:play-services-tasks:16.0.1] C:\Users\IZ-Parimala\.gradle\caches\transforms-1\files-1.1\jetified-play-services-tasks-16.0.1.aar\a50fd8ca99e3f4ec11c9e90ea2dafc4c\AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.android.gms:play-services-basement:16.1.0] C:\Users\IZ-Parimala\.gradle\caches\transforms-1\files-1.1\jetified-play-services-basement-16.1.0.aar\a71190e7652e35a4cf9df27b86f65bef\AndroidManifest.xml:17:1-28:12
+MERGED from [androidx.legacy:legacy-support-v4:1.0.0-rc01] C:\Users\IZ-Parimala\.gradle\caches\transforms-1\files-1.1\legacy-support-v4-1.0.0-rc01.aar\26ae653ad1b3740cb6b83c344f542b72\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.transition:transition:1.0.0-rc01] C:\Users\IZ-Parimala\.gradle\caches\transforms-1\files-1.1\transition-1.0.0-rc01.aar\4c47ca6f4782a5ce8e9d97c182a77345\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.browser:browser:1.0.0-rc01] C:\Users\IZ-Parimala\.gradle\caches\transforms-1\files-1.1\browser-1.0.0-rc01.aar\e80c9c3f16d2a0cfd455f047759b9d8c\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.media:media:1.0.0-rc01] C:\Users\IZ-Parimala\.gradle\caches\transforms-1\files-1.1\media-1.0.0-rc01.aar\144fd8b417e2b10d1e8c010c59b61057\AndroidManifest.xml:17:1-22:12
+MERGED from [com.github.chrisbanes:PhotoView:2.1.3] C:\Users\IZ-Parimala\.gradle\caches\transforms-1\files-1.1\jetified-PhotoView-2.1.3.aar\a617329e19e466196b681070c9f61c6b\AndroidManifest.xml:2:1-12:12
+MERGED from [com.facebook.android:facebook-places:4.40.0] C:\Users\IZ-Parimala\.gradle\caches\transforms-1\files-1.1\facebook-places-4.40.0.aar\8527ccec84ef78ffcb397f6b45f27930\AndroidManifest.xml:21:1-31:12
+MERGED from [com.facebook.android:facebook-applinks:4.40.0] C:\Users\IZ-Parimala\.gradle\caches\transforms-1\files-1.1\facebook-applinks-4.40.0.aar\9ad55adec6489526999ccf8d68394705\AndroidManifest.xml:21:1-31:12
+MERGED from [com.facebook.android:facebook-messenger:4.40.0] C:\Users\IZ-Parimala\.gradle\caches\transforms-1\files-1.1\facebook-messenger-4.40.0.aar\3d386542634fd87dff6870019d8754a4\AndroidManifest.xml:21:1-31:12
+MERGED from [com.facebook.android:facebook-marketing:4.40.0] C:\Users\IZ-Parimala\.gradle\caches\transforms-1\files-1.1\jetified-facebook-marketing-4.40.0.aar\11b12ce078759e0aa995b7053951ac0c\AndroidManifest.xml:21:1-35:12
+MERGED from [com.facebook.android:facebook-core:4.40.0] C:\Users\IZ-Parimala\.gradle\caches\transforms-1\files-1.1\jetified-facebook-core-4.40.0.aar\1fd35f18a939d1bd69c9244a1d61232a\AndroidManifest.xml:21:1-53:12
+MERGED from [jp.wasabeef:glide-transformations:4.0.0] C:\Users\IZ-Parimala\.gradle\caches\transforms-1\files-1.1\glide-transformations-4.0.0.aar\cb04c0729a0e134cf6f3f0101a5d5f4f\AndroidManifest.xml:2:1-9:12
+MERGED from [com.github.bumptech.glide:glide:4.8.0] C:\Users\IZ-Parimala\.gradle\caches\transforms-1\files-1.1\jetified-glide-4.8.0.aar\f6161e7a3fcbe57bd3209ecc6b5b6b1e\AndroidManifest.xml:2:1-12:12
+MERGED from [androidx.fragment:fragment:1.0.0] C:\Users\IZ-Parimala\.gradle\caches\transforms-1\files-1.1\fragment-1.0.0.aar\1ad929d8c079e05f4b569eca460a0125\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.0.0] C:\Users\IZ-Parimala\.gradle\caches\transforms-1\files-1.1\vectordrawable-animated-1.0.0.aar\2af6ebd1189476576c59e03d27e390e0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] C:\Users\IZ-Parimala\.gradle\caches\transforms-1\files-1.1\legacy-support-core-ui-1.0.0.aar\44ceb4646b9e63a50754752310571faf\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] C:\Users\IZ-Parimala\.gradle\caches\transforms-1\files-1.1\legacy-support-core-utils-1.0.0.aar\2270ba0e128fef69e44dc00f20f56408\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.vectordrawable:vectordrawable:1.0.0] C:\Users\IZ-Parimala\.gradle\caches\transforms-1\files-1.1\vectordrawable-1.0.0.aar\d1addc97fc7a72d49eef4a7b78507b6f\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.loader:loader:1.0.0] C:\Users\IZ-Parimala\.gradle\caches\transforms-1\files-1.1\loader-1.0.0.aar\13d9b12d98952d1be2b5ce9837852a27\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.viewpager:viewpager:1.0.0] C:\Users\IZ-Parimala\.gradle\caches\transforms-1\files-1.1\viewpager-1.0.0.aar\f3a369e922792ba578c917df67955a9b\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.0.0] C:\Users\IZ-Parimala\.gradle\caches\transforms-1\files-1.1\coordinatorlayout-1.0.0.aar\41071e86278346d56832a977c14fe2fb\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] C:\Users\IZ-Parimala\.gradle\caches\transforms-1\files-1.1\drawerlayout-1.0.0.aar\576821ad342d0488981c1cca2681c9da\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] C:\Users\IZ-Parimala\.gradle\caches\transforms-1\files-1.1\slidingpanelayout-1.0.0.aar\77c321c9e8552d2077800a01df6a079c\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.customview:customview:1.0.0] C:\Users\IZ-Parimala\.gradle\caches\transforms-1\files-1.1\customview-1.0.0.aar\8941830b62fb4e5c9c82457f503ae447\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] C:\Users\IZ-Parimala\.gradle\caches\transforms-1\files-1.1\swiperefreshlayout-1.0.0.aar\ab1ad5b01d3e1eccb6529056dc74dcdb\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] C:\Users\IZ-Parimala\.gradle\caches\transforms-1\files-1.1\asynclayoutinflater-1.0.0.aar\3b6d13d706fff797be1c02f40dbf49d4\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.core:core:1.0.0] C:\Users\IZ-Parimala\.gradle\caches\transforms-1\files-1.1\core-1.0.0.aar\24b42f9a6b84023b81851b55a0229042\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.0.0] C:\Users\IZ-Parimala\.gradle\caches\transforms-1\files-1.1\lifecycle-runtime-2.0.0.aar\22c338f5203a336a0377c00781b44b99\AndroidManifest.xml:17:1-22:12
+MERGED from [com.daasuu:BubbleLayout:1.1.1] C:\Users\IZ-Parimala\.gradle\caches\transforms-1\files-1.1\jetified-BubbleLayout-1.1.1.aar\c494ec510e485a81063c517bf51b1af3\AndroidManifest.xml:2:1-12:12
+MERGED from [androidx.test.espresso:espresso-core:3.1.0-alpha3] C:\Users\IZ-Parimala\.gradle\caches\transforms-1\files-1.1\espresso-core-3.1.0-alpha3.aar\9e106eeca0028b852d706c843f8cf9f5\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.test:runner:1.1.0-alpha3] C:\Users\IZ-Parimala\.gradle\caches\transforms-1\files-1.1\runner-1.1.0-alpha3.aar\3ef7485e3893e355407914c2a44995ef\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.multidex:multidex:2.0.0] C:\Users\IZ-Parimala\.gradle\caches\transforms-1\files-1.1\multidex-2.0.0.aar\299a751683fea8a3dbb45c3c7d16d986\AndroidManifest.xml:17:1-22:12
+MERGED from [jp.co.cyberagent.android:gpuimage:2.0.0] C:\Users\IZ-Parimala\.gradle\caches\transforms-1\files-1.1\gpuimage-2.0.0.aar\1c2e7348d8a19e0f533eed187126d300\AndroidManifest.xml:2:1-11:12
+MERGED from [androidx.exifinterface:exifinterface:1.0.0] C:\Users\IZ-Parimala\.gradle\caches\transforms-1\files-1.1\exifinterface-1.0.0.aar\4302cc4ab3b876565f21d495930e2d1f\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.test:monitor:1.1.0-alpha3] C:\Users\IZ-Parimala\.gradle\caches\transforms-1\files-1.1\monitor-1.1.0-alpha3.aar\3b791ecc8c9b00ff0f38fe91a4a3af27\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.0.0] C:\Users\IZ-Parimala\.gradle\caches\transforms-1\files-1.1\versionedparcelable-1.0.0.aar\d022e2ca8cc79b1875ca074f4e48d65c\AndroidManifest.xml:17:1-25:12
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] C:\Users\IZ-Parimala\.gradle\caches\transforms-1\files-1.1\cursoradapter-1.0.0.aar\7f47462eed58dc20035db90bbadaadc5\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.documentfile:documentfile:1.0.0] C:\Users\IZ-Parimala\.gradle\caches\transforms-1\files-1.1\documentfile-1.0.0.aar\982469bc6788284e42e0e880a07b918e\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] C:\Users\IZ-Parimala\.gradle\caches\transforms-1\files-1.1\localbroadcastmanager-1.0.0.aar\d94d4b36c0566af2c58cb49a4be21b86\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.print:print:1.0.0] C:\Users\IZ-Parimala\.gradle\caches\transforms-1\files-1.1\print-1.0.0.aar\1677dd1d0cb1cc034b944a139b728720\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.0.0] C:\Users\IZ-Parimala\.gradle\caches\transforms-1\files-1.1\lifecycle-viewmodel-2.0.0.aar\24354e19bdd01e4122eff1c89d8586e0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] C:\Users\IZ-Parimala\.gradle\caches\transforms-1\files-1.1\lifecycle-livedata-2.0.0.aar\6f1457b17949c1a84f10f458de776013\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] C:\Users\IZ-Parimala\.gradle\caches\transforms-1\files-1.1\lifecycle-livedata-core-2.0.0.aar\c6f8ce33073da7b2d1b47edb5fbc567d\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.arch.core:core-runtime:2.0.0] C:\Users\IZ-Parimala\.gradle\caches\transforms-1\files-1.1\core-runtime-2.0.0.aar\770e72cc8d9d27ea2f44727e1cf64148\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\IZ-Parimala\.gradle\caches\transforms-1\files-1.1\interpolator-1.0.0.aar\f0195d277248425239c93bab50cfda61\AndroidManifest.xml:17:1-22:12
+MERGED from [com.github.bumptech.glide:gifdecoder:4.8.0] C:\Users\IZ-Parimala\.gradle\caches\transforms-1\files-1.1\jetified-gifdecoder-4.8.0.aar\724744efa65aaa3fd750f384eb805729\AndroidManifest.xml:2:1-11:12
+MERGED from [androidx.test.espresso:espresso-idling-resource:3.1.0-alpha3] C:\Users\IZ-Parimala\.gradle\caches\transforms-1\files-1.1\espresso-idling-resource-3.1.0-alpha3.aar\5f0584f58e81ccee469fc218b9c16e35\AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.android.gms:play-services-measurement-base:15.0.4] C:\Users\IZ-Parimala\.gradle\caches\transforms-1\files-1.1\play-services-measurement-base-15.0.4.aar\e9ac349af0414e165280ad66cabf23bc\AndroidManifest.xml:17:1-24:12
+INJECTED from D:\Anderoid Projects\Handz_11101\H\Handz_1110\app\src\main\AndroidManifest.xml:2:1-657:12
+INJECTED from D:\Anderoid Projects\Handz_11101\H\Handz_1110\app\src\main\AndroidManifest.xml:2:1-657:12
+INJECTED from D:\Anderoid Projects\Handz_11101\H\Handz_1110\app\src\main\AndroidManifest.xml:2:1-657:12
+	package
+		ADDED from D:\Anderoid Projects\Handz_11101\H\Handz_1110\app\src\main\AndroidManifest.xml:4:5-36
+		INJECTED from D:\Anderoid Projects\Handz_11101\H\Handz_1110\app\src\main\AndroidManifest.xml
+		INJECTED from D:\Anderoid Projects\Handz_11101\H\Handz_1110\app\src\main\AndroidManifest.xml
+	android:versionName
+		ADDED from D:\Anderoid Projects\Handz_11101\H\Handz_1110\app\src\main\AndroidManifest.xml:7:5-30
+		INJECTED from D:\Anderoid Projects\Handz_11101\H\Handz_1110\app\src\main\AndroidManifest.xml
+		INJECTED from D:\Anderoid Projects\Handz_11101\H\Handz_1110\app\src\main\AndroidManifest.xml
+	xmlns:tools
+		ADDED from D:\Anderoid Projects\Handz_11101\H\Handz_1110\app\src\main\AndroidManifest.xml:3:5-51
+	xmlns:android
+		ADDED from D:\Anderoid Projects\Handz_11101\H\Handz_1110\app\src\main\AndroidManifest.xml:2:11-69
+	android:versionCode
+		ADDED from D:\Anderoid Projects\Handz_11101\H\Handz_1110\app\src\main\AndroidManifest.xml:6:5-28
+		INJECTED from D:\Anderoid Projects\Handz_11101\H\Handz_1110\app\src\main\AndroidManifest.xml
+		INJECTED from D:\Anderoid Projects\Handz_11101\H\Handz_1110\app\src\main\AndroidManifest.xml
+uses-permission#android.permission.INTERNET
+ADDED from D:\Anderoid Projects\Handz_11101\H\Handz_1110\app\src\main\AndroidManifest.xml:9:5-67
+MERGED from [com.paypal.sdk:paypal-android-sdk:2.14.2] C:\Users\IZ-Parimala\.gradle\caches\transforms-1\files-1.1\paypal-android-sdk-2.14.2.aar\ac55b907516567927e74a110be5ea3e1\AndroidManifest.xml:10:5-67
+MERGED from [com.paypal.sdk:paypal-android-sdk:2.14.2] C:\Users\IZ-Parimala\.gradle\caches\transforms-1\files-1.1\paypal-android-sdk-2.14.2.aar\ac55b907516567927e74a110be5ea3e1\AndroidManifest.xml:10:5-67
+MERGED from [com.google.android.gms:play-services-maps:16.0.0] C:\Users\IZ-Parimala\.gradle\caches\transforms-1\files-1.1\jetified-play-services-maps-16.0.0.aar\61fe0225a99611376b86f9f9583bf2ce\AndroidManifest.xml:24:5-67
+MERGED from [com.google.android.gms:play-services-maps:16.0.0] C:\Users\IZ-Parimala\.gradle\caches\transforms-1\files-1.1\jetified-play-services-maps-16.0.0.aar\61fe0225a99611376b86f9f9583bf2ce\AndroidManifest.xml:24:5-67
+MERGED from [com.google.firebase:firebase-storage:16.0.5] C:\Users\IZ-Parimala\.gradle\caches\transforms-1\files-1.1\jetified-firebase-storage-16.0.5.aar\4b01d013d6bf964895c3ff8a46d0757f\AndroidManifest.xml:24:5-67
+MERGED from [com.google.firebase:firebase-storage:16.0.5] C:\Users\IZ-Parimala\.gradle\caches\transforms-1\files-1.1\jetified-firebase-storage-16.0.5.aar\4b01d013d6bf964895c3ff8a46d0757f\AndroidManifest.xml:24:5-67
+MERGED from [com.pierfrancescosoffritti.androidyoutubeplayer:core:8.0.1] C:\Users\IZ-Parimala\.gradle\caches\transforms-1\files-1.1\jetified-core-8.0.1.aar\3c42edb7e23dd88799ddb350607d31fb\AndroidManifest.xml:11:5-67
+MERGED from [com.pierfrancescosoffritti.androidyoutubeplayer:core:8.0.1] C:\Users\IZ-Parimala\.gradle\caches\transforms-1\files-1.1\jetified-core-8.0.1.aar\3c42edb7e23dd88799ddb350607d31fb\AndroidManifest.xml:11:5-67
+MERGED from [:linkedin-sdk] D:\Anderoid Projects\Handz_11101\H\Handz_1110\linkedin-sdk\build\intermediates\merged_manifests\debug\processDebugManifest\merged\AndroidManifest.xml:11:5-67
+MERGED from [:linkedin-sdk] D:\Anderoid Projects\Handz_11101\H\Handz_1110\linkedin-sdk\build\intermediates\merged_manifests\debug\processDebugManifest\merged\AndroidManifest.xml:11:5-67
+MERGED from [com.google.firebase:firebase-measurement-connector-impl:16.0.0] C:\Users\IZ-Parimala\.gradle\caches\transforms-1\files-1.1\jetified-firebase-measurement-connector-impl-16.0.0.aar\fc9d1035837a504b02da961ceef068fe\AndroidManifest.xml:22:5-67
+MERGED from [com.google.firebase:firebase-measurement-connector-impl:16.0.0] C:\Users\IZ-Parimala\.gradle\caches\transforms-1\files-1.1\jetified-firebase-measurement-connector-impl-16.0.0.aar\fc9d1035837a504b02da961ceef068fe\AndroidManifest.xml:22:5-67
+MERGED from [com.google.firebase:firebase-analytics:16.0.0] C:\Users\IZ-Parimala\.gradle\caches\transforms-1\files-1.1\jetified-firebase-analytics-16.0.0.aar\1f6e724ccc3338ebbc2a57b459540762\AndroidManifest.xml:23:5-67
+MERGED from [com.google.firebase:firebase-analytics:16.0.0] C:\Users\IZ-Parimala\.gradle\caches\transforms-1\files-1.1\jetified-firebase-analytics-16.0.0.aar\1f6e724ccc3338ebbc2a57b459540762\AndroidManifest.xml:23:5-67
+MERGED from [com.google.firebase:firebase-analytics-impl:16.0.0] C:\Users\IZ-Parimala\.gradle\caches\transforms-1\files-1.1\jetified-firebase-analytics-impl-16.0.0.aar\45b2a8e3005734c3aa9de30f1593daa2\AndroidManifest.xml:23:5-67
+MERGED from [com.google.firebase:firebase-analytics-impl:16.0.0] C:\Users\IZ-Parimala\.gradle\caches\transforms-1\files-1.1\jetified-firebase-analytics-impl-16.0.0.aar\45b2a8e3005734c3aa9de30f1593daa2\AndroidManifest.xml:23:5-67
+MERGED from [com.google.firebase:firebase-iid:17.0.4] C:\Users\IZ-Parimala\.gradle\caches\transforms-1\files-1.1\jetified-firebase-iid-17.0.4.aar\911371cef86e717a3926e39aad5206c2\AndroidManifest.xml:23:5-67
+MERGED from [com.google.firebase:firebase-iid:17.0.4] C:\Users\IZ-Parimala\.gradle\caches\transforms-1\files-1.1\jetified-firebase-iid-17.0.4.aar\911371cef86e717a3926e39aad5206c2\AndroidManifest.xml:23:5-67
+	android:name
+		ADDED from D:\Anderoid Projects\Handz_11101\H\Handz_1110\app\src\main\AndroidManifest.xml:9:22-64
+uses-permission#android.permission.READ_EXTERNAL_STORAGE
+ADDED from D:\Anderoid Projects\Handz_11101\H\Handz_1110\app\src\main\AndroidManifest.xml:10:5-80
+	android:name
+		ADDED from D:\Anderoid Projects\Handz_11101\H\Handz_1110\app\src\main\AndroidManifest.xml:10:22-77
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from D:\Anderoid Projects\Handz_11101\H\Handz_1110\app\src\main\AndroidManifest.xml:11:5-79
+MERGED from [com.paypal.sdk:paypal-android-sdk:2.14.2] C:\Users\IZ-Parimala\.gradle\caches\transforms-1\files-1.1\paypal-android-sdk-2.14.2.aar\ac55b907516567927e74a110be5ea3e1\AndroidManifest.xml:9:5-79
+MERGED from [com.paypal.sdk:paypal-android-sdk:2.14.2] C:\Users\IZ-Parimala\.gradle\caches\transforms-1\files-1.1\paypal-android-sdk-2.14.2.aar\ac55b907516567927e74a110be5ea3e1\AndroidManifest.xml:9:5-79
+MERGED from [com.google.android.gms:play-services-maps:16.0.0] C:\Users\IZ-Parimala\.gradle\caches\transforms-1\files-1.1\jetified-play-services-maps-16.0.0.aar\61fe0225a99611376b86f9f9583bf2ce\AndroidManifest.xml:23:5-79
+MERGED from [com.google.android.gms:play-services-maps:16.0.0] C:\Users\IZ-Parimala\.gradle\caches\transforms-1\files-1.1\jetified-play-services-maps-16.0.0.aar\61fe0225a99611376b86f9f9583bf2ce\AndroidManifest.xml:23:5-79
+MERGED from [com.google.firebase:firebase-storage:16.0.5] C:\Users\IZ-Parimala\.gradle\caches\transforms-1\files-1.1\jetified-firebase-storage-16.0.5.aar\4b01d013d6bf964895c3ff8a46d0757f\AndroidManifest.xml:23:5-79
+MERGED from [com.google.firebase:firebase-storage:16.0.5] C:\Users\IZ-Parimala\.gradle\caches\transforms-1\files-1.1\jetified-firebase-storage-16.0.5.aar\4b01d013d6bf964895c3ff8a46d0757f\AndroidManifest.xml:23:5-79
+MERGED from [com.pierfrancescosoffritti.androidyoutubeplayer:core:8.0.1] C:\Users\IZ-Parimala\.gradle\caches\transforms-1\files-1.1\jetified-core-8.0.1.aar\3c42edb7e23dd88799ddb350607d31fb\AndroidManifest.xml:12:5-79
+MERGED from [com.pierfrancescosoffritti.androidyoutubeplayer:core:8.0.1] C:\Users\IZ-Parimala\.gradle\caches\transforms-1\files-1.1\jetified-core-8.0.1.aar\3c42edb7e23dd88799ddb350607d31fb\AndroidManifest.xml:12:5-79
+MERGED from [com.google.firebase:firebase-measurement-connector-impl:16.0.0] C:\Users\IZ-Parimala\.gradle\caches\transforms-1\files-1.1\jetified-firebase-measurement-connector-impl-16.0.0.aar\fc9d1035837a504b02da961ceef068fe\AndroidManifest.xml:23:5-79
+MERGED from [com.google.firebase:firebase-measurement-connector-impl:16.0.0] C:\Users\IZ-Parimala\.gradle\caches\transforms-1\files-1.1\jetified-firebase-measurement-connector-impl-16.0.0.aar\fc9d1035837a504b02da961ceef068fe\AndroidManifest.xml:23:5-79
+MERGED from [com.google.firebase:firebase-analytics:16.0.0] C:\Users\IZ-Parimala\.gradle\caches\transforms-1\files-1.1\jetified-firebase-analytics-16.0.0.aar\1f6e724ccc3338ebbc2a57b459540762\AndroidManifest.xml:24:5-79
+MERGED from [com.google.firebase:firebase-analytics:16.0.0] C:\Users\IZ-Parimala\.gradle\caches\transforms-1\files-1.1\jetified-firebase-analytics-16.0.0.aar\1f6e724ccc3338ebbc2a57b459540762\AndroidManifest.xml:24:5-79
+MERGED from [com.google.firebase:firebase-analytics-impl:16.0.0] C:\Users\IZ-Parimala\.gradle\caches\transforms-1\files-1.1\jetified-firebase-analytics-impl-16.0.0.aar\45b2a8e3005734c3aa9de30f1593daa2\AndroidManifest.xml:24:5-79
+MERGED from [com.google.firebase:firebase-analytics-impl:16.0.0] C:\Users\IZ-Parimala\.gradle\caches\transforms-1\files-1.1\jetified-firebase-analytics-impl-16.0.0.aar\45b2a8e3005734c3aa9de30f1593daa2\AndroidManifest.xml:24:5-79
+MERGED from [com.google.firebase:firebase-iid:17.0.4] C:\Users\IZ-Parimala\.gradle\caches\transforms-1\files-1.1\jetified-firebase-iid-17.0.4.aar\911371cef86e717a3926e39aad5206c2\AndroidManifest.xml:22:5-79
+MERGED from [com.google.firebase:firebase-iid:17.0.4] C:\Users\IZ-Parimala\.gradle\caches\transforms-1\files-1.1\jetified-firebase-iid-17.0.4.aar\911371cef86e717a3926e39aad5206c2\AndroidManifest.xml:22:5-79
+	android:name
+		ADDED from D:\Anderoid Projects\Handz_11101\H\Handz_1110\app\src\main\AndroidManifest.xml:11:22-76
+uses-permission#android.permission.ACCESS_WIFI_STATE
+ADDED from D:\Anderoid Projects\Handz_11101\H\Handz_1110\app\src\main\AndroidManifest.xml:12:5-76
+	android:name
+		ADDED from D:\Anderoid Projects\Handz_11101\H\Handz_1110\app\src\main\AndroidManifest.xml:12:22-73
+uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
+ADDED from D:\Anderoid Projects\Handz_11101\H\Handz_1110\app\src\main\AndroidManifest.xml:13:5-81
+	android:name
+		ADDED from D:\Anderoid Projects\Handz_11101\H\Handz_1110\app\src\main\AndroidManifest.xml:13:22-78
+uses-permission#android.permission.CAMERA
+ADDED from D:\Anderoid Projects\Handz_11101\H\Handz_1110\app\src\main\AndroidManifest.xml:14:5-65
+	android:name
+		ADDED from D:\Anderoid Projects\Handz_11101\H\Handz_1110\app\src\main\AndroidManifest.xml:14:22-62
+uses-permission#android.permission.READ_PHONE_STATE
+ADDED from D:\Anderoid Projects\Handz_11101\H\Handz_1110\app\src\main\AndroidManifest.xml:15:5-75
+	android:name
+		ADDED from D:\Anderoid Projects\Handz_11101\H\Handz_1110\app\src\main\AndroidManifest.xml:15:22-72
+uses-permission#info.androidhive.googlemapsv2.permission.MAPS_RECEIVE
+ADDED from D:\Anderoid Projects\Handz_11101\H\Handz_1110\app\src\main\AndroidManifest.xml:17:5-93
+	android:name
+		ADDED from D:\Anderoid Projects\Handz_11101\H\Handz_1110\app\src\main\AndroidManifest.xml:17:22-90
+uses-permission#com.google.android.providers.gsf.permission.READ_GSERVICES
+ADDED from D:\Anderoid Projects\Handz_11101\H\Handz_1110\app\src\main\AndroidManifest.xml:18:5-98
+	android:name
+		ADDED from D:\Anderoid Projects\Handz_11101\H\Handz_1110\app\src\main\AndroidManifest.xml:18:22-95
+uses-permission#android.permission.ACCESS_COARSE_LOCATION
+ADDED from D:\Anderoid Projects\Handz_11101\H\Handz_1110\app\src\main\AndroidManifest.xml:19:5-81
+	android:name
+		ADDED from D:\Anderoid Projects\Handz_11101\H\Handz_1110\app\src\main\AndroidManifest.xml:19:22-78
+uses-permission#android.permission.ACCESS_FINE_LOCATION
+ADDED from D:\Anderoid Projects\Handz_11101\H\Handz_1110\app\src\main\AndroidManifest.xml:20:5-79
+	android:name
+		ADDED from D:\Anderoid Projects\Handz_11101\H\Handz_1110\app\src\main\AndroidManifest.xml:20:22-76
+uses-permission#android.permission.WAKE_LOCK
+ADDED from D:\Anderoid Projects\Handz_11101\H\Handz_1110\app\src\main\AndroidManifest.xml:21:5-68
+MERGED from [com.google.firebase:firebase-measurement-connector-impl:16.0.0] C:\Users\IZ-Parimala\.gradle\caches\transforms-1\files-1.1\jetified-firebase-measurement-connector-impl-16.0.0.aar\fc9d1035837a504b02da961ceef068fe\AndroidManifest.xml:24:5-68
+MERGED from [com.google.firebase:firebase-measurement-connector-impl:16.0.0] C:\Users\IZ-Parimala\.gradle\caches\transforms-1\files-1.1\jetified-firebase-measurement-connector-impl-16.0.0.aar\fc9d1035837a504b02da961ceef068fe\AndroidManifest.xml:24:5-68
+MERGED from [com.google.firebase:firebase-analytics:16.0.0] C:\Users\IZ-Parimala\.gradle\caches\transforms-1\files-1.1\jetified-firebase-analytics-16.0.0.aar\1f6e724ccc3338ebbc2a57b459540762\AndroidManifest.xml:25:5-68
+MERGED from [com.google.firebase:firebase-analytics:16.0.0] C:\Users\IZ-Parimala\.gradle\caches\transforms-1\files-1.1\jetified-firebase-analytics-16.0.0.aar\1f6e724ccc3338ebbc2a57b459540762\AndroidManifest.xml:25:5-68
+MERGED from [com.google.firebase:firebase-analytics-impl:16.0.0] C:\Users\IZ-Parimala\.gradle\caches\transforms-1\files-1.1\jetified-firebase-analytics-impl-16.0.0.aar\45b2a8e3005734c3aa9de30f1593daa2\AndroidManifest.xml:25:5-68
+MERGED from [com.google.firebase:firebase-analytics-impl:16.0.0] C:\Users\IZ-Parimala\.gradle\caches\transforms-1\files-1.1\jetified-firebase-analytics-impl-16.0.0.aar\45b2a8e3005734c3aa9de30f1593daa2\AndroidManifest.xml:25:5-68
+MERGED from [com.google.firebase:firebase-iid:17.0.4] C:\Users\IZ-Parimala\.gradle\caches\transforms-1\files-1.1\jetified-firebase-iid-17.0.4.aar\911371cef86e717a3926e39aad5206c2\AndroidManifest.xml:24:5-68
+MERGED from [com.google.firebase:firebase-iid:17.0.4] C:\Users\IZ-Parimala\.gradle\caches\transforms-1\files-1.1\jetified-firebase-iid-17.0.4.aar\911371cef86e717a3926e39aad5206c2\AndroidManifest.xml:24:5-68
+	android:name
+		ADDED from D:\Anderoid Projects\Handz_11101\H\Handz_1110\app\src\main\AndroidManifest.xml:21:22-65
+uses-permission#com.sec.android.provider.badge.permission.READ
+ADDED from D:\Anderoid Projects\Handz_11101\H\Handz_1110\app\src\main\AndroidManifest.xml:24:5-86
+	android:name
+		ADDED from D:\Anderoid Projects\Handz_11101\H\Handz_1110\app\src\main\AndroidManifest.xml:24:22-83
+uses-permission#com.sec.android.provider.badge.permission.WRITE
+ADDED from D:\Anderoid Projects\Handz_11101\H\Handz_1110\app\src\main\AndroidManifest.xml:25:5-87
+	android:name
+		ADDED from D:\Anderoid Projects\Handz_11101\H\Handz_1110\app\src\main\AndroidManifest.xml:25:22-84
+uses-permission#com.sonyericsson.home.permission.BROADCAST_BADGE
+ADDED from D:\Anderoid Projects\Handz_11101\H\Handz_1110\app\src\main\AndroidManifest.xml:28:5-88
+	android:name
+		ADDED from D:\Anderoid Projects\Handz_11101\H\Handz_1110\app\src\main\AndroidManifest.xml:28:22-85
+uses-permission#com.google.android.gms.permission.ACTIVITY_RECOGNITION
+ADDED from D:\Anderoid Projects\Handz_11101\H\Handz_1110\app\src\main\AndroidManifest.xml:29:5-94
+	android:name
+		ADDED from D:\Anderoid Projects\Handz_11101\H\Handz_1110\app\src\main\AndroidManifest.xml:29:22-91
+uses-permission#com.htc.launcher.permission.READ_SETTINGS
+ADDED from D:\Anderoid Projects\Handz_11101\H\Handz_1110\app\src\main\AndroidManifest.xml:31:5-81
+	android:name
+		ADDED from D:\Anderoid Projects\Handz_11101\H\Handz_1110\app\src\main\AndroidManifest.xml:31:22-78
+uses-permission#com.htc.launcher.permission.UPDATE_SHORTCUT
+ADDED from D:\Anderoid Projects\Handz_11101\H\Handz_1110\app\src\main\AndroidManifest.xml:32:5-83
+	android:name
+		ADDED from D:\Anderoid Projects\Handz_11101\H\Handz_1110\app\src\main\AndroidManifest.xml:32:22-80
+uses-permission#net.simplifiedcoding.androidgcm.permission.C2D_MESSAGE
+ADDED from D:\Anderoid Projects\Handz_11101\H\Handz_1110\app\src\main\AndroidManifest.xml:34:5-94
+	android:name
+		ADDED from D:\Anderoid Projects\Handz_11101\H\Handz_1110\app\src\main\AndroidManifest.xml:34:22-91
+uses-sdk
+ADDED from D:\Anderoid Projects\Handz_11101\H\Handz_1110\app\src\main\AndroidManifest.xml:36:5-47
+INJECTED from D:\Anderoid Projects\Handz_11101\H\Handz_1110\app\src\main\AndroidManifest.xml:36:5-47
+INJECTED from D:\Anderoid Projects\Handz_11101\H\Handz_1110\app\src\main\AndroidManifest.xml:36:5-47
+MERGED from [com.paypal.sdk:paypal-android-sdk:2.14.2] C:\Users\IZ-Parimala\.gradle\caches\transforms-1\files-1.1\paypal-android-sdk-2.14.2.aar\ac55b907516567927e74a110be5ea3e1\AndroidManifest.xml:5:5-7:41
+MERGED from [com.paypal.sdk:paypal-android-sdk:2.14.2] C:\Users\IZ-Parimala\.gradle\caches\transforms-1\files-1.1\paypal-android-sdk-2.14.2.aar\ac55b907516567927e74a110be5ea3e1\AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.android:facebook-android-sdk:4.40.0] C:\Users\IZ-Parimala\.gradle\caches\transforms-1\files-1.1\facebook-android-sdk-4.40.0.aar\f1335c8943dbd415cf5aa8e11695b3fb\AndroidManifest.xml:24:5-26:41
+MERGED from [com.facebook.android:facebook-android-sdk:4.40.0] C:\Users\IZ-Parimala\.gradle\caches\transforms-1\files-1.1\facebook-android-sdk-4.40.0.aar\f1335c8943dbd415cf5aa8e11695b3fb\AndroidManifest.xml:24:5-26:41
+MERGED from [com.facebook.android:facebook-login:4.40.0] C:\Users\IZ-Parimala\.gradle\caches\transforms-1\files-1.1\jetified-facebook-login-4.40.0.aar\de3be3071e448f91aafcd7863fffc773\AndroidManifest.xml:24:5-26:41
+MERGED from [com.facebook.android:facebook-login:4.40.0] C:\Users\IZ-Parimala\.gradle\caches\transforms-1\files-1.1\jetified-facebook-login-4.40.0.aar\de3be3071e448f91aafcd7863fffc773\AndroidManifest.xml:24:5-26:41
+MERGED from [com.facebook.android:facebook-share:4.40.0] C:\Users\IZ-Parimala\.gradle\caches\transforms-1\files-1.1\jetified-facebook-share-4.40.0.aar\4e4990c9daa2c9874930c2f012707d6a\AndroidManifest.xml:24:5-26:41
+MERGED from [com.facebook.android:facebook-share:4.40.0] C:\Users\IZ-Parimala\.gradle\caches\transforms-1\files-1.1\jetified-facebook-share-4.40.0.aar\4e4990c9daa2c9874930c2f012707d6a\AndroidManifest.xml:24:5-26:41
+MERGED from [com.facebook.android:facebook-common:4.40.0] C:\Users\IZ-Parimala\.gradle\caches\transforms-1\files-1.1\jetified-facebook-common-4.40.0.aar\1d1de7b2c4cbcd6c1888ec67a73c87b7\AndroidManifest.xml:24:5-26:41
+MERGED from [com.facebook.android:facebook-common:4.40.0] C:\Users\IZ-Parimala\.gradle\caches\transforms-1\files-1.1\jetified-facebook-common-4.40.0.aar\1d1de7b2c4cbcd6c1888ec67a73c87b7\AndroidManifest.xml:24:5-26:41
+MERGED from [com.google.android.material:material:1.0.0-rc01] C:\Users\IZ-Parimala\.gradle\caches\transforms-1\files-1.1\material-1.0.0-rc01.aar\11b856970d0afb17e80d518bbc939eda\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.material:material:1.0.0-rc01] C:\Users\IZ-Parimala\.gradle\caches\transforms-1\files-1.1\material-1.0.0-rc01.aar\11b856970d0afb17e80d518bbc939eda\AndroidManifest.xml:20:5-44
+MERGED from [androidx.cardview:cardview:1.0.0-rc01] C:\Users\IZ-Parimala\.gradle\caches\transforms-1\files-1.1\cardview-1.0.0-rc01.aar\78259c489e1e86750064f6d02be1ea1e\AndroidManifest.xml:20:5-44
+MERGED from [androidx.cardview:cardview:1.0.0-rc01] C:\Users\IZ-Parimala\.gradle\caches\transforms-1\files-1.1\cardview-1.0.0-rc01.aar\78259c489e1e86750064f6d02be1ea1e\AndroidManifest.xml:20:5-44
+MERGED from [androidx.recyclerview:recyclerview:1.0.0-rc01] C:\Users\IZ-Parimala\.gradle\caches\transforms-1\files-1.1\recyclerview-1.0.0-rc01.aar\61d5cde7be22207408e52446d354a762\AndroidManifest.xml:20:5-44
+MERGED from [androidx.recyclerview:recyclerview:1.0.0-rc01] C:\Users\IZ-Parimala\.gradle\caches\transforms-1\files-1.1\recyclerview-1.0.0-rc01.aar\61d5cde7be22207408e52446d354a762\AndroidManifest.xml:20:5-44
+MERGED from [:library] D:\Anderoid Projects\Handz_11101\H\Handz_1110\library\build\intermediates\merged_manifests\debug\processDebugManifest\merged\AndroidManifest.xml:7:5-9:41
+MERGED from [:library] D:\Anderoid Projects\Handz_11101\H\Handz_1110\library\build\intermediates\merged_manifests\debug\processDebugManifest\merged\AndroidManifest.xml:7:5-9:41
+MERGED from [com.github.wlmdvlp:CustomFontTextView:V1.0.0] C:\Users\IZ-Parimala\.gradle\caches\transforms-1\files-1.1\CustomFontTextView-V1.0.0.aar\ed95d3e48392ac3a048186b70beb71b7\AndroidManifest.xml:7:5-9:41
+MERGED from [com.github.wlmdvlp:CustomFontTextView:V1.0.0] C:\Users\IZ-Parimala\.gradle\caches\transforms-1\files-1.1\CustomFontTextView-V1.0.0.aar\ed95d3e48392ac3a048186b70beb71b7\AndroidManifest.xml:7:5-9:41
+MERGED from [com.theartofdev.edmodo:android-image-cropper:2.8.0] C:\Users\IZ-Parimala\.gradle\caches\transforms-1\files-1.1\android-image-cropper-2.8.0.aar\5ce8d11fb56f1a1b3a1aea793e48a4ef\AndroidManifest.xml:7:5-9:41
+MERGED from [com.theartofdev.edmodo:android-image-cropper:2.8.0] C:\Users\IZ-Parimala\.gradle\caches\transforms-1\files-1.1\android-image-cropper-2.8.0.aar\5ce8d11fb56f1a1b3a1aea793e48a4ef\AndroidManifest.xml:7:5-9:41
+MERGED from [androidx.appcompat:appcompat:1.0.0] C:\Users\IZ-Parimala\.gradle\caches\transforms-1\files-1.1\appcompat-1.0.0.aar\27f75d98a761bdd66a304d2970d2d0b1\AndroidManifest.xml:20:5-44
+MERGED from [androidx.appcompat:appcompat:1.0.0] C:\Users\IZ-Parimala\.gradle\caches\transforms-1\files-1.1\appcompat-1.0.0.aar\27f75d98a761bdd66a304d2970d2d0b1\AndroidManifest.xml:20:5-44
+MERGED from [androidx.constraintlayout:constraintlayout:1.1.3] C:\Users\IZ-Parimala\.gradle\caches\transforms-1\files-1.1\constraintlayout-1.1.3.aar\c4013843a5945b789fb01618b5bac83a\AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.constraintlayout:constraintlayout:1.1.3] C:\Users\IZ-Parimala\.gradle\caches\transforms-1\files-1.1\constraintlayout-1.1.3.aar\c4013843a5945b789fb01618b5bac83a\AndroidManifest.xml:5:5-7:41
+MERGED from [com.google.android.gms:play-services-maps:16.0.0] C:\Users\IZ-Parimala\.gradle\caches\transforms-1\files-1.1\jetified-play-services-maps-16.0.0.aar\61fe0225a99611376b86f9f9583bf2ce\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-maps:16.0.0] C:\Users\IZ-Parimala\.gradle\caches\transforms-1\files-1.1\jetified-play-services-maps-16.0.0.aar\61fe0225a99611376b86f9f9583bf2ce\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-location:16.0.0] C:\Users\IZ-Parimala\.gradle\caches\transforms-1\files-1.1\jetified-play-services-location-16.0.0.aar\84372008585b9e3aeea74fbdeaa00db0\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-location:16.0.0] C:\Users\IZ-Parimala\.gradle\caches\transforms-1\files-1.1\jetified-play-services-location-16.0.0.aar\84372008585b9e3aeea74fbdeaa00db0\AndroidManifest.xml:5:5-44
+MERGED from [com.ramesh.mypicker:pickerview:1.0] C:\Users\IZ-Parimala\.gradle\caches\transforms-1\files-1.1\pickerview-1.0.aar\64583b4f3be342613dd533ca610d161f\AndroidManifest.xml:7:5-9:41
+MERGED from [com.ramesh.mypicker:pickerview:1.0] C:\Users\IZ-Parimala\.gradle\caches\transforms-1\files-1.1\pickerview-1.0.aar\64583b4f3be342613dd533ca610d161f\AndroidManifest.xml:7:5-9:41
+MERGED from [com.google.firebase:firebase-storage:16.0.5] C:\Users\IZ-Parimala\.gradle\caches\transforms-1\files-1.1\jetified-firebase-storage-16.0.5.aar\4b01d013d6bf964895c3ff8a46d0757f\AndroidManifest.xml:19:5-21:41
+MERGED from [com.google.firebase:firebase-storage:16.0.5] C:\Users\IZ-Parimala\.gradle\caches\transforms-1\files-1.1\jetified-firebase-storage-16.0.5.aar\4b01d013d6bf964895c3ff8a46d0757f\AndroidManifest.xml:19:5-21:41
+MERGED from [com.google.firebase:firebase-auth:16.0.5] C:\Users\IZ-Parimala\.gradle\caches\transforms-1\files-1.1\jetified-firebase-auth-16.0.5.aar\c177a358dd27485afce062e6f539c823\AndroidManifest.xml:21:5-44
+MERGED from [com.google.firebase:firebase-auth:16.0.5] C:\Users\IZ-Parimala\.gradle\caches\transforms-1\files-1.1\jetified-firebase-auth-16.0.5.aar\c177a358dd27485afce062e6f539c823\AndroidManifest.xml:21:5-44
+MERGED from [com.google.firebase:firebase-messaging:17.3.4] C:\Users\IZ-Parimala\.gradle\caches\transforms-1\files-1.1\jetified-firebase-messaging-17.3.4.aar\47135fa6b274aa4f40de1fe628f243bf\AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-messaging:17.3.4] C:\Users\IZ-Parimala\.gradle\caches\transforms-1\files-1.1\jetified-firebase-messaging-17.3.4.aar\47135fa6b274aa4f40de1fe628f243bf\AndroidManifest.xml:20:5-44
+MERGED from [com.pierfrancescosoffritti.androidyoutubeplayer:core:8.0.1] C:\Users\IZ-Parimala\.gradle\caches\transforms-1\files-1.1\jetified-core-8.0.1.aar\3c42edb7e23dd88799ddb350607d31fb\AndroidManifest.xml:7:5-9:41
+MERGED from [com.pierfrancescosoffritti.androidyoutubeplayer:core:8.0.1] C:\Users\IZ-Parimala\.gradle\caches\transforms-1\files-1.1\jetified-core-8.0.1.aar\3c42edb7e23dd88799ddb350607d31fb\AndroidManifest.xml:7:5-9:41
+MERGED from [:linkedin-sdk] D:\Anderoid Projects\Handz_11101\H\Handz_1110\linkedin-sdk\build\intermediates\merged_manifests\debug\processDebugManifest\merged\AndroidManifest.xml:7:5-9:41
+MERGED from [:linkedin-sdk] D:\Anderoid Projects\Handz_11101\H\Handz_1110\linkedin-sdk\build\intermediates\merged_manifests\debug\processDebugManifest\merged\AndroidManifest.xml:7:5-9:41
+MERGED from [com.google.android.gms:play-services-flags:16.0.1] C:\Users\IZ-Parimala\.gradle\caches\transforms-1\files-1.1\play-services-flags-16.0.1.aar\2ca1b3fac9cbd7859d94edf8795f9ded\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-flags:16.0.1] C:\Users\IZ-Parimala\.gradle\caches\transforms-1\files-1.1\play-services-flags-16.0.1.aar\2ca1b3fac9cbd7859d94edf8795f9ded\AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-auth-interop:16.0.1] C:\Users\IZ-Parimala\.gradle\caches\transforms-1\files-1.1\jetified-firebase-auth-interop-16.0.1.aar\b99925a30d21650f3ff7c83f02c2b83a\AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-auth-interop:16.0.1] C:\Users\IZ-Parimala\.gradle\caches\transforms-1\files-1.1\jetified-firebase-auth-interop-16.0.1.aar\b99925a30d21650f3ff7c83f02c2b83a\AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-core:16.0.0] C:\Users\IZ-Parimala\.gradle\caches\transforms-1\files-1.1\firebase-core-16.0.0.aar\6c77cd10dac7eb13d83788b0decb51cd\AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-core:16.0.0] C:\Users\IZ-Parimala\.gradle\caches\transforms-1\files-1.1\firebase-core-16.0.0.aar\6c77cd10dac7eb13d83788b0decb51cd\AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-measurement-connector-impl:16.0.0] C:\Users\IZ-Parimala\.gradle\caches\transforms-1\files-1.1\jetified-firebase-measurement-connector-impl-16.0.0.aar\fc9d1035837a504b02da961ceef068fe\AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-measurement-connector-impl:16.0.0] C:\Users\IZ-Parimala\.gradle\caches\transforms-1\files-1.1\jetified-firebase-measurement-connector-impl-16.0.0.aar\fc9d1035837a504b02da961ceef068fe\AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-analytics:16.0.0] C:\Users\IZ-Parimala\.gradle\caches\transforms-1\files-1.1\jetified-firebase-analytics-16.0.0.aar\1f6e724ccc3338ebbc2a57b459540762\AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-analytics:16.0.0] C:\Users\IZ-Parimala\.gradle\caches\transforms-1\files-1.1\jetified-firebase-analytics-16.0.0.aar\1f6e724ccc3338ebbc2a57b459540762\AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-analytics-impl:16.0.0] C:\Users\IZ-Parimala\.gradle\caches\transforms-1\files-1.1\jetified-firebase-analytics-impl-16.0.0.aar\45b2a8e3005734c3aa9de30f1593daa2\AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-analytics-impl:16.0.0] C:\Users\IZ-Parimala\.gradle\caches\transforms-1\files-1.1\jetified-firebase-analytics-impl-16.0.0.aar\45b2a8e3005734c3aa9de30f1593daa2\AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-iid:17.0.4] C:\Users\IZ-Parimala\.gradle\caches\transforms-1\files-1.1\jetified-firebase-iid-17.0.4.aar\911371cef86e717a3926e39aad5206c2\AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-iid:17.0.4] C:\Users\IZ-Parimala\.gradle\caches\transforms-1\files-1.1\jetified-firebase-iid-17.0.4.aar\911371cef86e717a3926e39aad5206c2\AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-iid-interop:16.0.1] C:\Users\IZ-Parimala\.gradle\caches\transforms-1\files-1.1\jetified-firebase-iid-interop-16.0.1.aar\36d2b3638732eef3d9a2a9e4a6f9c39c\AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-iid-interop:16.0.1] C:\Users\IZ-Parimala\.gradle\caches\transforms-1\files-1.1\jetified-firebase-iid-interop-16.0.1.aar\36d2b3638732eef3d9a2a9e4a6f9c39c\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-base:16.0.1] C:\Users\IZ-Parimala\.gradle\caches\transforms-1\files-1.1\jetified-play-services-base-16.0.1.aar\db6253749013d2f99e4b79df5d41b095\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-base:16.0.1] C:\Users\IZ-Parimala\.gradle\caches\transforms-1\files-1.1\jetified-play-services-base-16.0.1.aar\db6253749013d2f99e4b79df5d41b095\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-places-placereport:16.0.0] C:\Users\IZ-Parimala\.gradle\caches\transforms-1\files-1.1\play-services-places-placereport-16.0.0.aar\bd33c2fb2e5cba500e5ca8eba0044e70\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-places-placereport:16.0.0] C:\Users\IZ-Parimala\.gradle\caches\transforms-1\files-1.1\play-services-places-placereport-16.0.0.aar\bd33c2fb2e5cba500e5ca8eba0044e70\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-ads-identifier:15.0.1] C:\Users\IZ-Parimala\.gradle\caches\transforms-1\files-1.1\jetified-play-services-ads-identifier-15.0.1.aar\f8216b2a009189c2ee9e00a06eef5769\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-ads-identifier:15.0.1] C:\Users\IZ-Parimala\.gradle\caches\transforms-1\files-1.1\jetified-play-services-ads-identifier-15.0.1.aar\f8216b2a009189c2ee9e00a06eef5769\AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-common:16.0.4] C:\Users\IZ-Parimala\.gradle\caches\transforms-1\files-1.1\jetified-firebase-common-16.0.4.aar\995b2ec12d399a678b49d5444117f8f1\AndroidManifest.xml:5:5-7:41
+MERGED from [com.google.firebase:firebase-common:16.0.4] C:\Users\IZ-Parimala\.gradle\caches\transforms-1\files-1.1\jetified-firebase-common-16.0.4.aar\995b2ec12d399a678b49d5444117f8f1\AndroidManifest.xml:5:5-7:41
+MERGED from [com.google.android.gms:play-services-stats:16.0.1] C:\Users\IZ-Parimala\.gradle\caches\transforms-1\files-1.1\jetified-play-services-stats-16.0.1.aar\285b36b71c1e12d558f3fa8d52849385\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-stats:16.0.1] C:\Users\IZ-Parimala\.gradle\caches\transforms-1\files-1.1\jetified-play-services-stats-16.0.1.aar\285b36b71c1e12d558f3fa8d52849385\AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-measurement-connector:17.0.1] C:\Users\IZ-Parimala\.gradle\caches\transforms-1\files-1.1\jetified-firebase-measurement-connector-17.0.1.aar\a5f5f0af6b16be52bdb3419358171720\AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-measurement-connector:17.0.1] C:\Users\IZ-Parimala\.gradle\caches\transforms-1\files-1.1\jetified-firebase-measurement-connector-17.0.1.aar\a5f5f0af6b16be52bdb3419358171720\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-tasks:16.0.1] C:\Users\IZ-Parimala\.gradle\caches\transforms-1\files-1.1\jetified-play-services-tasks-16.0.1.aar\a50fd8ca99e3f4ec11c9e90ea2dafc4c\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-tasks:16.0.1] C:\Users\IZ-Parimala\.gradle\caches\transforms-1\files-1.1\jetified-play-services-tasks-16.0.1.aar\a50fd8ca99e3f4ec11c9e90ea2dafc4c\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-basement:16.1.0] C:\Users\IZ-Parimala\.gradle\caches\transforms-1\files-1.1\jetified-play-services-basement-16.1.0.aar\a71190e7652e35a4cf9df27b86f65bef\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-basement:16.1.0] C:\Users\IZ-Parimala\.gradle\caches\transforms-1\files-1.1\jetified-play-services-basement-16.1.0.aar\a71190e7652e35a4cf9df27b86f65bef\AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-v4:1.0.0-rc01] C:\Users\IZ-Parimala\.gradle\caches\transforms-1\files-1.1\legacy-support-v4-1.0.0-rc01.aar\26ae653ad1b3740cb6b83c344f542b72\AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-v4:1.0.0-rc01] C:\Users\IZ-Parimala\.gradle\caches\transforms-1\files-1.1\legacy-support-v4-1.0.0-rc01.aar\26ae653ad1b3740cb6b83c344f542b72\AndroidManifest.xml:20:5-44
+MERGED from [androidx.transition:transition:1.0.0-rc01] C:\Users\IZ-Parimala\.gradle\caches\transforms-1\files-1.1\transition-1.0.0-rc01.aar\4c47ca6f4782a5ce8e9d97c182a77345\AndroidManifest.xml:20:5-44
+MERGED from [androidx.transition:transition:1.0.0-rc01] C:\Users\IZ-Parimala\.gradle\caches\transforms-1\files-1.1\transition-1.0.0-rc01.aar\4c47ca6f4782a5ce8e9d97c182a77345\AndroidManifest.xml:20:5-44
+MERGED from [androidx.browser:browser:1.0.0-rc01] C:\Users\IZ-Parimala\.gradle\caches\transforms-1\files-1.1\browser-1.0.0-rc01.aar\e80c9c3f16d2a0cfd455f047759b9d8c\AndroidManifest.xml:20:5-44
+MERGED from [androidx.browser:browser:1.0.0-rc01] C:\Users\IZ-Parimala\.gradle\caches\transforms-1\files-1.1\browser-1.0.0-rc01.aar\e80c9c3f16d2a0cfd455f047759b9d8c\AndroidManifest.xml:20:5-44
+MERGED from [androidx.media:media:1.0.0-rc01] C:\Users\IZ-Parimala\.gradle\caches\transforms-1\files-1.1\media-1.0.0-rc01.aar\144fd8b417e2b10d1e8c010c59b61057\AndroidManifest.xml:20:5-44
+MERGED from [androidx.media:media:1.0.0-rc01] C:\Users\IZ-Parimala\.gradle\caches\transforms-1\files-1.1\media-1.0.0-rc01.aar\144fd8b417e2b10d1e8c010c59b61057\AndroidManifest.xml:20:5-44
+MERGED from [com.github.chrisbanes:PhotoView:2.1.3] C:\Users\IZ-Parimala\.gradle\caches\transforms-1\files-1.1\jetified-PhotoView-2.1.3.aar\a617329e19e466196b681070c9f61c6b\AndroidManifest.xml:8:5-10:41
+MERGED from [com.github.chrisbanes:PhotoView:2.1.3] C:\Users\IZ-Parimala\.gradle\caches\transforms-1\files-1.1\jetified-PhotoView-2.1.3.aar\a617329e19e466196b681070c9f61c6b\AndroidManifest.xml:8:5-10:41
+MERGED from [com.facebook.android:facebook-places:4.40.0] C:\Users\IZ-Parimala\.gradle\caches\transforms-1\files-1.1\facebook-places-4.40.0.aar\8527ccec84ef78ffcb397f6b45f27930\AndroidManifest.xml:24:5-26:41
+MERGED from [com.facebook.android:facebook-places:4.40.0] C:\Users\IZ-Parimala\.gradle\caches\transforms-1\files-1.1\facebook-places-4.40.0.aar\8527ccec84ef78ffcb397f6b45f27930\AndroidManifest.xml:24:5-26:41
+MERGED from [com.facebook.android:facebook-applinks:4.40.0] C:\Users\IZ-Parimala\.gradle\caches\transforms-1\files-1.1\facebook-applinks-4.40.0.aar\9ad55adec6489526999ccf8d68394705\AndroidManifest.xml:24:5-26:41
+MERGED from [com.facebook.android:facebook-applinks:4.40.0] C:\Users\IZ-Parimala\.gradle\caches\transforms-1\files-1.1\facebook-applinks-4.40.0.aar\9ad55adec6489526999ccf8d68394705\AndroidManifest.xml:24:5-26:41
+MERGED from [com.facebook.android:facebook-messenger:4.40.0] C:\Users\IZ-Parimala\.gradle\caches\transforms-1\files-1.1\facebook-messenger-4.40.0.aar\3d386542634fd87dff6870019d8754a4\AndroidManifest.xml:24:5-26:41
+MERGED from [com.facebook.android:facebook-messenger:4.40.0] C:\Users\IZ-Parimala\.gradle\caches\transforms-1\files-1.1\facebook-messenger-4.40.0.aar\3d386542634fd87dff6870019d8754a4\AndroidManifest.xml:24:5-26:41
+MERGED from [com.facebook.android:facebook-marketing:4.40.0] C:\Users\IZ-Parimala\.gradle\caches\transforms-1\files-1.1\jetified-facebook-marketing-4.40.0.aar\11b12ce078759e0aa995b7053951ac0c\AndroidManifest.xml:24:5-26:41
+MERGED from [com.facebook.android:facebook-marketing:4.40.0] C:\Users\IZ-Parimala\.gradle\caches\transforms-1\files-1.1\jetified-facebook-marketing-4.40.0.aar\11b12ce078759e0aa995b7053951ac0c\AndroidManifest.xml:24:5-26:41
+MERGED from [com.facebook.android:facebook-core:4.40.0] C:\Users\IZ-Parimala\.gradle\caches\transforms-1\files-1.1\jetified-facebook-core-4.40.0.aar\1fd35f18a939d1bd69c9244a1d61232a\AndroidManifest.xml:24:5-26:41
+MERGED from [com.facebook.android:facebook-core:4.40.0] C:\Users\IZ-Parimala\.gradle\caches\transforms-1\files-1.1\jetified-facebook-core-4.40.0.aar\1fd35f18a939d1bd69c9244a1d61232a\AndroidManifest.xml:24:5-26:41
+MERGED from [jp.wasabeef:glide-transformations:4.0.0] C:\Users\IZ-Parimala\.gradle\caches\transforms-1\files-1.1\glide-transformations-4.0.0.aar\cb04c0729a0e134cf6f3f0101a5d5f4f\AndroidManifest.xml:5:5-7:41
+MERGED from [jp.wasabeef:glide-transformations:4.0.0] C:\Users\IZ-Parimala\.gradle\caches\transforms-1\files-1.1\glide-transformations-4.0.0.aar\cb04c0729a0e134cf6f3f0101a5d5f4f\AndroidManifest.xml:5:5-7:41
+MERGED from [com.github.bumptech.glide:glide:4.8.0] C:\Users\IZ-Parimala\.gradle\caches\transforms-1\files-1.1\jetified-glide-4.8.0.aar\f6161e7a3fcbe57bd3209ecc6b5b6b1e\AndroidManifest.xml:6:5-8:41
+MERGED from [com.github.bumptech.glide:glide:4.8.0] C:\Users\IZ-Parimala\.gradle\caches\transforms-1\files-1.1\jetified-glide-4.8.0.aar\f6161e7a3fcbe57bd3209ecc6b5b6b1e\AndroidManifest.xml:6:5-8:41
+MERGED from [androidx.fragment:fragment:1.0.0] C:\Users\IZ-Parimala\.gradle\caches\transforms-1\files-1.1\fragment-1.0.0.aar\1ad929d8c079e05f4b569eca460a0125\AndroidManifest.xml:20:5-44
+MERGED from [androidx.fragment:fragment:1.0.0] C:\Users\IZ-Parimala\.gradle\caches\transforms-1\files-1.1\fragment-1.0.0.aar\1ad929d8c079e05f4b569eca460a0125\AndroidManifest.xml:20:5-44
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.0.0] C:\Users\IZ-Parimala\.gradle\caches\transforms-1\files-1.1\vectordrawable-animated-1.0.0.aar\2af6ebd1189476576c59e03d27e390e0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.0.0] C:\Users\IZ-Parimala\.gradle\caches\transforms-1\files-1.1\vectordrawable-animated-1.0.0.aar\2af6ebd1189476576c59e03d27e390e0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] C:\Users\IZ-Parimala\.gradle\caches\transforms-1\files-1.1\legacy-support-core-ui-1.0.0.aar\44ceb4646b9e63a50754752310571faf\AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] C:\Users\IZ-Parimala\.gradle\caches\transforms-1\files-1.1\legacy-support-core-ui-1.0.0.aar\44ceb4646b9e63a50754752310571faf\AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] C:\Users\IZ-Parimala\.gradle\caches\transforms-1\files-1.1\legacy-support-core-utils-1.0.0.aar\2270ba0e128fef69e44dc00f20f56408\AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] C:\Users\IZ-Parimala\.gradle\caches\transforms-1\files-1.1\legacy-support-core-utils-1.0.0.aar\2270ba0e128fef69e44dc00f20f56408\AndroidManifest.xml:20:5-44
+MERGED from [androidx.vectordrawable:vectordrawable:1.0.0] C:\Users\IZ-Parimala\.gradle\caches\transforms-1\files-1.1\vectordrawable-1.0.0.aar\d1addc97fc7a72d49eef4a7b78507b6f\AndroidManifest.xml:20:5-44
+MERGED from [androidx.vectordrawable:vectordrawable:1.0.0] C:\Users\IZ-Parimala\.gradle\caches\transforms-1\files-1.1\vectordrawable-1.0.0.aar\d1addc97fc7a72d49eef4a7b78507b6f\AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] C:\Users\IZ-Parimala\.gradle\caches\transforms-1\files-1.1\loader-1.0.0.aar\13d9b12d98952d1be2b5ce9837852a27\AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] C:\Users\IZ-Parimala\.gradle\caches\transforms-1\files-1.1\loader-1.0.0.aar\13d9b12d98952d1be2b5ce9837852a27\AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager:viewpager:1.0.0] C:\Users\IZ-Parimala\.gradle\caches\transforms-1\files-1.1\viewpager-1.0.0.aar\f3a369e922792ba578c917df67955a9b\AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager:viewpager:1.0.0] C:\Users\IZ-Parimala\.gradle\caches\transforms-1\files-1.1\viewpager-1.0.0.aar\f3a369e922792ba578c917df67955a9b\AndroidManifest.xml:20:5-44
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.0.0] C:\Users\IZ-Parimala\.gradle\caches\transforms-1\files-1.1\coordinatorlayout-1.0.0.aar\41071e86278346d56832a977c14fe2fb\AndroidManifest.xml:20:5-44
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.0.0] C:\Users\IZ-Parimala\.gradle\caches\transforms-1\files-1.1\coordinatorlayout-1.0.0.aar\41071e86278346d56832a977c14fe2fb\AndroidManifest.xml:20:5-44
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] C:\Users\IZ-Parimala\.gradle\caches\transforms-1\files-1.1\drawerlayout-1.0.0.aar\576821ad342d0488981c1cca2681c9da\AndroidManifest.xml:20:5-44
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] C:\Users\IZ-Parimala\.gradle\caches\transforms-1\files-1.1\drawerlayout-1.0.0.aar\576821ad342d0488981c1cca2681c9da\AndroidManifest.xml:20:5-44
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] C:\Users\IZ-Parimala\.gradle\caches\transforms-1\files-1.1\slidingpanelayout-1.0.0.aar\77c321c9e8552d2077800a01df6a079c\AndroidManifest.xml:20:5-44
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] C:\Users\IZ-Parimala\.gradle\caches\transforms-1\files-1.1\slidingpanelayout-1.0.0.aar\77c321c9e8552d2077800a01df6a079c\AndroidManifest.xml:20:5-44
+MERGED from [androidx.customview:customview:1.0.0] C:\Users\IZ-Parimala\.gradle\caches\transforms-1\files-1.1\customview-1.0.0.aar\8941830b62fb4e5c9c82457f503ae447\AndroidManifest.xml:20:5-44
+MERGED from [androidx.customview:customview:1.0.0] C:\Users\IZ-Parimala\.gradle\caches\transforms-1\files-1.1\customview-1.0.0.aar\8941830b62fb4e5c9c82457f503ae447\AndroidManifest.xml:20:5-44
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] C:\Users\IZ-Parimala\.gradle\caches\transforms-1\files-1.1\swiperefreshlayout-1.0.0.aar\ab1ad5b01d3e1eccb6529056dc74dcdb\AndroidManifest.xml:20:5-44
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] C:\Users\IZ-Parimala\.gradle\caches\transforms-1\files-1.1\swiperefreshlayout-1.0.0.aar\ab1ad5b01d3e1eccb6529056dc74dcdb\AndroidManifest.xml:20:5-44
+MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] C:\Users\IZ-Parimala\.gradle\caches\transforms-1\files-1.1\asynclayoutinflater-1.0.0.aar\3b6d13d706fff797be1c02f40dbf49d4\AndroidManifest.xml:20:5-44
+MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] C:\Users\IZ-Parimala\.gradle\caches\transforms-1\files-1.1\asynclayoutinflater-1.0.0.aar\3b6d13d706fff797be1c02f40dbf49d4\AndroidManifest.xml:20:5-44
+MERGED from [androidx.core:core:1.0.0] C:\Users\IZ-Parimala\.gradle\caches\transforms-1\files-1.1\core-1.0.0.aar\24b42f9a6b84023b81851b55a0229042\AndroidManifest.xml:20:5-44
+MERGED from [androidx.core:core:1.0.0] C:\Users\IZ-Parimala\.gradle\caches\transforms-1\files-1.1\core-1.0.0.aar\24b42f9a6b84023b81851b55a0229042\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.0.0] C:\Users\IZ-Parimala\.gradle\caches\transforms-1\files-1.1\lifecycle-runtime-2.0.0.aar\22c338f5203a336a0377c00781b44b99\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.0.0] C:\Users\IZ-Parimala\.gradle\caches\transforms-1\files-1.1\lifecycle-runtime-2.0.0.aar\22c338f5203a336a0377c00781b44b99\AndroidManifest.xml:20:5-44
+MERGED from [com.daasuu:BubbleLayout:1.1.1] C:\Users\IZ-Parimala\.gradle\caches\transforms-1\files-1.1\jetified-BubbleLayout-1.1.1.aar\c494ec510e485a81063c517bf51b1af3\AndroidManifest.xml:8:5-10:41
+MERGED from [com.daasuu:BubbleLayout:1.1.1] C:\Users\IZ-Parimala\.gradle\caches\transforms-1\files-1.1\jetified-BubbleLayout-1.1.1.aar\c494ec510e485a81063c517bf51b1af3\AndroidManifest.xml:8:5-10:41
+MERGED from [androidx.test.espresso:espresso-core:3.1.0-alpha3] C:\Users\IZ-Parimala\.gradle\caches\transforms-1\files-1.1\espresso-core-3.1.0-alpha3.aar\9e106eeca0028b852d706c843f8cf9f5\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.test.espresso:espresso-core:3.1.0-alpha3] C:\Users\IZ-Parimala\.gradle\caches\transforms-1\files-1.1\espresso-core-3.1.0-alpha3.aar\9e106eeca0028b852d706c843f8cf9f5\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.test:runner:1.1.0-alpha3] C:\Users\IZ-Parimala\.gradle\caches\transforms-1\files-1.1\runner-1.1.0-alpha3.aar\3ef7485e3893e355407914c2a44995ef\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.test:runner:1.1.0-alpha3] C:\Users\IZ-Parimala\.gradle\caches\transforms-1\files-1.1\runner-1.1.0-alpha3.aar\3ef7485e3893e355407914c2a44995ef\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.multidex:multidex:2.0.0] C:\Users\IZ-Parimala\.gradle\caches\transforms-1\files-1.1\multidex-2.0.0.aar\299a751683fea8a3dbb45c3c7d16d986\AndroidManifest.xml:20:5-43
+MERGED from [androidx.multidex:multidex:2.0.0] C:\Users\IZ-Parimala\.gradle\caches\transforms-1\files-1.1\multidex-2.0.0.aar\299a751683fea8a3dbb45c3c7d16d986\AndroidManifest.xml:20:5-43
+MERGED from [jp.co.cyberagent.android:gpuimage:2.0.0] C:\Users\IZ-Parimala\.gradle\caches\transforms-1\files-1.1\gpuimage-2.0.0.aar\1c2e7348d8a19e0f533eed187126d300\AndroidManifest.xml:7:5-9:41
+MERGED from [jp.co.cyberagent.android:gpuimage:2.0.0] C:\Users\IZ-Parimala\.gradle\caches\transforms-1\files-1.1\gpuimage-2.0.0.aar\1c2e7348d8a19e0f533eed187126d300\AndroidManifest.xml:7:5-9:41
+MERGED from [androidx.exifinterface:exifinterface:1.0.0] C:\Users\IZ-Parimala\.gradle\caches\transforms-1\files-1.1\exifinterface-1.0.0.aar\4302cc4ab3b876565f21d495930e2d1f\AndroidManifest.xml:20:5-44
+MERGED from [androidx.exifinterface:exifinterface:1.0.0] C:\Users\IZ-Parimala\.gradle\caches\transforms-1\files-1.1\exifinterface-1.0.0.aar\4302cc4ab3b876565f21d495930e2d1f\AndroidManifest.xml:20:5-44
+MERGED from [androidx.test:monitor:1.1.0-alpha3] C:\Users\IZ-Parimala\.gradle\caches\transforms-1\files-1.1\monitor-1.1.0-alpha3.aar\3b791ecc8c9b00ff0f38fe91a4a3af27\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.test:monitor:1.1.0-alpha3] C:\Users\IZ-Parimala\.gradle\caches\transforms-1\files-1.1\monitor-1.1.0-alpha3.aar\3b791ecc8c9b00ff0f38fe91a4a3af27\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.0.0] C:\Users\IZ-Parimala\.gradle\caches\transforms-1\files-1.1\versionedparcelable-1.0.0.aar\d022e2ca8cc79b1875ca074f4e48d65c\AndroidManifest.xml:20:5-44
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.0.0] C:\Users\IZ-Parimala\.gradle\caches\transforms-1\files-1.1\versionedparcelable-1.0.0.aar\d022e2ca8cc79b1875ca074f4e48d65c\AndroidManifest.xml:20:5-44
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] C:\Users\IZ-Parimala\.gradle\caches\transforms-1\files-1.1\cursoradapter-1.0.0.aar\7f47462eed58dc20035db90bbadaadc5\AndroidManifest.xml:20:5-44
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] C:\Users\IZ-Parimala\.gradle\caches\transforms-1\files-1.1\cursoradapter-1.0.0.aar\7f47462eed58dc20035db90bbadaadc5\AndroidManifest.xml:20:5-44
+MERGED from [androidx.documentfile:documentfile:1.0.0] C:\Users\IZ-Parimala\.gradle\caches\transforms-1\files-1.1\documentfile-1.0.0.aar\982469bc6788284e42e0e880a07b918e\AndroidManifest.xml:20:5-44
+MERGED from [androidx.documentfile:documentfile:1.0.0] C:\Users\IZ-Parimala\.gradle\caches\transforms-1\files-1.1\documentfile-1.0.0.aar\982469bc6788284e42e0e880a07b918e\AndroidManifest.xml:20:5-44
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] C:\Users\IZ-Parimala\.gradle\caches\transforms-1\files-1.1\localbroadcastmanager-1.0.0.aar\d94d4b36c0566af2c58cb49a4be21b86\AndroidManifest.xml:20:5-44
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] C:\Users\IZ-Parimala\.gradle\caches\transforms-1\files-1.1\localbroadcastmanager-1.0.0.aar\d94d4b36c0566af2c58cb49a4be21b86\AndroidManifest.xml:20:5-44
+MERGED from [androidx.print:print:1.0.0] C:\Users\IZ-Parimala\.gradle\caches\transforms-1\files-1.1\print-1.0.0.aar\1677dd1d0cb1cc034b944a139b728720\AndroidManifest.xml:20:5-44
+MERGED from [androidx.print:print:1.0.0] C:\Users\IZ-Parimala\.gradle\caches\transforms-1\files-1.1\print-1.0.0.aar\1677dd1d0cb1cc034b944a139b728720\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.0.0] C:\Users\IZ-Parimala\.gradle\caches\transforms-1\files-1.1\lifecycle-viewmodel-2.0.0.aar\24354e19bdd01e4122eff1c89d8586e0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.0.0] C:\Users\IZ-Parimala\.gradle\caches\transforms-1\files-1.1\lifecycle-viewmodel-2.0.0.aar\24354e19bdd01e4122eff1c89d8586e0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] C:\Users\IZ-Parimala\.gradle\caches\transforms-1\files-1.1\lifecycle-livedata-2.0.0.aar\6f1457b17949c1a84f10f458de776013\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] C:\Users\IZ-Parimala\.gradle\caches\transforms-1\files-1.1\lifecycle-livedata-2.0.0.aar\6f1457b17949c1a84f10f458de776013\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] C:\Users\IZ-Parimala\.gradle\caches\transforms-1\files-1.1\lifecycle-livedata-core-2.0.0.aar\c6f8ce33073da7b2d1b47edb5fbc567d\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] C:\Users\IZ-Parimala\.gradle\caches\transforms-1\files-1.1\lifecycle-livedata-core-2.0.0.aar\c6f8ce33073da7b2d1b47edb5fbc567d\AndroidManifest.xml:20:5-44
+MERGED from [androidx.arch.core:core-runtime:2.0.0] C:\Users\IZ-Parimala\.gradle\caches\transforms-1\files-1.1\core-runtime-2.0.0.aar\770e72cc8d9d27ea2f44727e1cf64148\AndroidManifest.xml:20:5-44
+MERGED from [androidx.arch.core:core-runtime:2.0.0] C:\Users\IZ-Parimala\.gradle\caches\transforms-1\files-1.1\core-runtime-2.0.0.aar\770e72cc8d9d27ea2f44727e1cf64148\AndroidManifest.xml:20:5-44
+MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\IZ-Parimala\.gradle\caches\transforms-1\files-1.1\interpolator-1.0.0.aar\f0195d277248425239c93bab50cfda61\AndroidManifest.xml:20:5-44
+MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\IZ-Parimala\.gradle\caches\transforms-1\files-1.1\interpolator-1.0.0.aar\f0195d277248425239c93bab50cfda61\AndroidManifest.xml:20:5-44
+MERGED from [com.github.bumptech.glide:gifdecoder:4.8.0] C:\Users\IZ-Parimala\.gradle\caches\transforms-1\files-1.1\jetified-gifdecoder-4.8.0.aar\724744efa65aaa3fd750f384eb805729\AndroidManifest.xml:5:5-7:41
+MERGED from [com.github.bumptech.glide:gifdecoder:4.8.0] C:\Users\IZ-Parimala\.gradle\caches\transforms-1\files-1.1\jetified-gifdecoder-4.8.0.aar\724744efa65aaa3fd750f384eb805729\AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.test.espresso:espresso-idling-resource:3.1.0-alpha3] C:\Users\IZ-Parimala\.gradle\caches\transforms-1\files-1.1\espresso-idling-resource-3.1.0-alpha3.aar\5f0584f58e81ccee469fc218b9c16e35\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.test.espresso:espresso-idling-resource:3.1.0-alpha3] C:\Users\IZ-Parimala\.gradle\caches\transforms-1\files-1.1\espresso-idling-resource-3.1.0-alpha3.aar\5f0584f58e81ccee469fc218b9c16e35\AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.android.gms:play-services-measurement-base:15.0.4] C:\Users\IZ-Parimala\.gradle\caches\transforms-1\files-1.1\play-services-measurement-base-15.0.4.aar\e9ac349af0414e165280ad66cabf23bc\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-measurement-base:15.0.4] C:\Users\IZ-Parimala\.gradle\caches\transforms-1\files-1.1\play-services-measurement-base-15.0.4.aar\e9ac349af0414e165280ad66cabf23bc\AndroidManifest.xml:20:5-44
+INJECTED from D:\Anderoid Projects\Handz_11101\H\Handz_1110\app\src\main\AndroidManifest.xml:36:5-47
+INJECTED from D:\Anderoid Projects\Handz_11101\H\Handz_1110\app\src\main\AndroidManifest.xml:36:5-47
+	android:targetSdkVersion
+		ADDED from D:\Anderoid Projects\Handz_11101\H\Handz_1110\app\src\main\AndroidManifest.xml:36:15-44
+		INJECTED from D:\Anderoid Projects\Handz_11101\H\Handz_1110\app\src\main\AndroidManifest.xml
+		INJECTED from D:\Anderoid Projects\Handz_11101\H\Handz_1110\app\src\main\AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from D:\Anderoid Projects\Handz_11101\H\Handz_1110\app\src\main\AndroidManifest.xml
+		ADDED from D:\Anderoid Projects\Handz_11101\H\Handz_1110\app\src\main\AndroidManifest.xml:36:5-47
+		INJECTED from D:\Anderoid Projects\Handz_11101\H\Handz_1110\app\src\main\AndroidManifest.xml
+application
+ADDED from D:\Anderoid Projects\Handz_11101\H\Handz_1110\app\src\main\AndroidManifest.xml:38:5-655:19
+MERGED from [com.paypal.sdk:paypal-android-sdk:2.14.2] C:\Users\IZ-Parimala\.gradle\caches\transforms-1\files-1.1\paypal-android-sdk-2.14.2.aar\ac55b907516567927e74a110be5ea3e1\AndroidManifest.xml:12:5-26:19
+MERGED from [com.paypal.sdk:paypal-android-sdk:2.14.2] C:\Users\IZ-Parimala\.gradle\caches\transforms-1\files-1.1\paypal-android-sdk-2.14.2.aar\ac55b907516567927e74a110be5ea3e1\AndroidManifest.xml:12:5-26:19
+MERGED from [com.facebook.android:facebook-android-sdk:4.40.0] C:\Users\IZ-Parimala\.gradle\caches\transforms-1\files-1.1\facebook-android-sdk-4.40.0.aar\f1335c8943dbd415cf5aa8e11695b3fb\AndroidManifest.xml:28:5-29:19
+MERGED from [com.facebook.android:facebook-android-sdk:4.40.0] C:\Users\IZ-Parimala\.gradle\caches\transforms-1\files-1.1\facebook-android-sdk-4.40.0.aar\f1335c8943dbd415cf5aa8e11695b3fb\AndroidManifest.xml:28:5-29:19
+MERGED from [com.facebook.android:facebook-login:4.40.0] C:\Users\IZ-Parimala\.gradle\caches\transforms-1\files-1.1\jetified-facebook-login-4.40.0.aar\de3be3071e448f91aafcd7863fffc773\AndroidManifest.xml:28:5-29:19
+MERGED from [com.facebook.android:facebook-login:4.40.0] C:\Users\IZ-Parimala\.gradle\caches\transforms-1\files-1.1\jetified-facebook-login-4.40.0.aar\de3be3071e448f91aafcd7863fffc773\AndroidManifest.xml:28:5-29:19
+MERGED from [com.facebook.android:facebook-share:4.40.0] C:\Users\IZ-Parimala\.gradle\caches\transforms-1\files-1.1\jetified-facebook-share-4.40.0.aar\4e4990c9daa2c9874930c2f012707d6a\AndroidManifest.xml:28:5-29:19
+MERGED from [com.facebook.android:facebook-share:4.40.0] C:\Users\IZ-Parimala\.gradle\caches\transforms-1\files-1.1\jetified-facebook-share-4.40.0.aar\4e4990c9daa2c9874930c2f012707d6a\AndroidManifest.xml:28:5-29:19
+MERGED from [com.facebook.android:facebook-common:4.40.0] C:\Users\IZ-Parimala\.gradle\caches\transforms-1\files-1.1\jetified-facebook-common-4.40.0.aar\1d1de7b2c4cbcd6c1888ec67a73c87b7\AndroidManifest.xml:28:5-35:19
+MERGED from [com.facebook.android:facebook-common:4.40.0] C:\Users\IZ-Parimala\.gradle\caches\transforms-1\files-1.1\jetified-facebook-common-4.40.0.aar\1d1de7b2c4cbcd6c1888ec67a73c87b7\AndroidManifest.xml:28:5-35:19
+MERGED from [com.google.android.material:material:1.0.0-rc01] C:\Users\IZ-Parimala\.gradle\caches\transforms-1\files-1.1\material-1.0.0-rc01.aar\11b856970d0afb17e80d518bbc939eda\AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.material:material:1.0.0-rc01] C:\Users\IZ-Parimala\.gradle\caches\transforms-1\files-1.1\material-1.0.0-rc01.aar\11b856970d0afb17e80d518bbc939eda\AndroidManifest.xml:22:5-20
+MERGED from [:library] D:\Anderoid Projects\Handz_11101\H\Handz_1110\library\build\intermediates\merged_manifests\debug\processDebugManifest\merged\AndroidManifest.xml:11:5-15:19
+MERGED from [:library] D:\Anderoid Projects\Handz_11101\H\Handz_1110\library\build\intermediates\merged_manifests\debug\processDebugManifest\merged\AndroidManifest.xml:11:5-15:19
+MERGED from [androidx.constraintlayout:constraintlayout:1.1.3] C:\Users\IZ-Parimala\.gradle\caches\transforms-1\files-1.1\constraintlayout-1.1.3.aar\c4013843a5945b789fb01618b5bac83a\AndroidManifest.xml:9:5-20
+MERGED from [androidx.constraintlayout:constraintlayout:1.1.3] C:\Users\IZ-Parimala\.gradle\caches\transforms-1\files-1.1\constraintlayout-1.1.3.aar\c4013843a5945b789fb01618b5bac83a\AndroidManifest.xml:9:5-20
+MERGED from [com.google.android.gms:play-services-maps:16.0.0] C:\Users\IZ-Parimala\.gradle\caches\transforms-1\files-1.1\jetified-play-services-maps-16.0.0.aar\61fe0225a99611376b86f9f9583bf2ce\AndroidManifest.xml:30:5-20
+MERGED from [com.google.android.gms:play-services-maps:16.0.0] C:\Users\IZ-Parimala\.gradle\caches\transforms-1\files-1.1\jetified-play-services-maps-16.0.0.aar\61fe0225a99611376b86f9f9583bf2ce\AndroidManifest.xml:30:5-20
+MERGED from [com.google.android.gms:play-services-location:16.0.0] C:\Users\IZ-Parimala\.gradle\caches\transforms-1\files-1.1\jetified-play-services-location-16.0.0.aar\84372008585b9e3aeea74fbdeaa00db0\AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-location:16.0.0] C:\Users\IZ-Parimala\.gradle\caches\transforms-1\files-1.1\jetified-play-services-location-16.0.0.aar\84372008585b9e3aeea74fbdeaa00db0\AndroidManifest.xml:7:5-20
+MERGED from [com.google.firebase:firebase-auth:16.0.5] C:\Users\IZ-Parimala\.gradle\caches\transforms-1\files-1.1\jetified-firebase-auth-16.0.5.aar\c177a358dd27485afce062e6f539c823\AndroidManifest.xml:23:5-40:19
+MERGED from [com.google.firebase:firebase-auth:16.0.5] C:\Users\IZ-Parimala\.gradle\caches\transforms-1\files-1.1\jetified-firebase-auth-16.0.5.aar\c177a358dd27485afce062e6f539c823\AndroidManifest.xml:23:5-40:19
+MERGED from [com.google.firebase:firebase-messaging:17.3.4] C:\Users\IZ-Parimala\.gradle\caches\transforms-1\files-1.1\jetified-firebase-messaging-17.3.4.aar\47135fa6b274aa4f40de1fe628f243bf\AndroidManifest.xml:22:5-35:19
+MERGED from [com.google.firebase:firebase-messaging:17.3.4] C:\Users\IZ-Parimala\.gradle\caches\transforms-1\files-1.1\jetified-firebase-messaging-17.3.4.aar\47135fa6b274aa4f40de1fe628f243bf\AndroidManifest.xml:22:5-35:19
+MERGED from [com.pierfrancescosoffritti.androidyoutubeplayer:core:8.0.1] C:\Users\IZ-Parimala\.gradle\caches\transforms-1\files-1.1\jetified-core-8.0.1.aar\3c42edb7e23dd88799ddb350607d31fb\AndroidManifest.xml:14:5-18:19
+MERGED from [com.pierfrancescosoffritti.androidyoutubeplayer:core:8.0.1] C:\Users\IZ-Parimala\.gradle\caches\transforms-1\files-1.1\jetified-core-8.0.1.aar\3c42edb7e23dd88799ddb350607d31fb\AndroidManifest.xml:14:5-18:19
+MERGED from [:linkedin-sdk] D:\Anderoid Projects\Handz_11101\H\Handz_1110\linkedin-sdk\build\intermediates\merged_manifests\debug\processDebugManifest\merged\AndroidManifest.xml:13:5-20
+MERGED from [:linkedin-sdk] D:\Anderoid Projects\Handz_11101\H\Handz_1110\linkedin-sdk\build\intermediates\merged_manifests\debug\processDebugManifest\merged\AndroidManifest.xml:13:5-20
+MERGED from [com.google.firebase:firebase-auth-interop:16.0.1] C:\Users\IZ-Parimala\.gradle\caches\transforms-1\files-1.1\jetified-firebase-auth-interop-16.0.1.aar\b99925a30d21650f3ff7c83f02c2b83a\AndroidManifest.xml:7:5-8:19
+MERGED from [com.google.firebase:firebase-auth-interop:16.0.1] C:\Users\IZ-Parimala\.gradle\caches\transforms-1\files-1.1\jetified-firebase-auth-interop-16.0.1.aar\b99925a30d21650f3ff7c83f02c2b83a\AndroidManifest.xml:7:5-8:19
+MERGED from [com.google.firebase:firebase-core:16.0.0] C:\Users\IZ-Parimala\.gradle\caches\transforms-1\files-1.1\firebase-core-16.0.0.aar\6c77cd10dac7eb13d83788b0decb51cd\AndroidManifest.xml:7:5-20
+MERGED from [com.google.firebase:firebase-core:16.0.0] C:\Users\IZ-Parimala\.gradle\caches\transforms-1\files-1.1\firebase-core-16.0.0.aar\6c77cd10dac7eb13d83788b0decb51cd\AndroidManifest.xml:7:5-20
+MERGED from [com.google.firebase:firebase-measurement-connector-impl:16.0.0] C:\Users\IZ-Parimala\.gradle\caches\transforms-1\files-1.1\jetified-firebase-measurement-connector-impl-16.0.0.aar\fc9d1035837a504b02da961ceef068fe\AndroidManifest.xml:26:5-32:19
+MERGED from [com.google.firebase:firebase-measurement-connector-impl:16.0.0] C:\Users\IZ-Parimala\.gradle\caches\transforms-1\files-1.1\jetified-firebase-measurement-connector-impl-16.0.0.aar\fc9d1035837a504b02da961ceef068fe\AndroidManifest.xml:26:5-32:19
+MERGED from [com.google.firebase:firebase-analytics:16.0.0] C:\Users\IZ-Parimala\.gradle\caches\transforms-1\files-1.1\jetified-firebase-analytics-16.0.0.aar\1f6e724ccc3338ebbc2a57b459540762\AndroidManifest.xml:28:5-53:19
+MERGED from [com.google.firebase:firebase-analytics:16.0.0] C:\Users\IZ-Parimala\.gradle\caches\transforms-1\files-1.1\jetified-firebase-analytics-16.0.0.aar\1f6e724ccc3338ebbc2a57b459540762\AndroidManifest.xml:28:5-53:19
+MERGED from [com.google.firebase:firebase-analytics-impl:16.0.0] C:\Users\IZ-Parimala\.gradle\caches\transforms-1\files-1.1\jetified-firebase-analytics-impl-16.0.0.aar\45b2a8e3005734c3aa9de30f1593daa2\AndroidManifest.xml:28:5-39:19
+MERGED from [com.google.firebase:firebase-analytics-impl:16.0.0] C:\Users\IZ-Parimala\.gradle\caches\transforms-1\files-1.1\jetified-firebase-analytics-impl-16.0.0.aar\45b2a8e3005734c3aa9de30f1593daa2\AndroidManifest.xml:28:5-39:19
+MERGED from [com.google.firebase:firebase-iid:17.0.4] C:\Users\IZ-Parimala\.gradle\caches\transforms-1\files-1.1\jetified-firebase-iid-17.0.4.aar\911371cef86e717a3926e39aad5206c2\AndroidManifest.xml:28:5-57:19
+MERGED from [com.google.firebase:firebase-iid:17.0.4] C:\Users\IZ-Parimala\.gradle\caches\transforms-1\files-1.1\jetified-firebase-iid-17.0.4.aar\911371cef86e717a3926e39aad5206c2\AndroidManifest.xml:28:5-57:19
+MERGED from [com.google.firebase:firebase-iid-interop:16.0.1] C:\Users\IZ-Parimala\.gradle\caches\transforms-1\files-1.1\jetified-firebase-iid-interop-16.0.1.aar\36d2b3638732eef3d9a2a9e4a6f9c39c\AndroidManifest.xml:7:5-8:19
+MERGED from [com.google.firebase:firebase-iid-interop:16.0.1] C:\Users\IZ-Parimala\.gradle\caches\transforms-1\files-1.1\jetified-firebase-iid-interop-16.0.1.aar\36d2b3638732eef3d9a2a9e4a6f9c39c\AndroidManifest.xml:7:5-8:19
+MERGED from [com.google.android.gms:play-services-base:16.0.1] C:\Users\IZ-Parimala\.gradle\caches\transforms-1\files-1.1\jetified-play-services-base-16.0.1.aar\db6253749013d2f99e4b79df5d41b095\AndroidManifest.xml:22:5-27:19
+MERGED from [com.google.android.gms:play-services-base:16.0.1] C:\Users\IZ-Parimala\.gradle\caches\transforms-1\files-1.1\jetified-play-services-base-16.0.1.aar\db6253749013d2f99e4b79df5d41b095\AndroidManifest.xml:22:5-27:19
+MERGED from [com.google.android.gms:play-services-places-placereport:16.0.0] C:\Users\IZ-Parimala\.gradle\caches\transforms-1\files-1.1\play-services-places-placereport-16.0.0.aar\bd33c2fb2e5cba500e5ca8eba0044e70\AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-places-placereport:16.0.0] C:\Users\IZ-Parimala\.gradle\caches\transforms-1\files-1.1\play-services-places-placereport-16.0.0.aar\bd33c2fb2e5cba500e5ca8eba0044e70\AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-ads-identifier:15.0.1] C:\Users\IZ-Parimala\.gradle\caches\transforms-1\files-1.1\jetified-play-services-ads-identifier-15.0.1.aar\f8216b2a009189c2ee9e00a06eef5769\AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-ads-identifier:15.0.1] C:\Users\IZ-Parimala\.gradle\caches\transforms-1\files-1.1\jetified-play-services-ads-identifier-15.0.1.aar\f8216b2a009189c2ee9e00a06eef5769\AndroidManifest.xml:22:5-20
+MERGED from [com.google.firebase:firebase-common:16.0.4] C:\Users\IZ-Parimala\.gradle\caches\transforms-1\files-1.1\jetified-firebase-common-16.0.4.aar\995b2ec12d399a678b49d5444117f8f1\AndroidManifest.xml:9:5-15:19
+MERGED from [com.google.firebase:firebase-common:16.0.4] C:\Users\IZ-Parimala\.gradle\caches\transforms-1\files-1.1\jetified-firebase-common-16.0.4.aar\995b2ec12d399a678b49d5444117f8f1\AndroidManifest.xml:9:5-15:19
+MERGED from [com.google.android.gms:play-services-stats:16.0.1] C:\Users\IZ-Parimala\.gradle\caches\transforms-1\files-1.1\jetified-play-services-stats-16.0.1.aar\285b36b71c1e12d558f3fa8d52849385\AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-stats:16.0.1] C:\Users\IZ-Parimala\.gradle\caches\transforms-1\files-1.1\jetified-play-services-stats-16.0.1.aar\285b36b71c1e12d558f3fa8d52849385\AndroidManifest.xml:7:5-20
+MERGED from [com.google.firebase:firebase-measurement-connector:17.0.1] C:\Users\IZ-Parimala\.gradle\caches\transforms-1\files-1.1\jetified-firebase-measurement-connector-17.0.1.aar\a5f5f0af6b16be52bdb3419358171720\AndroidManifest.xml:22:5-23:19
+MERGED from [com.google.firebase:firebase-measurement-connector:17.0.1] C:\Users\IZ-Parimala\.gradle\caches\transforms-1\files-1.1\jetified-firebase-measurement-connector-17.0.1.aar\a5f5f0af6b16be52bdb3419358171720\AndroidManifest.xml:22:5-23:19
+MERGED from [com.google.android.gms:play-services-tasks:16.0.1] C:\Users\IZ-Parimala\.gradle\caches\transforms-1\files-1.1\jetified-play-services-tasks-16.0.1.aar\a50fd8ca99e3f4ec11c9e90ea2dafc4c\AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-tasks:16.0.1] C:\Users\IZ-Parimala\.gradle\caches\transforms-1\files-1.1\jetified-play-services-tasks-16.0.1.aar\a50fd8ca99e3f4ec11c9e90ea2dafc4c\AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-basement:16.1.0] C:\Users\IZ-Parimala\.gradle\caches\transforms-1\files-1.1\jetified-play-services-basement-16.1.0.aar\a71190e7652e35a4cf9df27b86f65bef\AndroidManifest.xml:22:5-26:19
+MERGED from [com.google.android.gms:play-services-basement:16.1.0] C:\Users\IZ-Parimala\.gradle\caches\transforms-1\files-1.1\jetified-play-services-basement-16.1.0.aar\a71190e7652e35a4cf9df27b86f65bef\AndroidManifest.xml:22:5-26:19
+MERGED from [com.facebook.android:facebook-places:4.40.0] C:\Users\IZ-Parimala\.gradle\caches\transforms-1\files-1.1\facebook-places-4.40.0.aar\8527ccec84ef78ffcb397f6b45f27930\AndroidManifest.xml:28:5-29:19
+MERGED from [com.facebook.android:facebook-places:4.40.0] C:\Users\IZ-Parimala\.gradle\caches\transforms-1\files-1.1\facebook-places-4.40.0.aar\8527ccec84ef78ffcb397f6b45f27930\AndroidManifest.xml:28:5-29:19
+MERGED from [com.facebook.android:facebook-applinks:4.40.0] C:\Users\IZ-Parimala\.gradle\caches\transforms-1\files-1.1\facebook-applinks-4.40.0.aar\9ad55adec6489526999ccf8d68394705\AndroidManifest.xml:28:5-29:19
+MERGED from [com.facebook.android:facebook-applinks:4.40.0] C:\Users\IZ-Parimala\.gradle\caches\transforms-1\files-1.1\facebook-applinks-4.40.0.aar\9ad55adec6489526999ccf8d68394705\AndroidManifest.xml:28:5-29:19
+MERGED from [com.facebook.android:facebook-messenger:4.40.0] C:\Users\IZ-Parimala\.gradle\caches\transforms-1\files-1.1\facebook-messenger-4.40.0.aar\3d386542634fd87dff6870019d8754a4\AndroidManifest.xml:28:5-29:19
+MERGED from [com.facebook.android:facebook-messenger:4.40.0] C:\Users\IZ-Parimala\.gradle\caches\transforms-1\files-1.1\facebook-messenger-4.40.0.aar\3d386542634fd87dff6870019d8754a4\AndroidManifest.xml:28:5-29:19
+MERGED from [com.facebook.android:facebook-marketing:4.40.0] C:\Users\IZ-Parimala\.gradle\caches\transforms-1\files-1.1\jetified-facebook-marketing-4.40.0.aar\11b12ce078759e0aa995b7053951ac0c\AndroidManifest.xml:28:5-33:19
+MERGED from [com.facebook.android:facebook-marketing:4.40.0] C:\Users\IZ-Parimala\.gradle\caches\transforms-1\files-1.1\jetified-facebook-marketing-4.40.0.aar\11b12ce078759e0aa995b7053951ac0c\AndroidManifest.xml:28:5-33:19
+MERGED from [com.facebook.android:facebook-core:4.40.0] C:\Users\IZ-Parimala\.gradle\caches\transforms-1\files-1.1\jetified-facebook-core-4.40.0.aar\1fd35f18a939d1bd69c9244a1d61232a\AndroidManifest.xml:28:5-51:19
+MERGED from [com.facebook.android:facebook-core:4.40.0] C:\Users\IZ-Parimala\.gradle\caches\transforms-1\files-1.1\jetified-facebook-core-4.40.0.aar\1fd35f18a939d1bd69c9244a1d61232a\AndroidManifest.xml:28:5-51:19
+MERGED from [com.github.bumptech.glide:glide:4.8.0] C:\Users\IZ-Parimala\.gradle\caches\transforms-1\files-1.1\jetified-glide-4.8.0.aar\f6161e7a3fcbe57bd3209ecc6b5b6b1e\AndroidManifest.xml:10:5-20
+MERGED from [com.github.bumptech.glide:glide:4.8.0] C:\Users\IZ-Parimala\.gradle\caches\transforms-1\files-1.1\jetified-glide-4.8.0.aar\f6161e7a3fcbe57bd3209ecc6b5b6b1e\AndroidManifest.xml:10:5-20
+MERGED from [androidx.core:core:1.0.0] C:\Users\IZ-Parimala\.gradle\caches\transforms-1\files-1.1\core-1.0.0.aar\24b42f9a6b84023b81851b55a0229042\AndroidManifest.xml:22:5-89
+MERGED from [androidx.core:core:1.0.0] C:\Users\IZ-Parimala\.gradle\caches\transforms-1\files-1.1\core-1.0.0.aar\24b42f9a6b84023b81851b55a0229042\AndroidManifest.xml:22:5-89
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.0.0] C:\Users\IZ-Parimala\.gradle\caches\transforms-1\files-1.1\versionedparcelable-1.0.0.aar\d022e2ca8cc79b1875ca074f4e48d65c\AndroidManifest.xml:22:5-23:19
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.0.0] C:\Users\IZ-Parimala\.gradle\caches\transforms-1\files-1.1\versionedparcelable-1.0.0.aar\d022e2ca8cc79b1875ca074f4e48d65c\AndroidManifest.xml:22:5-23:19
+MERGED from [com.github.bumptech.glide:gifdecoder:4.8.0] C:\Users\IZ-Parimala\.gradle\caches\transforms-1\files-1.1\jetified-gifdecoder-4.8.0.aar\724744efa65aaa3fd750f384eb805729\AndroidManifest.xml:9:5-20
+MERGED from [com.github.bumptech.glide:gifdecoder:4.8.0] C:\Users\IZ-Parimala\.gradle\caches\transforms-1\files-1.1\jetified-gifdecoder-4.8.0.aar\724744efa65aaa3fd750f384eb805729\AndroidManifest.xml:9:5-20
+MERGED from [com.google.android.gms:play-services-measurement-base:15.0.4] C:\Users\IZ-Parimala\.gradle\caches\transforms-1\files-1.1\play-services-measurement-base-15.0.4.aar\e9ac349af0414e165280ad66cabf23bc\AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-measurement-base:15.0.4] C:\Users\IZ-Parimala\.gradle\caches\transforms-1\files-1.1\play-services-measurement-base-15.0.4.aar\e9ac349af0414e165280ad66cabf23bc\AndroidManifest.xml:22:5-20
+	android:appComponentFactory
+		ADDED from [androidx.core:core:1.0.0] C:\Users\IZ-Parimala\.gradle\caches\transforms-1\files-1.1\core-1.0.0.aar\24b42f9a6b84023b81851b55a0229042\AndroidManifest.xml:22:18-86
+	android:supportsRtl
+		ADDED from D:\Anderoid Projects\Handz_11101\H\Handz_1110\app\src\main\AndroidManifest.xml:44:9-35
+	android:label
+		ADDED from D:\Anderoid Projects\Handz_11101\H\Handz_1110\app\src\main\AndroidManifest.xml:43:9-41
+	android:largeHeap
+		ADDED from D:\Anderoid Projects\Handz_11101\H\Handz_1110\app\src\main\AndroidManifest.xml:45:9-33
+	android:icon
+		ADDED from D:\Anderoid Projects\Handz_11101\H\Handz_1110\app\src\main\AndroidManifest.xml:42:9-38
+	android:allowBackup
+		ADDED from D:\Anderoid Projects\Handz_11101\H\Handz_1110\app\src\main\AndroidManifest.xml:40:9-36
+		REJECTED from [:library] D:\Anderoid Projects\Handz_11101\H\Handz_1110\library\build\intermediates\merged_manifests\debug\processDebugManifest\merged\AndroidManifest.xml:12:9-35
+		REJECTED from [com.pierfrancescosoffritti.androidyoutubeplayer:core:8.0.1] C:\Users\IZ-Parimala\.gradle\caches\transforms-1\files-1.1\jetified-core-8.0.1.aar\3c42edb7e23dd88799ddb350607d31fb\AndroidManifest.xml:15:9-35
+	android:theme
+		ADDED from D:\Anderoid Projects\Handz_11101\H\Handz_1110\app\src\main\AndroidManifest.xml:46:9-76
+	tools:replace
+		ADDED from D:\Anderoid Projects\Handz_11101\H\Handz_1110\app\src\main\AndroidManifest.xml:41:9-36
+	android:name
+		ADDED from D:\Anderoid Projects\Handz_11101\H\Handz_1110\app\src\main\AndroidManifest.xml:39:9-59
+uses-library#org.apache.http.legacy
+ADDED from D:\Anderoid Projects\Handz_11101\H\Handz_1110\app\src\main\AndroidManifest.xml:47:9-49:40
+	android:required
+		ADDED from D:\Anderoid Projects\Handz_11101\H\Handz_1110\app\src\main\AndroidManifest.xml:49:13-37
+	android:name
+		ADDED from D:\Anderoid Projects\Handz_11101\H\Handz_1110\app\src\main\AndroidManifest.xml:48:13-50
+meta-data#asset_statements
+ADDED from D:\Anderoid Projects\Handz_11101\H\Handz_1110\app\src\main\AndroidManifest.xml:50:9-52:59
+	android:resource
+		ADDED from D:\Anderoid Projects\Handz_11101\H\Handz_1110\app\src\main\AndroidManifest.xml:52:13-56
+	android:name
+		ADDED from D:\Anderoid Projects\Handz_11101\H\Handz_1110\app\src\main\AndroidManifest.xml:51:13-44
+activity#iz_handz.handzforhire.SplashScreen
+ADDED from D:\Anderoid Projects\Handz_11101\H\Handz_1110\app\src\main\AndroidManifest.xml:54:9-62:20
+	android:label
+		ADDED from D:\Anderoid Projects\Handz_11101\H\Handz_1110\app\src\main\AndroidManifest.xml:56:13-45
+	android:name
+		ADDED from D:\Anderoid Projects\Handz_11101\H\Handz_1110\app\src\main\AndroidManifest.xml:55:13-62
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from D:\Anderoid Projects\Handz_11101\H\Handz_1110\app\src\main\AndroidManifest.xml:57:13-61:29
+action#android.intent.action.MAIN
+ADDED from D:\Anderoid Projects\Handz_11101\H\Handz_1110\app\src\main\AndroidManifest.xml:58:17-69
+	android:name
+		ADDED from D:\Anderoid Projects\Handz_11101\H\Handz_1110\app\src\main\AndroidManifest.xml:58:25-66
+category#android.intent.category.LAUNCHER
+ADDED from D:\Anderoid Projects\Handz_11101\H\Handz_1110\app\src\main\AndroidManifest.xml:60:17-77
+	android:name
+		ADDED from D:\Anderoid Projects\Handz_11101\H\Handz_1110\app\src\main\AndroidManifest.xml:60:27-74
+activity#iz_handz.handzforhire.MainActivity
+ADDED from D:\Anderoid Projects\Handz_11101\H\Handz_1110\app\src\main\AndroidManifest.xml:64:9-72:20
+	android:label
+		ADDED from D:\Anderoid Projects\Handz_11101\H\Handz_1110\app\src\main\AndroidManifest.xml:66:13-45
+	android:name
+		ADDED from D:\Anderoid Projects\Handz_11101\H\Handz_1110\app\src\main\AndroidManifest.xml:65:13-62
+intent-filter#action:name:android.intent.action.MAINACTIVITY+category:name:android.intent.category.DEFAULT
+ADDED from D:\Anderoid Projects\Handz_11101\H\Handz_1110\app\src\main\AndroidManifest.xml:67:13-71:29
+action#android.intent.action.MAINACTIVITY
+ADDED from D:\Anderoid Projects\Handz_11101\H\Handz_1110\app\src\main\AndroidManifest.xml:68:17-77
+	android:name
+		ADDED from D:\Anderoid Projects\Handz_11101\H\Handz_1110\app\src\main\AndroidManifest.xml:68:25-74
+category#android.intent.category.DEFAULT
+ADDED from D:\Anderoid Projects\Handz_11101\H\Handz_1110\app\src\main\AndroidManifest.xml:70:17-76
+	android:name
+		ADDED from D:\Anderoid Projects\Handz_11101\H\Handz_1110\app\src\main\AndroidManifest.xml:70:27-73
+activity#iz_handz.handzforhire.AlertTask
+ADDED from D:\Anderoid Projects\Handz_11101\H\Handz_1110\app\src\main\AndroidManifest.xml:74:9-76:67
+	android:windowSoftInputMode
+		ADDED from D:\Anderoid Projects\Handz_11101\H\Handz_1110\app\src\main\AndroidManifest.xml:76:13-64
+	android:name
+		ADDED from D:\Anderoid Projects\Handz_11101\H\Handz_1110\app\src\main\AndroidManifest.xml:75:13-59
+activity#iz_handz.handzforhire.AlertJobDetailPage
+ADDED from D:\Anderoid Projects\Handz_11101\H\Handz_1110\app\src\main\AndroidManifest.xml:77:9-79:67
+	android:windowSoftInputMode
+		ADDED from D:\Anderoid Projects\Handz_11101\H\Handz_1110\app\src\main\AndroidManifest.xml:79:13-64
+	android:name
+		ADDED from D:\Anderoid Projects\Handz_11101\H\Handz_1110\app\src\main\AndroidManifest.xml:78:13-68
+activity#iz_handz.handzforhire.EditUserProfile
+ADDED from D:\Anderoid Projects\Handz_11101\H\Handz_1110\app\src\main\AndroidManifest.xml:81:9-85:14
+	android:windowSoftInputMode
+		ADDED from D:\Anderoid Projects\Handz_11101\H\Handz_1110\app\src\main\AndroidManifest.xml:83:13-64
+	android:alwaysRetainTaskState
+		ADDED from D:\Anderoid Projects\Handz_11101\H\Handz_1110\app\src\main\AndroidManifest.xml:84:13-49
+	android:name
+		ADDED from D:\Anderoid Projects\Handz_11101\H\Handz_1110\app\src\main\AndroidManifest.xml:82:13-65
+activity#iz_handz.handzforhire.ChangeCurrentAddress
+ADDED from D:\Anderoid Projects\Handz_11101\H\Handz_1110\app\src\main\AndroidManifest.xml:87:9-91:15
+	android:windowSoftInputMode
+		ADDED from D:\Anderoid Projects\Handz_11101\H\Handz_1110\app\src\main\AndroidManifest.xml:89:13-64
+	android:alwaysRetainTaskState
+		ADDED from D:\Anderoid Projects\Handz_11101\H\Handz_1110\app\src\main\AndroidManifest.xml:90:13-49
+	android:name
+		ADDED from D:\Anderoid Projects\Handz_11101\H\Handz_1110\app\src\main\AndroidManifest.xml:88:13-70
+activity#iz_handz.handzforhire.ChangeCurrentEmailAddress
+ADDED from D:\Anderoid Projects\Handz_11101\H\Handz_1110\app\src\main\AndroidManifest.xml:93:9-97:14
+	android:windowSoftInputMode
+		ADDED from D:\Anderoid Projects\Handz_11101\H\Handz_1110\app\src\main\AndroidManifest.xml:95:13-64
+	android:alwaysRetainTaskState
+		ADDED from D:\Anderoid Projects\Handz_11101\H\Handz_1110\app\src\main\AndroidManifest.xml:96:13-49
+	android:name
+		ADDED from D:\Anderoid Projects\Handz_11101\H\Handz_1110\app\src\main\AndroidManifest.xml:94:13-75
+activity#iz_handz.handzforhire.ChangeCurrentUsernamePassword
+ADDED from D:\Anderoid Projects\Handz_11101\H\Handz_1110\app\src\main\AndroidManifest.xml:99:9-103:14
+	android:windowSoftInputMode
+		ADDED from D:\Anderoid Projects\Handz_11101\H\Handz_1110\app\src\main\AndroidManifest.xml:101:13-64
+	android:alwaysRetainTaskState
+		ADDED from D:\Anderoid Projects\Handz_11101\H\Handz_1110\app\src\main\AndroidManifest.xml:102:13-49
+	android:name
+		ADDED from D:\Anderoid Projects\Handz_11101\H\Handz_1110\app\src\main\AndroidManifest.xml:100:13-79
+activity#iz_handz.handzforhire.ConfirmationActivity
+ADDED from D:\Anderoid Projects\Handz_11101\H\Handz_1110\app\src\main\AndroidManifest.xml:105:9-107:14
+	android:alwaysRetainTaskState
+		ADDED from D:\Anderoid Projects\Handz_11101\H\Handz_1110\app\src\main\AndroidManifest.xml:106:13-49
+	android:name
+		ADDED from D:\Anderoid Projects\Handz_11101\H\Handz_1110\app\src\main\AndroidManifest.xml:105:19-76
+activity#iz_handz.handzforhire.ApplyJob
+ADDED from D:\Anderoid Projects\Handz_11101\H\Handz_1110\app\src\main\AndroidManifest.xml:109:9-112:46
+	android:launchMode
+		ADDED from D:\Anderoid Projects\Handz_11101\H\Handz_1110\app\src\main\AndroidManifest.xml:112:13-44
+	android:windowSoftInputMode
+		ADDED from D:\Anderoid Projects\Handz_11101\H\Handz_1110\app\src\main\AndroidManifest.xml:111:13-64
+	android:name
+		ADDED from D:\Anderoid Projects\Handz_11101\H\Handz_1110\app\src\main\AndroidManifest.xml:110:13-58
+activity#iz_handz.handzforhire.JobDetails
+ADDED from D:\Anderoid Projects\Handz_11101\H\Handz_1110\app\src\main\AndroidManifest.xml:114:9-116:14
+	android:alwaysRetainTaskState
+		ADDED from D:\Anderoid Projects\Handz_11101\H\Handz_1110\app\src\main\AndroidManifest.xml:115:13-49
+	android:name
+		ADDED from D:\Anderoid Projects\Handz_11101\H\Handz_1110\app\src\main\AndroidManifest.xml:114:19-66
+activity#iz_handz.handzforhire.LendComments
+ADDED from D:\Anderoid Projects\Handz_11101\H\Handz_1110\app\src\main\AndroidManifest.xml:119:9-123:15
+	android:windowSoftInputMode
+		ADDED from D:\Anderoid Projects\Handz_11101\H\Handz_1110\app\src\main\AndroidManifest.xml:121:13-64
+	android:alwaysRetainTaskState
+		ADDED from D:\Anderoid Projects\Handz_11101\H\Handz_1110\app\src\main\AndroidManifest.xml:122:13-49
+	android:name
+		ADDED from D:\Anderoid Projects\Handz_11101\H\Handz_1110\app\src\main\AndroidManifest.xml:120:13-62
+activity#iz_handz.handzforhire.LendNeedHelp
+ADDED from D:\Anderoid Projects\Handz_11101\H\Handz_1110\app\src\main\AndroidManifest.xml:125:9-129:15
+	android:windowSoftInputMode
+		ADDED from D:\Anderoid Projects\Handz_11101\H\Handz_1110\app\src\main\AndroidManifest.xml:127:13-64
+	android:alwaysRetainTaskState
+		ADDED from D:\Anderoid Projects\Handz_11101\H\Handz_1110\app\src\main\AndroidManifest.xml:128:13-49
+	android:name
+		ADDED from D:\Anderoid Projects\Handz_11101\H\Handz_1110\app\src\main\AndroidManifest.xml:126:13-62
+activity#iz_handz.handzforhire.LendRating
+ADDED from D:\Anderoid Projects\Handz_11101\H\Handz_1110\app\src\main\AndroidManifest.xml:131:9-133:15
+	android:alwaysRetainTaskState
+		ADDED from D:\Anderoid Projects\Handz_11101\H\Handz_1110\app\src\main\AndroidManifest.xml:132:13-49
+	android:name
+		ADDED from D:\Anderoid Projects\Handz_11101\H\Handz_1110\app\src\main\AndroidManifest.xml:131:19-66
+activity#iz_handz.handzforhire.LendEditRating
+ADDED from D:\Anderoid Projects\Handz_11101\H\Handz_1110\app\src\main\AndroidManifest.xml:135:9-137:15
+	android:alwaysRetainTaskState
+		ADDED from D:\Anderoid Projects\Handz_11101\H\Handz_1110\app\src\main\AndroidManifest.xml:136:13-49
+	android:name
+		ADDED from D:\Anderoid Projects\Handz_11101\H\Handz_1110\app\src\main\AndroidManifest.xml:135:19-70
+activity#iz_handz.handzforhire.LeaveComments
+ADDED from D:\Anderoid Projects\Handz_11101\H\Handz_1110\app\src\main\AndroidManifest.xml:139:9-141:13
+	android:alwaysRetainTaskState
+		ADDED from D:\Anderoid Projects\Handz_11101\H\Handz_1110\app\src\main\AndroidManifest.xml:140:13-49
+	android:name
+		ADDED from D:\Anderoid Projects\Handz_11101\H\Handz_1110\app\src\main\AndroidManifest.xml:139:19-69
+activity#iz_handz.handzforhire.LeaveRating
+ADDED from D:\Anderoid Projects\Handz_11101\H\Handz_1110\app\src\main\AndroidManifest.xml:143:9-145:15
+	android:alwaysRetainTaskState
+		ADDED from D:\Anderoid Projects\Handz_11101\H\Handz_1110\app\src\main\AndroidManifest.xml:144:13-49
+	android:name
+		ADDED from D:\Anderoid Projects\Handz_11101\H\Handz_1110\app\src\main\AndroidManifest.xml:143:19-67
+activity#iz_handz.handzforhire.EditComments
+ADDED from D:\Anderoid Projects\Handz_11101\H\Handz_1110\app\src\main\AndroidManifest.xml:147:15-149:15
+	android:alwaysRetainTaskState
+		ADDED from D:\Anderoid Projects\Handz_11101\H\Handz_1110\app\src\main\AndroidManifest.xml:148:13-49
+	android:name
+		ADDED from D:\Anderoid Projects\Handz_11101\H\Handz_1110\app\src\main\AndroidManifest.xml:147:25-74
+activity#iz_handz.handzforhire.LendEditComments
+ADDED from D:\Anderoid Projects\Handz_11101\H\Handz_1110\app\src\main\AndroidManifest.xml:150:9-152:15
+	android:alwaysRetainTaskState
+		ADDED from D:\Anderoid Projects\Handz_11101\H\Handz_1110\app\src\main\AndroidManifest.xml:151:13-49
+	android:name
+		ADDED from D:\Anderoid Projects\Handz_11101\H\Handz_1110\app\src\main\AndroidManifest.xml:150:19-72
+activity#iz_handz.handzforhire.IntegrationPaypal
+ADDED from D:\Anderoid Projects\Handz_11101\H\Handz_1110\app\src\main\AndroidManifest.xml:154:9-158:15
+	android:windowSoftInputMode
+		ADDED from D:\Anderoid Projects\Handz_11101\H\Handz_1110\app\src\main\AndroidManifest.xml:156:13-64
+	android:alwaysRetainTaskState
+		ADDED from D:\Anderoid Projects\Handz_11101\H\Handz_1110\app\src\main\AndroidManifest.xml:157:13-49
+	android:name
+		ADDED from D:\Anderoid Projects\Handz_11101\H\Handz_1110\app\src\main\AndroidManifest.xml:155:13-67
+activity#iz_handz.handzforhire.LendLeaveRating
+ADDED from D:\Anderoid Projects\Handz_11101\H\Handz_1110\app\src\main\AndroidManifest.xml:160:9-164:15
+	android:windowSoftInputMode
+		ADDED from D:\Anderoid Projects\Handz_11101\H\Handz_1110\app\src\main\AndroidManifest.xml:162:13-64
+	android:alwaysRetainTaskState
+		ADDED from D:\Anderoid Projects\Handz_11101\H\Handz_1110\app\src\main\AndroidManifest.xml:163:13-49
+	android:name
+		ADDED from D:\Anderoid Projects\Handz_11101\H\Handz_1110\app\src\main\AndroidManifest.xml:161:13-65
+activity#iz_handz.handzforhire.LendLeaveComments
+ADDED from D:\Anderoid Projects\Handz_11101\H\Handz_1110\app\src\main\AndroidManifest.xml:165:9-169:15
+	android:windowSoftInputMode
+		ADDED from D:\Anderoid Projects\Handz_11101\H\Handz_1110\app\src\main\AndroidManifest.xml:167:13-64
+	android:alwaysRetainTaskState
+		ADDED from D:\Anderoid Projects\Handz_11101\H\Handz_1110\app\src\main\AndroidManifest.xml:168:13-49
+	android:name
+		ADDED from D:\Anderoid Projects\Handz_11101\H\Handz_1110\app\src\main\AndroidManifest.xml:166:13-67
+activity#iz_handz.handzforhire.JobCancelEditComments
+ADDED from D:\Anderoid Projects\Handz_11101\H\Handz_1110\app\src\main\AndroidManifest.xml:170:9-174:15
+	android:windowSoftInputMode
+		ADDED from D:\Anderoid Projects\Handz_11101\H\Handz_1110\app\src\main\AndroidManifest.xml:172:13-64
+	android:alwaysRetainTaskState
+		ADDED from D:\Anderoid Projects\Handz_11101\H\Handz_1110\app\src\main\AndroidManifest.xml:173:13-49
+	android:name
+		ADDED from D:\Anderoid Projects\Handz_11101\H\Handz_1110\app\src\main\AndroidManifest.xml:171:13-71
+activity#iz_handz.handzforhire.JobCancelLeaveComments
+ADDED from D:\Anderoid Projects\Handz_11101\H\Handz_1110\app\src\main\AndroidManifest.xml:175:9-179:15
+	android:windowSoftInputMode
+		ADDED from D:\Anderoid Projects\Handz_11101\H\Handz_1110\app\src\main\AndroidManifest.xml:177:13-64
+	android:alwaysRetainTaskState
+		ADDED from D:\Anderoid Projects\Handz_11101\H\Handz_1110\app\src\main\AndroidManifest.xml:178:13-49
+	android:name
+		ADDED from D:\Anderoid Projects\Handz_11101\H\Handz_1110\app\src\main\AndroidManifest.xml:176:13-72
+activity#iz_handz.handzforhire.LoginActivity
+ADDED from D:\Anderoid Projects\Handz_11101\H\Handz_1110\app\src\main\AndroidManifest.xml:182:9-193:20
+	android:windowSoftInputMode
+		ADDED from D:\Anderoid Projects\Handz_11101\H\Handz_1110\app\src\main\AndroidManifest.xml:185:13-64
+	android:alwaysRetainTaskState
+		ADDED from D:\Anderoid Projects\Handz_11101\H\Handz_1110\app\src\main\AndroidManifest.xml:186:13-49
+	android:theme
+		ADDED from D:\Anderoid Projects\Handz_11101\H\Handz_1110\app\src\main\AndroidManifest.xml:184:13-80
+	android:name
+		ADDED from D:\Anderoid Projects\Handz_11101\H\Handz_1110\app\src\main\AndroidManifest.xml:183:13-63
+intent-filter#action:name:android.intent.action.VIEW+category:name:android.intent.category.BROWSABLE+category:name:android.intent.category.DEFAULT+data:scheme:@string/fb_login_protocol_scheme
+ADDED from D:\Anderoid Projects\Handz_11101\H\Handz_1110\app\src\main\AndroidManifest.xml:187:9-192:25
+action#android.intent.action.VIEW
+ADDED from D:\Anderoid Projects\Handz_11101\H\Handz_1110\app\src\main\AndroidManifest.xml:188:13-65
+	android:name
+		ADDED from D:\Anderoid Projects\Handz_11101\H\Handz_1110\app\src\main\AndroidManifest.xml:188:21-62
+category#android.intent.category.BROWSABLE
+ADDED from D:\Anderoid Projects\Handz_11101\H\Handz_1110\app\src\main\AndroidManifest.xml:190:13-74
+	android:name
+		ADDED from D:\Anderoid Projects\Handz_11101\H\Handz_1110\app\src\main\AndroidManifest.xml:190:23-71
+data
+ADDED from D:\Anderoid Projects\Handz_11101\H\Handz_1110\app\src\main\AndroidManifest.xml:191:13-71
+	android:host
+		ADDED from D:\Anderoid Projects\Handz_11101\H\Handz_1110\app\src\main\AndroidManifest.xml:307:21-50
+	android:scheme
+		ADDED from D:\Anderoid Projects\Handz_11101\H\Handz_1110\app\src\main\AndroidManifest.xml:191:19-68
+activity#iz_handz.handzforhire.SelectJOBByCategory
+ADDED from D:\Anderoid Projects\Handz_11101\H\Handz_1110\app\src\main\AndroidManifest.xml:195:9-200:15
+	android:windowSoftInputMode
+		ADDED from D:\Anderoid Projects\Handz_11101\H\Handz_1110\app\src\main\AndroidManifest.xml:198:13-64
+	android:alwaysRetainTaskState
+		ADDED from D:\Anderoid Projects\Handz_11101\H\Handz_1110\app\src\main\AndroidManifest.xml:199:13-49
+	android:theme
+		ADDED from D:\Anderoid Projects\Handz_11101\H\Handz_1110\app\src\main\AndroidManifest.xml:197:13-80
+	android:name
+		ADDED from D:\Anderoid Projects\Handz_11101\H\Handz_1110\app\src\main\AndroidManifest.xml:196:13-69
+activity#iz_handz.handzforhire.SearchJob
+ADDED from D:\Anderoid Projects\Handz_11101\H\Handz_1110\app\src\main\AndroidManifest.xml:202:9-207:14
+	android:windowSoftInputMode
+		ADDED from D:\Anderoid Projects\Handz_11101\H\Handz_1110\app\src\main\AndroidManifest.xml:204:13-64
+	android:alwaysRetainTaskState
+		ADDED from D:\Anderoid Projects\Handz_11101\H\Handz_1110\app\src\main\AndroidManifest.xml:206:13-49
+	android:theme
+		ADDED from D:\Anderoid Projects\Handz_11101\H\Handz_1110\app\src\main\AndroidManifest.xml:205:13-80
+	android:name
+		ADDED from D:\Anderoid Projects\Handz_11101\H\Handz_1110\app\src\main\AndroidManifest.xml:203:13-59
+activity#iz_handz.handzforhire.MapActivity
+ADDED from D:\Anderoid Projects\Handz_11101\H\Handz_1110\app\src\main\AndroidManifest.xml:209:9-214:14
+	android:windowSoftInputMode
+		ADDED from D:\Anderoid Projects\Handz_11101\H\Handz_1110\app\src\main\AndroidManifest.xml:211:13-64
+	android:alwaysRetainTaskState
+		ADDED from D:\Anderoid Projects\Handz_11101\H\Handz_1110\app\src\main\AndroidManifest.xml:213:13-49
+	android:theme
+		ADDED from D:\Anderoid Projects\Handz_11101\H\Handz_1110\app\src\main\AndroidManifest.xml:212:13-80
+	android:name
+		ADDED from D:\Anderoid Projects\Handz_11101\H\Handz_1110\app\src\main\AndroidManifest.xml:210:13-61
+activity#iz_handz.handzforhire.SwitchingSide
+ADDED from D:\Anderoid Projects\Handz_11101\H\Handz_1110\app\src\main\AndroidManifest.xml:216:9-218:15
+	android:alwaysRetainTaskState
+		ADDED from D:\Anderoid Projects\Handz_11101\H\Handz_1110\app\src\main\AndroidManifest.xml:217:13-49
+	android:name
+		ADDED from D:\Anderoid Projects\Handz_11101\H\Handz_1110\app\src\main\AndroidManifest.xml:216:19-69
+activity#iz_handz.handzforhire.PayEmployee
+ADDED from D:\Anderoid Projects\Handz_11101\H\Handz_1110\app\src\main\AndroidManifest.xml:220:9-225:83
+	android:windowSoftInputMode
+		ADDED from D:\Anderoid Projects\Handz_11101\H\Handz_1110\app\src\main\AndroidManifest.xml:222:13-64
+	android:alwaysRetainTaskState
+		ADDED from D:\Anderoid Projects\Handz_11101\H\Handz_1110\app\src\main\AndroidManifest.xml:223:13-49
+	android:theme
+		ADDED from D:\Anderoid Projects\Handz_11101\H\Handz_1110\app\src\main\AndroidManifest.xml:225:13-80
+	android:name
+		ADDED from D:\Anderoid Projects\Handz_11101\H\Handz_1110\app\src\main\AndroidManifest.xml:221:13-61
+activity#iz_handz.handzforhire.PayEmployee1
+ADDED from D:\Anderoid Projects\Handz_11101\H\Handz_1110\app\src\main\AndroidManifest.xml:227:9-231:14
+	android:windowSoftInputMode
+		ADDED from D:\Anderoid Projects\Handz_11101\H\Handz_1110\app\src\main\AndroidManifest.xml:229:13-64
+	android:alwaysRetainTaskState
+		ADDED from D:\Anderoid Projects\Handz_11101\H\Handz_1110\app\src\main\AndroidManifest.xml:230:13-49
+	android:name
+		ADDED from D:\Anderoid Projects\Handz_11101\H\Handz_1110\app\src\main\AndroidManifest.xml:228:13-62
+activity#iz_handz.handzforhire.ActiveJobs
+ADDED from D:\Anderoid Projects\Handz_11101\H\Handz_1110\app\src\main\AndroidManifest.xml:233:9-235:15
+	android:alwaysRetainTaskState
+		ADDED from D:\Anderoid Projects\Handz_11101\H\Handz_1110\app\src\main\AndroidManifest.xml:234:13-49
+	android:name
+		ADDED from D:\Anderoid Projects\Handz_11101\H\Handz_1110\app\src\main\AndroidManifest.xml:233:19-66
+activity#iz_handz.handzforhire.LendActiveJobs
+ADDED from D:\Anderoid Projects\Handz_11101\H\Handz_1110\app\src\main\AndroidManifest.xml:237:9-239:14
+	android:alwaysRetainTaskState
+		ADDED from D:\Anderoid Projects\Handz_11101\H\Handz_1110\app\src\main\AndroidManifest.xml:238:13-49
+	android:name
+		ADDED from D:\Anderoid Projects\Handz_11101\H\Handz_1110\app\src\main\AndroidManifest.xml:237:19-70
+activity#iz_handz.handzforhire.LendJobHistory
+ADDED from D:\Anderoid Projects\Handz_11101\H\Handz_1110\app\src\main\AndroidManifest.xml:241:9-245:12
+	android:windowSoftInputMode
+		ADDED from D:\Anderoid Projects\Handz_11101\H\Handz_1110\app\src\main\AndroidManifest.xml:243:13-64
+	android:alwaysRetainTaskState
+		ADDED from D:\Anderoid Projects\Handz_11101\H\Handz_1110\app\src\main\AndroidManifest.xml:244:13-49
+	android:name
+		ADDED from D:\Anderoid Projects\Handz_11101\H\Handz_1110\app\src\main\AndroidManifest.xml:242:13-64
+activity#iz_handz.handzforhire.JobHistory
+ADDED from D:\Anderoid Projects\Handz_11101\H\Handz_1110\app\src\main\AndroidManifest.xml:247:9-251:13
+	android:windowSoftInputMode
+		ADDED from D:\Anderoid Projects\Handz_11101\H\Handz_1110\app\src\main\AndroidManifest.xml:249:13-64
+	android:alwaysRetainTaskState
+		ADDED from D:\Anderoid Projects\Handz_11101\H\Handz_1110\app\src\main\AndroidManifest.xml:250:13-49
+	android:name
+		ADDED from D:\Anderoid Projects\Handz_11101\H\Handz_1110\app\src\main\AndroidManifest.xml:248:13-60
+activity#iz_handz.handzforhire.PaymentDetails
+ADDED from D:\Anderoid Projects\Handz_11101\H\Handz_1110\app\src\main\AndroidManifest.xml:253:9-257:14
+	android:windowSoftInputMode
+		ADDED from D:\Anderoid Projects\Handz_11101\H\Handz_1110\app\src\main\AndroidManifest.xml:255:13-64
+	android:alwaysRetainTaskState
+		ADDED from D:\Anderoid Projects\Handz_11101\H\Handz_1110\app\src\main\AndroidManifest.xml:256:13-49
+	android:name
+		ADDED from D:\Anderoid Projects\Handz_11101\H\Handz_1110\app\src\main\AndroidManifest.xml:254:13-64
+activity#iz_handz.handzforhire.PendingJobs
+ADDED from D:\Anderoid Projects\Handz_11101\H\Handz_1110\app\src\main\AndroidManifest.xml:259:9-261:14
+	android:alwaysRetainTaskState
+		ADDED from D:\Anderoid Projects\Handz_11101\H\Handz_1110\app\src\main\AndroidManifest.xml:260:13-49
+	android:name
+		ADDED from D:\Anderoid Projects\Handz_11101\H\Handz_1110\app\src\main\AndroidManifest.xml:259:19-67
+activity#iz_handz.handzforhire.ViewApplicant
+ADDED from D:\Anderoid Projects\Handz_11101\H\Handz_1110\app\src\main\AndroidManifest.xml:263:9-267:14
+	android:windowSoftInputMode
+		ADDED from D:\Anderoid Projects\Handz_11101\H\Handz_1110\app\src\main\AndroidManifest.xml:265:13-64
+	android:alwaysRetainTaskState
+		ADDED from D:\Anderoid Projects\Handz_11101\H\Handz_1110\app\src\main\AndroidManifest.xml:266:13-49
+	android:name
+		ADDED from D:\Anderoid Projects\Handz_11101\H\Handz_1110\app\src\main\AndroidManifest.xml:264:13-63
+activity#iz_handz.handzforhire.UpdateCard
+ADDED from D:\Anderoid Projects\Handz_11101\H\Handz_1110\app\src\main\AndroidManifest.xml:269:9-273:15
+	android:windowSoftInputMode
+		ADDED from D:\Anderoid Projects\Handz_11101\H\Handz_1110\app\src\main\AndroidManifest.xml:271:13-64
+	android:alwaysRetainTaskState
+		ADDED from D:\Anderoid Projects\Handz_11101\H\Handz_1110\app\src\main\AndroidManifest.xml:272:13-49
+	android:name
+		ADDED from D:\Anderoid Projects\Handz_11101\H\Handz_1110\app\src\main\AndroidManifest.xml:270:13-60
+activity#iz_handz.handzforhire.RegisterPage1
+ADDED from D:\Anderoid Projects\Handz_11101\H\Handz_1110\app\src\main\AndroidManifest.xml:275:9-279:15
+	android:windowSoftInputMode
+		ADDED from D:\Anderoid Projects\Handz_11101\H\Handz_1110\app\src\main\AndroidManifest.xml:277:13-64
+	android:alwaysRetainTaskState
+		ADDED from D:\Anderoid Projects\Handz_11101\H\Handz_1110\app\src\main\AndroidManifest.xml:278:13-49
+	android:name
+		ADDED from D:\Anderoid Projects\Handz_11101\H\Handz_1110\app\src\main\AndroidManifest.xml:276:13-63
+activity#iz_handz.handzforhire.RegisterPage2
+ADDED from D:\Anderoid Projects\Handz_11101\H\Handz_1110\app\src\main\AndroidManifest.xml:281:9-285:14
+	android:windowSoftInputMode
+		ADDED from D:\Anderoid Projects\Handz_11101\H\Handz_1110\app\src\main\AndroidManifest.xml:283:13-64
+	android:alwaysRetainTaskState
+		ADDED from D:\Anderoid Projects\Handz_11101\H\Handz_1110\app\src\main\AndroidManifest.xml:284:13-49
+	android:name
+		ADDED from D:\Anderoid Projects\Handz_11101\H\Handz_1110\app\src\main\AndroidManifest.xml:282:13-63
+activity#iz_handz.handzforhire.RegisterPage3
+ADDED from D:\Anderoid Projects\Handz_11101\H\Handz_1110\app\src\main\AndroidManifest.xml:287:9-292:14
+	android:windowSoftInputMode
+		ADDED from D:\Anderoid Projects\Handz_11101\H\Handz_1110\app\src\main\AndroidManifest.xml:289:13-64
+	android:alwaysRetainTaskState
+		ADDED from D:\Anderoid Projects\Handz_11101\H\Handz_1110\app\src\main\AndroidManifest.xml:291:13-49
+	android:theme
+		ADDED from D:\Anderoid Projects\Handz_11101\H\Handz_1110\app\src\main\AndroidManifest.xml:290:13-80
+	android:name
+		ADDED from D:\Anderoid Projects\Handz_11101\H\Handz_1110\app\src\main\AndroidManifest.xml:288:13-63
+activity#iz_handz.handzforhire.PaypalReturnActivity
+ADDED from D:\Anderoid Projects\Handz_11101\H\Handz_1110\app\src\main\AndroidManifest.xml:295:9-321:20
+	android:alwaysRetainTaskState
+		ADDED from D:\Anderoid Projects\Handz_11101\H\Handz_1110\app\src\main\AndroidManifest.xml:297:13-49
+	android:name
+		ADDED from D:\Anderoid Projects\Handz_11101\H\Handz_1110\app\src\main\AndroidManifest.xml:296:13-70
+intent-filter#action:name:android.intent.action.VIEW+category:name:android.intent.category.BROWSABLE+category:name:android.intent.category.DEFAULT+data:host:handzadmin.com+data:scheme:http+data:scheme:https
+ADDED from D:\Anderoid Projects\Handz_11101\H\Handz_1110\app\src\main\AndroidManifest.xml:299:13-309:29
+	android:autoVerify
+		ADDED from D:\Anderoid Projects\Handz_11101\H\Handz_1110\app\src\main\AndroidManifest.xml:299:28-53
+intent-filter#action:name:android.intent.action.VIEW+category:name:android.intent.category.BROWSABLE+category:name:android.intent.category.DEFAULT+data:host:www.handzadmin.com+data:scheme:http+data:scheme:https
+ADDED from D:\Anderoid Projects\Handz_11101\H\Handz_1110\app\src\main\AndroidManifest.xml:310:13-320:29
+activity#iz_handz.handzforhire.RegisterPage4
+ADDED from D:\Anderoid Projects\Handz_11101\H\Handz_1110\app\src\main\AndroidManifest.xml:322:9-324:14
+	android:alwaysRetainTaskState
+		ADDED from D:\Anderoid Projects\Handz_11101\H\Handz_1110\app\src\main\AndroidManifest.xml:323:13-49
+	android:name
+		ADDED from D:\Anderoid Projects\Handz_11101\H\Handz_1110\app\src\main\AndroidManifest.xml:322:19-69
+activity#iz_handz.handzforhire.MakePayment
+ADDED from D:\Anderoid Projects\Handz_11101\H\Handz_1110\app\src\main\AndroidManifest.xml:326:9-328:13
+	android:alwaysRetainTaskState
+		ADDED from D:\Anderoid Projects\Handz_11101\H\Handz_1110\app\src\main\AndroidManifest.xml:327:13-49
+	android:name
+		ADDED from D:\Anderoid Projects\Handz_11101\H\Handz_1110\app\src\main\AndroidManifest.xml:326:19-67
+activity#iz_handz.handzforhire.TermsAndConditions
+ADDED from D:\Anderoid Projects\Handz_11101\H\Handz_1110\app\src\main\AndroidManifest.xml:330:9-332:15
+	android:alwaysRetainTaskState
+		ADDED from D:\Anderoid Projects\Handz_11101\H\Handz_1110\app\src\main\AndroidManifest.xml:331:13-49
+	android:name
+		ADDED from D:\Anderoid Projects\Handz_11101\H\Handz_1110\app\src\main\AndroidManifest.xml:330:19-74
+activity#iz_handz.handzforhire.EditCreateJob
+ADDED from D:\Anderoid Projects\Handz_11101\H\Handz_1110\app\src\main\AndroidManifest.xml:334:9-339:15
+	android:launchMode
+		ADDED from D:\Anderoid Projects\Handz_11101\H\Handz_1110\app\src\main\AndroidManifest.xml:338:13-44
+	android:windowSoftInputMode
+		ADDED from D:\Anderoid Projects\Handz_11101\H\Handz_1110\app\src\main\AndroidManifest.xml:336:13-64
+	android:alwaysRetainTaskState
+		ADDED from D:\Anderoid Projects\Handz_11101\H\Handz_1110\app\src\main\AndroidManifest.xml:337:13-49
+	android:name
+		ADDED from D:\Anderoid Projects\Handz_11101\H\Handz_1110\app\src\main\AndroidManifest.xml:335:13-63
+activity#iz_handz.handzforhire.EditCreateJob2
+ADDED from D:\Anderoid Projects\Handz_11101\H\Handz_1110\app\src\main\AndroidManifest.xml:341:9-346:15
+	android:launchMode
+		ADDED from D:\Anderoid Projects\Handz_11101\H\Handz_1110\app\src\main\AndroidManifest.xml:345:13-44
+	android:windowSoftInputMode
+		ADDED from D:\Anderoid Projects\Handz_11101\H\Handz_1110\app\src\main\AndroidManifest.xml:343:13-64
+	android:alwaysRetainTaskState
+		ADDED from D:\Anderoid Projects\Handz_11101\H\Handz_1110\app\src\main\AndroidManifest.xml:344:13-49
+	android:name
+		ADDED from D:\Anderoid Projects\Handz_11101\H\Handz_1110\app\src\main\AndroidManifest.xml:342:13-64
+activity#iz_handz.handzforhire.ProfilePage
+ADDED from D:\Anderoid Projects\Handz_11101\H\Handz_1110\app\src\main\AndroidManifest.xml:348:9-350:15
+	android:alwaysRetainTaskState
+		ADDED from D:\Anderoid Projects\Handz_11101\H\Handz_1110\app\src\main\AndroidManifest.xml:349:13-49
+	android:name
+		ADDED from D:\Anderoid Projects\Handz_11101\H\Handz_1110\app\src\main\AndroidManifest.xml:348:19-67
+activity#iz_handz.handzforhire.CreateJob
+ADDED from D:\Anderoid Projects\Handz_11101\H\Handz_1110\app\src\main\AndroidManifest.xml:352:9-357:14
+	android:launchMode
+		ADDED from D:\Anderoid Projects\Handz_11101\H\Handz_1110\app\src\main\AndroidManifest.xml:356:13-44
+	android:windowSoftInputMode
+		ADDED from D:\Anderoid Projects\Handz_11101\H\Handz_1110\app\src\main\AndroidManifest.xml:354:13-64
+	android:alwaysRetainTaskState
+		ADDED from D:\Anderoid Projects\Handz_11101\H\Handz_1110\app\src\main\AndroidManifest.xml:355:13-49
+	android:name
+		ADDED from D:\Anderoid Projects\Handz_11101\H\Handz_1110\app\src\main\AndroidManifest.xml:353:13-59
+activity#iz_handz.handzforhire.NeedHelp
+ADDED from D:\Anderoid Projects\Handz_11101\H\Handz_1110\app\src\main\AndroidManifest.xml:359:9-363:14
+	android:windowSoftInputMode
+		ADDED from D:\Anderoid Projects\Handz_11101\H\Handz_1110\app\src\main\AndroidManifest.xml:361:13-64
+	android:alwaysRetainTaskState
+		ADDED from D:\Anderoid Projects\Handz_11101\H\Handz_1110\app\src\main\AndroidManifest.xml:362:13-49
+	android:name
+		ADDED from D:\Anderoid Projects\Handz_11101\H\Handz_1110\app\src\main\AndroidManifest.xml:360:13-58
+activity#iz_handz.handzforhire.PromoVideo
+ADDED from D:\Anderoid Projects\Handz_11101\H\Handz_1110\app\src\main\AndroidManifest.xml:365:9-367:15
+	android:alwaysRetainTaskState
+		ADDED from D:\Anderoid Projects\Handz_11101\H\Handz_1110\app\src\main\AndroidManifest.xml:366:13-49
+	android:name
+		ADDED from D:\Anderoid Projects\Handz_11101\H\Handz_1110\app\src\main\AndroidManifest.xml:365:19-66
+activity#iz_handz.handzforhire.ReviewRating
+ADDED from D:\Anderoid Projects\Handz_11101\H\Handz_1110\app\src\main\AndroidManifest.xml:369:9-371:13
+	android:alwaysRetainTaskState
+		ADDED from D:\Anderoid Projects\Handz_11101\H\Handz_1110\app\src\main\AndroidManifest.xml:370:13-49
+	android:name
+		ADDED from D:\Anderoid Projects\Handz_11101\H\Handz_1110\app\src\main\AndroidManifest.xml:369:19-68
+activity#iz_handz.handzforhire.LendReviewRating
+ADDED from D:\Anderoid Projects\Handz_11101\H\Handz_1110\app\src\main\AndroidManifest.xml:373:9-375:46
+	android:launchMode
+		ADDED from D:\Anderoid Projects\Handz_11101\H\Handz_1110\app\src\main\AndroidManifest.xml:375:13-44
+	android:alwaysRetainTaskState
+		ADDED from D:\Anderoid Projects\Handz_11101\H\Handz_1110\app\src\main\AndroidManifest.xml:374:13-49
+	android:name
+		ADDED from D:\Anderoid Projects\Handz_11101\H\Handz_1110\app\src\main\AndroidManifest.xml:373:19-72
+activity#iz_handz.handzforhire.LendEditUserProfile
+ADDED from D:\Anderoid Projects\Handz_11101\H\Handz_1110\app\src\main\AndroidManifest.xml:378:9-382:15
+	android:windowSoftInputMode
+		ADDED from D:\Anderoid Projects\Handz_11101\H\Handz_1110\app\src\main\AndroidManifest.xml:380:13-64
+	android:alwaysRetainTaskState
+		ADDED from D:\Anderoid Projects\Handz_11101\H\Handz_1110\app\src\main\AndroidManifest.xml:381:13-49
+	android:name
+		ADDED from D:\Anderoid Projects\Handz_11101\H\Handz_1110\app\src\main\AndroidManifest.xml:379:13-69
+activity#iz_handz.handzforhire.CreateJob2
+ADDED from D:\Anderoid Projects\Handz_11101\H\Handz_1110\app\src\main\AndroidManifest.xml:384:9-391:15
+	android:launchMode
+		ADDED from D:\Anderoid Projects\Handz_11101\H\Handz_1110\app\src\main\AndroidManifest.xml:389:13-44
+	android:windowSoftInputMode
+		ADDED from D:\Anderoid Projects\Handz_11101\H\Handz_1110\app\src\main\AndroidManifest.xml:386:13-64
+	android:alwaysRetainTaskState
+		ADDED from D:\Anderoid Projects\Handz_11101\H\Handz_1110\app\src\main\AndroidManifest.xml:388:13-49
+	android:theme
+		ADDED from D:\Anderoid Projects\Handz_11101\H\Handz_1110\app\src\main\AndroidManifest.xml:387:13-63
+	android:name
+		ADDED from D:\Anderoid Projects\Handz_11101\H\Handz_1110\app\src\main\AndroidManifest.xml:385:13-60
+activity#iz_handz.handzforhire.ManagePaymentOptions
+ADDED from D:\Anderoid Projects\Handz_11101\H\Handz_1110\app\src\main\AndroidManifest.xml:393:9-395:15
+	android:alwaysRetainTaskState
+		ADDED from D:\Anderoid Projects\Handz_11101\H\Handz_1110\app\src\main\AndroidManifest.xml:394:13-49
+	android:name
+		ADDED from D:\Anderoid Projects\Handz_11101\H\Handz_1110\app\src\main\AndroidManifest.xml:393:19-76
+activity#iz_handz.handzforhire.ChatNeed
+ADDED from D:\Anderoid Projects\Handz_11101\H\Handz_1110\app\src\main\AndroidManifest.xml:397:9-402:15
+	android:windowSoftInputMode
+		ADDED from D:\Anderoid Projects\Handz_11101\H\Handz_1110\app\src\main\AndroidManifest.xml:399:13-54
+	android:alwaysRetainTaskState
+		ADDED from D:\Anderoid Projects\Handz_11101\H\Handz_1110\app\src\main\AndroidManifest.xml:400:13-49
+	android:name
+		ADDED from D:\Anderoid Projects\Handz_11101\H\Handz_1110\app\src\main\AndroidManifest.xml:398:13-58
+activity#iz_handz.handzforhire.NeedComments
+ADDED from D:\Anderoid Projects\Handz_11101\H\Handz_1110\app\src\main\AndroidManifest.xml:405:9-409:15
+	android:windowSoftInputMode
+		ADDED from D:\Anderoid Projects\Handz_11101\H\Handz_1110\app\src\main\AndroidManifest.xml:407:13-64
+	android:alwaysRetainTaskState
+		ADDED from D:\Anderoid Projects\Handz_11101\H\Handz_1110\app\src\main\AndroidManifest.xml:408:13-49
+	android:name
+		ADDED from D:\Anderoid Projects\Handz_11101\H\Handz_1110\app\src\main\AndroidManifest.xml:406:13-62
+activity#iz_handz.handzforhire.EditPostedJobs
+ADDED from D:\Anderoid Projects\Handz_11101\H\Handz_1110\app\src\main\AndroidManifest.xml:411:9-413:15
+	android:alwaysRetainTaskState
+		ADDED from D:\Anderoid Projects\Handz_11101\H\Handz_1110\app\src\main\AndroidManifest.xml:412:13-49
+	android:name
+		ADDED from D:\Anderoid Projects\Handz_11101\H\Handz_1110\app\src\main\AndroidManifest.xml:411:19-70
+activity#iz_handz.handzforhire.PostedJobs
+ADDED from D:\Anderoid Projects\Handz_11101\H\Handz_1110\app\src\main\AndroidManifest.xml:415:9-417:13
+	android:alwaysRetainTaskState
+		ADDED from D:\Anderoid Projects\Handz_11101\H\Handz_1110\app\src\main\AndroidManifest.xml:416:13-49
+	android:name
+		ADDED from D:\Anderoid Projects\Handz_11101\H\Handz_1110\app\src\main\AndroidManifest.xml:415:19-66
+activity#iz_handz.handzforhire.ForgotPassword
+ADDED from D:\Anderoid Projects\Handz_11101\H\Handz_1110\app\src\main\AndroidManifest.xml:419:9-423:15
+	android:windowSoftInputMode
+		ADDED from D:\Anderoid Projects\Handz_11101\H\Handz_1110\app\src\main\AndroidManifest.xml:421:13-64
+	android:alwaysRetainTaskState
+		ADDED from D:\Anderoid Projects\Handz_11101\H\Handz_1110\app\src\main\AndroidManifest.xml:422:13-49
+	android:name
+		ADDED from D:\Anderoid Projects\Handz_11101\H\Handz_1110\app\src\main\AndroidManifest.xml:420:13-64
+activity#iz_handz.handzforhire.JobDescription
+ADDED from D:\Anderoid Projects\Handz_11101\H\Handz_1110\app\src\main\AndroidManifest.xml:426:9-429:15
+	android:windowSoftInputMode
+		ADDED from D:\Anderoid Projects\Handz_11101\H\Handz_1110\app\src\main\AndroidManifest.xml:428:13-64
+	android:alwaysRetainTaskState
+		ADDED from D:\Anderoid Projects\Handz_11101\H\Handz_1110\app\src\main\AndroidManifest.xml:427:13-49
+	android:name
+		ADDED from D:\Anderoid Projects\Handz_11101\H\Handz_1110\app\src\main\AndroidManifest.xml:426:19-70
+activity#iz_handz.handzforhire.PaymentMethod
+ADDED from D:\Anderoid Projects\Handz_11101\H\Handz_1110\app\src\main\AndroidManifest.xml:431:9-435:14
+	android:windowSoftInputMode
+		ADDED from D:\Anderoid Projects\Handz_11101\H\Handz_1110\app\src\main\AndroidManifest.xml:433:13-64
+	android:alwaysRetainTaskState
+		ADDED from D:\Anderoid Projects\Handz_11101\H\Handz_1110\app\src\main\AndroidManifest.xml:434:13-49
+	android:name
+		ADDED from D:\Anderoid Projects\Handz_11101\H\Handz_1110\app\src\main\AndroidManifest.xml:432:13-63
+activity#iz_handz.handzforhire.LendLoginPage
+ADDED from D:\Anderoid Projects\Handz_11101\H\Handz_1110\app\src\main\AndroidManifest.xml:437:9-448:20
+	android:windowSoftInputMode
+		ADDED from D:\Anderoid Projects\Handz_11101\H\Handz_1110\app\src\main\AndroidManifest.xml:439:13-64
+	android:alwaysRetainTaskState
+		ADDED from D:\Anderoid Projects\Handz_11101\H\Handz_1110\app\src\main\AndroidManifest.xml:441:13-49
+	android:theme
+		ADDED from D:\Anderoid Projects\Handz_11101\H\Handz_1110\app\src\main\AndroidManifest.xml:440:13-80
+	android:name
+		ADDED from D:\Anderoid Projects\Handz_11101\H\Handz_1110\app\src\main\AndroidManifest.xml:438:13-63
+activity#iz_handz.handzforhire.LendProfilePage
+ADDED from D:\Anderoid Projects\Handz_11101\H\Handz_1110\app\src\main\AndroidManifest.xml:450:9-452:14
+	android:alwaysRetainTaskState
+		ADDED from D:\Anderoid Projects\Handz_11101\H\Handz_1110\app\src\main\AndroidManifest.xml:451:13-49
+	android:name
+		ADDED from D:\Anderoid Projects\Handz_11101\H\Handz_1110\app\src\main\AndroidManifest.xml:450:19-71
+activity#iz_handz.handzforhire.LendRegisterPage2
+ADDED from D:\Anderoid Projects\Handz_11101\H\Handz_1110\app\src\main\AndroidManifest.xml:454:9-458:15
+	android:windowSoftInputMode
+		ADDED from D:\Anderoid Projects\Handz_11101\H\Handz_1110\app\src\main\AndroidManifest.xml:456:13-64
+	android:alwaysRetainTaskState
+		ADDED from D:\Anderoid Projects\Handz_11101\H\Handz_1110\app\src\main\AndroidManifest.xml:457:13-49
+	android:name
+		ADDED from D:\Anderoid Projects\Handz_11101\H\Handz_1110\app\src\main\AndroidManifest.xml:455:13-67
+activity#iz_handz.handzforhire.LendRegisterPage3
+ADDED from D:\Anderoid Projects\Handz_11101\H\Handz_1110\app\src\main\AndroidManifest.xml:460:9-464:13
+	android:windowSoftInputMode
+		ADDED from D:\Anderoid Projects\Handz_11101\H\Handz_1110\app\src\main\AndroidManifest.xml:462:13-64
+	android:alwaysRetainTaskState
+		ADDED from D:\Anderoid Projects\Handz_11101\H\Handz_1110\app\src\main\AndroidManifest.xml:463:13-49
+	android:name
+		ADDED from D:\Anderoid Projects\Handz_11101\H\Handz_1110\app\src\main\AndroidManifest.xml:461:13-67
+activity#iz_handz.handzforhire.LendRegisterPage4
+ADDED from D:\Anderoid Projects\Handz_11101\H\Handz_1110\app\src\main\AndroidManifest.xml:466:9-468:15
+	android:alwaysRetainTaskState
+		ADDED from D:\Anderoid Projects\Handz_11101\H\Handz_1110\app\src\main\AndroidManifest.xml:467:13-49
+	android:name
+		ADDED from D:\Anderoid Projects\Handz_11101\H\Handz_1110\app\src\main\AndroidManifest.xml:466:19-73
+activity#iz_handz.handzforhire.ViewSearchJob
+ADDED from D:\Anderoid Projects\Handz_11101\H\Handz_1110\app\src\main\AndroidManifest.xml:470:9-472:13
+	android:alwaysRetainTaskState
+		ADDED from D:\Anderoid Projects\Handz_11101\H\Handz_1110\app\src\main\AndroidManifest.xml:471:13-49
+	android:name
+		ADDED from D:\Anderoid Projects\Handz_11101\H\Handz_1110\app\src\main\AndroidManifest.xml:470:19-69
+activity#iz_handz.handzforhire.AddCheckingAccount
+ADDED from D:\Anderoid Projects\Handz_11101\H\Handz_1110\app\src\main\AndroidManifest.xml:474:9-478:15
+	android:windowSoftInputMode
+		ADDED from D:\Anderoid Projects\Handz_11101\H\Handz_1110\app\src\main\AndroidManifest.xml:476:13-64
+	android:alwaysRetainTaskState
+		ADDED from D:\Anderoid Projects\Handz_11101\H\Handz_1110\app\src\main\AndroidManifest.xml:477:13-49
+	android:name
+		ADDED from D:\Anderoid Projects\Handz_11101\H\Handz_1110\app\src\main\AndroidManifest.xml:475:13-68
+activity#iz_handz.handzforhire.LendPaymentMethod
+ADDED from D:\Anderoid Projects\Handz_11101\H\Handz_1110\app\src\main\AndroidManifest.xml:480:9-482:15
+	android:alwaysRetainTaskState
+		ADDED from D:\Anderoid Projects\Handz_11101\H\Handz_1110\app\src\main\AndroidManifest.xml:481:13-49
+	android:name
+		ADDED from D:\Anderoid Projects\Handz_11101\H\Handz_1110\app\src\main\AndroidManifest.xml:480:19-73
+activity#iz_handz.handzforhire.UpdateAccount
+ADDED from D:\Anderoid Projects\Handz_11101\H\Handz_1110\app\src\main\AndroidManifest.xml:484:9-488:14
+	android:windowSoftInputMode
+		ADDED from D:\Anderoid Projects\Handz_11101\H\Handz_1110\app\src\main\AndroidManifest.xml:486:13-64
+	android:alwaysRetainTaskState
+		ADDED from D:\Anderoid Projects\Handz_11101\H\Handz_1110\app\src\main\AndroidManifest.xml:487:13-49
+	android:name
+		ADDED from D:\Anderoid Projects\Handz_11101\H\Handz_1110\app\src\main\AndroidManifest.xml:485:13-63
+activity#iz_handz.handzforhire.LendPaypalAccount
+ADDED from D:\Anderoid Projects\Handz_11101\H\Handz_1110\app\src\main\AndroidManifest.xml:490:9-494:15
+	android:windowSoftInputMode
+		ADDED from D:\Anderoid Projects\Handz_11101\H\Handz_1110\app\src\main\AndroidManifest.xml:492:13-64
+	android:alwaysRetainTaskState
+		ADDED from D:\Anderoid Projects\Handz_11101\H\Handz_1110\app\src\main\AndroidManifest.xml:493:13-49
+	android:name
+		ADDED from D:\Anderoid Projects\Handz_11101\H\Handz_1110\app\src\main\AndroidManifest.xml:491:13-67
+activity#iz_handz.handzforhire.LendCreditDebit
+ADDED from D:\Anderoid Projects\Handz_11101\H\Handz_1110\app\src\main\AndroidManifest.xml:496:9-500:15
+	android:windowSoftInputMode
+		ADDED from D:\Anderoid Projects\Handz_11101\H\Handz_1110\app\src\main\AndroidManifest.xml:498:13-64
+	android:alwaysRetainTaskState
+		ADDED from D:\Anderoid Projects\Handz_11101\H\Handz_1110\app\src\main\AndroidManifest.xml:499:13-49
+	android:name
+		ADDED from D:\Anderoid Projects\Handz_11101\H\Handz_1110\app\src\main\AndroidManifest.xml:497:13-65
+activity#iz_handz.handzforhire.LendCheckingAccount
+ADDED from D:\Anderoid Projects\Handz_11101\H\Handz_1110\app\src\main\AndroidManifest.xml:502:9-505:67
+	android:windowSoftInputMode
+		ADDED from D:\Anderoid Projects\Handz_11101\H\Handz_1110\app\src\main\AndroidManifest.xml:505:13-64
+	android:alwaysRetainTaskState
+		ADDED from D:\Anderoid Projects\Handz_11101\H\Handz_1110\app\src\main\AndroidManifest.xml:504:13-49
+	android:name
+		ADDED from D:\Anderoid Projects\Handz_11101\H\Handz_1110\app\src\main\AndroidManifest.xml:503:13-69
+activity#iz_handz.handzforhire.PayPalAccount
+ADDED from D:\Anderoid Projects\Handz_11101\H\Handz_1110\app\src\main\AndroidManifest.xml:507:9-511:13
+	android:windowSoftInputMode
+		ADDED from D:\Anderoid Projects\Handz_11101\H\Handz_1110\app\src\main\AndroidManifest.xml:509:13-64
+	android:alwaysRetainTaskState
+		ADDED from D:\Anderoid Projects\Handz_11101\H\Handz_1110\app\src\main\AndroidManifest.xml:510:13-49
+	android:name
+		ADDED from D:\Anderoid Projects\Handz_11101\H\Handz_1110\app\src\main\AndroidManifest.xml:508:13-63
+activity#iz_handz.handzforhire.CreditDebit
+ADDED from D:\Anderoid Projects\Handz_11101\H\Handz_1110\app\src\main\AndroidManifest.xml:513:9-517:15
+	android:windowSoftInputMode
+		ADDED from D:\Anderoid Projects\Handz_11101\H\Handz_1110\app\src\main\AndroidManifest.xml:515:13-64
+	android:alwaysRetainTaskState
+		ADDED from D:\Anderoid Projects\Handz_11101\H\Handz_1110\app\src\main\AndroidManifest.xml:516:13-49
+	android:name
+		ADDED from D:\Anderoid Projects\Handz_11101\H\Handz_1110\app\src\main\AndroidManifest.xml:514:13-61
+activity#iz_handz.handzforhire.EditRating
+ADDED from D:\Anderoid Projects\Handz_11101\H\Handz_1110\app\src\main\AndroidManifest.xml:519:9-521:15
+	android:alwaysRetainTaskState
+		ADDED from D:\Anderoid Projects\Handz_11101\H\Handz_1110\app\src\main\AndroidManifest.xml:520:13-49
+	android:name
+		ADDED from D:\Anderoid Projects\Handz_11101\H\Handz_1110\app\src\main\AndroidManifest.xml:519:19-66
+activity#iz_handz.handzforhire.SummaryAdd
+ADDED from D:\Anderoid Projects\Handz_11101\H\Handz_1110\app\src\main\AndroidManifest.xml:524:9-528:15
+	android:launchMode
+		ADDED from D:\Anderoid Projects\Handz_11101\H\Handz_1110\app\src\main\AndroidManifest.xml:527:13-44
+	android:windowSoftInputMode
+		ADDED from D:\Anderoid Projects\Handz_11101\H\Handz_1110\app\src\main\AndroidManifest.xml:526:13-64
+	android:name
+		ADDED from D:\Anderoid Projects\Handz_11101\H\Handz_1110\app\src\main\AndroidManifest.xml:525:13-60
+activity#iz_handz.handzforhire.SummaryMultiply
+ADDED from D:\Anderoid Projects\Handz_11101\H\Handz_1110\app\src\main\AndroidManifest.xml:530:9-534:15
+	android:launchMode
+		ADDED from D:\Anderoid Projects\Handz_11101\H\Handz_1110\app\src\main\AndroidManifest.xml:533:13-44
+	android:windowSoftInputMode
+		ADDED from D:\Anderoid Projects\Handz_11101\H\Handz_1110\app\src\main\AndroidManifest.xml:532:13-64
+	android:name
+		ADDED from D:\Anderoid Projects\Handz_11101\H\Handz_1110\app\src\main\AndroidManifest.xml:531:13-65
+activity#iz_handz.handzforhire.SummarySubtract
+ADDED from D:\Anderoid Projects\Handz_11101\H\Handz_1110\app\src\main\AndroidManifest.xml:536:9-540:15
+	android:launchMode
+		ADDED from D:\Anderoid Projects\Handz_11101\H\Handz_1110\app\src\main\AndroidManifest.xml:539:13-44
+	android:windowSoftInputMode
+		ADDED from D:\Anderoid Projects\Handz_11101\H\Handz_1110\app\src\main\AndroidManifest.xml:538:13-64
+	android:name
+		ADDED from D:\Anderoid Projects\Handz_11101\H\Handz_1110\app\src\main\AndroidManifest.xml:537:13-65
+activity#iz_handz.handzforhire.RehireJob
+ADDED from D:\Anderoid Projects\Handz_11101\H\Handz_1110\app\src\main\AndroidManifest.xml:542:9-546:15
+	android:windowSoftInputMode
+		ADDED from D:\Anderoid Projects\Handz_11101\H\Handz_1110\app\src\main\AndroidManifest.xml:544:13-64
+	android:alwaysRetainTaskState
+		ADDED from D:\Anderoid Projects\Handz_11101\H\Handz_1110\app\src\main\AndroidManifest.xml:545:13-49
+	android:name
+		ADDED from D:\Anderoid Projects\Handz_11101\H\Handz_1110\app\src\main\AndroidManifest.xml:543:13-59
+activity#iz_handz.handzforhire.RehireAdd
+ADDED from D:\Anderoid Projects\Handz_11101\H\Handz_1110\app\src\main\AndroidManifest.xml:548:9-552:15
+	android:windowSoftInputMode
+		ADDED from D:\Anderoid Projects\Handz_11101\H\Handz_1110\app\src\main\AndroidManifest.xml:550:13-64
+	android:alwaysRetainTaskState
+		ADDED from D:\Anderoid Projects\Handz_11101\H\Handz_1110\app\src\main\AndroidManifest.xml:551:13-49
+	android:name
+		ADDED from D:\Anderoid Projects\Handz_11101\H\Handz_1110\app\src\main\AndroidManifest.xml:549:13-59
+activity#iz_handz.handzforhire.RehireSubtract
+ADDED from D:\Anderoid Projects\Handz_11101\H\Handz_1110\app\src\main\AndroidManifest.xml:554:9-558:46
+	android:launchMode
+		ADDED from D:\Anderoid Projects\Handz_11101\H\Handz_1110\app\src\main\AndroidManifest.xml:558:13-44
+	android:windowSoftInputMode
+		ADDED from D:\Anderoid Projects\Handz_11101\H\Handz_1110\app\src\main\AndroidManifest.xml:556:13-64
+	android:alwaysRetainTaskState
+		ADDED from D:\Anderoid Projects\Handz_11101\H\Handz_1110\app\src\main\AndroidManifest.xml:557:13-49
+	android:name
+		ADDED from D:\Anderoid Projects\Handz_11101\H\Handz_1110\app\src\main\AndroidManifest.xml:555:13-64
+activity#iz_handz.handzforhire.RehireMultiply
+ADDED from D:\Anderoid Projects\Handz_11101\H\Handz_1110\app\src\main\AndroidManifest.xml:560:9-564:14
+	android:windowSoftInputMode
+		ADDED from D:\Anderoid Projects\Handz_11101\H\Handz_1110\app\src\main\AndroidManifest.xml:562:13-64
+	android:alwaysRetainTaskState
+		ADDED from D:\Anderoid Projects\Handz_11101\H\Handz_1110\app\src\main\AndroidManifest.xml:563:13-49
+	android:name
+		ADDED from D:\Anderoid Projects\Handz_11101\H\Handz_1110\app\src\main\AndroidManifest.xml:561:13-64
+activity#iz_handz.handzforhire.PlayTutorialVideo
+ADDED from D:\Anderoid Projects\Handz_11101\H\Handz_1110\app\src\main\AndroidManifest.xml:565:9-569:15
+	android:windowSoftInputMode
+		ADDED from D:\Anderoid Projects\Handz_11101\H\Handz_1110\app\src\main\AndroidManifest.xml:567:13-64
+	android:alwaysRetainTaskState
+		ADDED from D:\Anderoid Projects\Handz_11101\H\Handz_1110\app\src\main\AndroidManifest.xml:568:13-49
+	android:name
+		ADDED from D:\Anderoid Projects\Handz_11101\H\Handz_1110\app\src\main\AndroidManifest.xml:566:13-67
+activity#com.theartofdev.edmodo.cropper.CropImageActivity
+ADDED from D:\Anderoid Projects\Handz_11101\H\Handz_1110\app\src\main\AndroidManifest.xml:570:9-574:15
+	android:alwaysRetainTaskState
+		ADDED from D:\Anderoid Projects\Handz_11101\H\Handz_1110\app\src\main\AndroidManifest.xml:573:13-49
+	android:theme
+		ADDED from D:\Anderoid Projects\Handz_11101\H\Handz_1110\app\src\main\AndroidManifest.xml:572:13-56
+	android:name
+		ADDED from D:\Anderoid Projects\Handz_11101\H\Handz_1110\app\src\main\AndroidManifest.xml:571:13-76
+activity#iz_handz.handzforhire.LinkPaypal
+ADDED from D:\Anderoid Projects\Handz_11101\H\Handz_1110\app\src\main\AndroidManifest.xml:575:9-579:15
+	android:alwaysRetainTaskState
+		ADDED from D:\Anderoid Projects\Handz_11101\H\Handz_1110\app\src\main\AndroidManifest.xml:578:13-49
+	android:theme
+		ADDED from D:\Anderoid Projects\Handz_11101\H\Handz_1110\app\src\main\AndroidManifest.xml:577:13-56
+	android:name
+		ADDED from D:\Anderoid Projects\Handz_11101\H\Handz_1110\app\src\main\AndroidManifest.xml:576:13-60
+activity#iz_handz.handzforhire.ArchievedJob
+ADDED from D:\Anderoid Projects\Handz_11101\H\Handz_1110\app\src\main\AndroidManifest.xml:581:9-585:15
+	android:windowSoftInputMode
+		ADDED from D:\Anderoid Projects\Handz_11101\H\Handz_1110\app\src\main\AndroidManifest.xml:583:13-64
+	android:alwaysRetainTaskState
+		ADDED from D:\Anderoid Projects\Handz_11101\H\Handz_1110\app\src\main\AndroidManifest.xml:584:13-49
+	android:name
+		ADDED from D:\Anderoid Projects\Handz_11101\H\Handz_1110\app\src\main\AndroidManifest.xml:582:13-62
+activity#iz_handz.handzforhire.LinkedInActivity
+ADDED from D:\Anderoid Projects\Handz_11101\H\Handz_1110\app\src\main\AndroidManifest.xml:586:9-590:15
+	android:windowSoftInputMode
+		ADDED from D:\Anderoid Projects\Handz_11101\H\Handz_1110\app\src\main\AndroidManifest.xml:588:13-64
+	android:alwaysRetainTaskState
+		ADDED from D:\Anderoid Projects\Handz_11101\H\Handz_1110\app\src\main\AndroidManifest.xml:589:13-49
+	android:name
+		ADDED from D:\Anderoid Projects\Handz_11101\H\Handz_1110\app\src\main\AndroidManifest.xml:587:13-66
+activity#iz_handz.handzforhire.AlertTaskLend
+ADDED from D:\Anderoid Projects\Handz_11101\H\Handz_1110\app\src\main\AndroidManifest.xml:591:9-596:15
+	android:windowSoftInputMode
+		ADDED from D:\Anderoid Projects\Handz_11101\H\Handz_1110\app\src\main\AndroidManifest.xml:593:13-64
+	android:alwaysRetainTaskState
+		ADDED from D:\Anderoid Projects\Handz_11101\H\Handz_1110\app\src\main\AndroidManifest.xml:594:13-49
+	android:name
+		ADDED from D:\Anderoid Projects\Handz_11101\H\Handz_1110\app\src\main\AndroidManifest.xml:592:13-63
+activity#com.facebook.FacebookActivity
+ADDED from D:\Anderoid Projects\Handz_11101\H\Handz_1110\app\src\main\AndroidManifest.xml:599:9-604:15
+MERGED from [com.facebook.android:facebook-common:4.40.0] C:\Users\IZ-Parimala\.gradle\caches\transforms-1\files-1.1\jetified-facebook-common-4.40.0.aar\1d1de7b2c4cbcd6c1888ec67a73c87b7\AndroidManifest.xml:29:9-32:66
+MERGED from [com.facebook.android:facebook-common:4.40.0] C:\Users\IZ-Parimala\.gradle\caches\transforms-1\files-1.1\jetified-facebook-common-4.40.0.aar\1d1de7b2c4cbcd6c1888ec67a73c87b7\AndroidManifest.xml:29:9-32:66
+	android:label
+		ADDED from D:\Anderoid Projects\Handz_11101\H\Handz_1110\app\src\main\AndroidManifest.xml:602:13-45
+	android:configChanges
+		ADDED from D:\Anderoid Projects\Handz_11101\H\Handz_1110\app\src\main\AndroidManifest.xml:601:13-96
+	android:alwaysRetainTaskState
+		ADDED from D:\Anderoid Projects\Handz_11101\H\Handz_1110\app\src\main\AndroidManifest.xml:603:13-49
+	android:theme
+		ADDED from [com.facebook.android:facebook-common:4.40.0] C:\Users\IZ-Parimala\.gradle\caches\transforms-1\files-1.1\jetified-facebook-common-4.40.0.aar\1d1de7b2c4cbcd6c1888ec67a73c87b7\AndroidManifest.xml:32:13-63
+	android:name
+		ADDED from D:\Anderoid Projects\Handz_11101\H\Handz_1110\app\src\main\AndroidManifest.xml:600:13-57
+meta-data#com.facebook.sdk.ApplicationId
+ADDED from D:\Anderoid Projects\Handz_11101\H\Handz_1110\app\src\main\AndroidManifest.xml:606:9-608:55
+	android:value
+		ADDED from D:\Anderoid Projects\Handz_11101\H\Handz_1110\app\src\main\AndroidManifest.xml:608:13-52
+	android:name
+		ADDED from D:\Anderoid Projects\Handz_11101\H\Handz_1110\app\src\main\AndroidManifest.xml:607:13-58
+meta-data#com.google.android.gms.version
+ADDED from D:\Anderoid Projects\Handz_11101\H\Handz_1110\app\src\main\AndroidManifest.xml:610:9-612:69
+MERGED from [com.google.android.gms:play-services-basement:16.1.0] C:\Users\IZ-Parimala\.gradle\caches\transforms-1\files-1.1\jetified-play-services-basement-16.1.0.aar\a71190e7652e35a4cf9df27b86f65bef\AndroidManifest.xml:23:9-25:69
+MERGED from [com.google.android.gms:play-services-basement:16.1.0] C:\Users\IZ-Parimala\.gradle\caches\transforms-1\files-1.1\jetified-play-services-basement-16.1.0.aar\a71190e7652e35a4cf9df27b86f65bef\AndroidManifest.xml:23:9-25:69
+	android:value
+		ADDED from D:\Anderoid Projects\Handz_11101\H\Handz_1110\app\src\main\AndroidManifest.xml:612:13-66
+	android:name
+		ADDED from D:\Anderoid Projects\Handz_11101\H\Handz_1110\app\src\main\AndroidManifest.xml:611:13-58
+provider#com.facebook.FacebookContentProvider
+ADDED from D:\Anderoid Projects\Handz_11101\H\Handz_1110\app\src\main\AndroidManifest.xml:613:9-616:35
+	android:authorities
+		ADDED from D:\Anderoid Projects\Handz_11101\H\Handz_1110\app\src\main\AndroidManifest.xml:615:9-86
+	android:exported
+		ADDED from D:\Anderoid Projects\Handz_11101\H\Handz_1110\app\src\main\AndroidManifest.xml:616:9-32
+	android:name
+		ADDED from D:\Anderoid Projects\Handz_11101\H\Handz_1110\app\src\main\AndroidManifest.xml:614:13-64
+meta-data#com.google.android.maps.v2.API_KEY
+ADDED from D:\Anderoid Projects\Handz_11101\H\Handz_1110\app\src\main\AndroidManifest.xml:617:9-619:71
+	android:value
+		ADDED from D:\Anderoid Projects\Handz_11101\H\Handz_1110\app\src\main\AndroidManifest.xml:619:13-68
+	android:name
+		ADDED from D:\Anderoid Projects\Handz_11101\H\Handz_1110\app\src\main\AndroidManifest.xml:618:13-62
+service#iz_handz.handzforhire.MyFirebaseMessagingService
+ADDED from D:\Anderoid Projects\Handz_11101\H\Handz_1110\app\src\main\AndroidManifest.xml:623:9-627:19
+	android:name
+		ADDED from D:\Anderoid Projects\Handz_11101\H\Handz_1110\app\src\main\AndroidManifest.xml:623:18-60
+intent-filter#action:name:com.google.firebase.MESSAGING_EVENT
+ADDED from D:\Anderoid Projects\Handz_11101\H\Handz_1110\app\src\main\AndroidManifest.xml:624:13-626:29
+action#com.google.firebase.MESSAGING_EVENT
+ADDED from D:\Anderoid Projects\Handz_11101\H\Handz_1110\app\src\main\AndroidManifest.xml:625:17-78
+	android:name
+		ADDED from D:\Anderoid Projects\Handz_11101\H\Handz_1110\app\src\main\AndroidManifest.xml:625:25-75
+service#iz_handz.handzforhire.MyService
+ADDED from D:\Anderoid Projects\Handz_11101\H\Handz_1110\app\src\main\AndroidManifest.xml:628:9-630:38
+	android:enabled
+		ADDED from D:\Anderoid Projects\Handz_11101\H\Handz_1110\app\src\main\AndroidManifest.xml:630:13-35
+	android:name
+		ADDED from D:\Anderoid Projects\Handz_11101\H\Handz_1110\app\src\main\AndroidManifest.xml:629:13-59
+service#com.service.MyFirebaseInstanceIDService
+ADDED from D:\Anderoid Projects\Handz_11101\H\Handz_1110\app\src\main\AndroidManifest.xml:632:9-636:19
+	android:name
+		ADDED from D:\Anderoid Projects\Handz_11101\H\Handz_1110\app\src\main\AndroidManifest.xml:632:18-72
+intent-filter#action:name:com.google.firebase.INSTANCE_ID_EVENT
+ADDED from D:\Anderoid Projects\Handz_11101\H\Handz_1110\app\src\main\AndroidManifest.xml:633:13-635:29
+action#com.google.firebase.INSTANCE_ID_EVENT
+ADDED from D:\Anderoid Projects\Handz_11101\H\Handz_1110\app\src\main\AndroidManifest.xml:634:17-80
+	android:name
+		ADDED from D:\Anderoid Projects\Handz_11101\H\Handz_1110\app\src\main\AndroidManifest.xml:634:25-77
+service#iz_handz.handzforhire.LocationUpdatesIntentService
+ADDED from D:\Anderoid Projects\Handz_11101\H\Handz_1110\app\src\main\AndroidManifest.xml:638:9-640:40
+	android:exported
+		ADDED from D:\Anderoid Projects\Handz_11101\H\Handz_1110\app\src\main\AndroidManifest.xml:640:13-37
+	android:name
+		ADDED from D:\Anderoid Projects\Handz_11101\H\Handz_1110\app\src\main\AndroidManifest.xml:639:13-78
+receiver#iz_handz.handzforhire.LocationUpdatesBroadcastReceiver
+ADDED from D:\Anderoid Projects\Handz_11101\H\Handz_1110\app\src\main\AndroidManifest.xml:642:9-647:20
+	android:exported
+		ADDED from D:\Anderoid Projects\Handz_11101\H\Handz_1110\app\src\main\AndroidManifest.xml:643:13-36
+	android:name
+		ADDED from D:\Anderoid Projects\Handz_11101\H\Handz_1110\app\src\main\AndroidManifest.xml:642:19-88
+intent-filter#action:name:com.google.android.gms.location.sample.backgroundlocationupdates.LocationUpdatesBroadcastReceiver.ACTION_PROCESS_UPDATES
+ADDED from D:\Anderoid Projects\Handz_11101\H\Handz_1110\app\src\main\AndroidManifest.xml:644:13-646:29
+action#com.google.android.gms.location.sample.backgroundlocationupdates.LocationUpdatesBroadcastReceiver.ACTION_PROCESS_UPDATES
+ADDED from D:\Anderoid Projects\Handz_11101\H\Handz_1110\app\src\main\AndroidManifest.xml:645:17-163
+	android:name
+		ADDED from D:\Anderoid Projects\Handz_11101\H\Handz_1110\app\src\main\AndroidManifest.xml:645:25-160
+activity#com.paypal.android.sdk.payments.PaymentActivity
+ADDED from [com.paypal.sdk:paypal-android-sdk:2.14.2] C:\Users\IZ-Parimala\.gradle\caches\transforms-1\files-1.1\paypal-android-sdk-2.14.2.aar\ac55b907516567927e74a110be5ea3e1\AndroidManifest.xml:13:9-84
+	android:name
+		ADDED from [com.paypal.sdk:paypal-android-sdk:2.14.2] C:\Users\IZ-Parimala\.gradle\caches\transforms-1\files-1.1\paypal-android-sdk-2.14.2.aar\ac55b907516567927e74a110be5ea3e1\AndroidManifest.xml:13:19-81
+activity#com.paypal.android.sdk.payments.PaymentMethodActivity
+ADDED from [com.paypal.sdk:paypal-android-sdk:2.14.2] C:\Users\IZ-Parimala\.gradle\caches\transforms-1\files-1.1\paypal-android-sdk-2.14.2.aar\ac55b907516567927e74a110be5ea3e1\AndroidManifest.xml:14:9-90
+	android:name
+		ADDED from [com.paypal.sdk:paypal-android-sdk:2.14.2] C:\Users\IZ-Parimala\.gradle\caches\transforms-1\files-1.1\paypal-android-sdk-2.14.2.aar\ac55b907516567927e74a110be5ea3e1\AndroidManifest.xml:14:19-87
+activity#com.paypal.android.sdk.payments.PaymentConfirmActivity
+ADDED from [com.paypal.sdk:paypal-android-sdk:2.14.2] C:\Users\IZ-Parimala\.gradle\caches\transforms-1\files-1.1\paypal-android-sdk-2.14.2.aar\ac55b907516567927e74a110be5ea3e1\AndroidManifest.xml:15:9-91
+	android:name
+		ADDED from [com.paypal.sdk:paypal-android-sdk:2.14.2] C:\Users\IZ-Parimala\.gradle\caches\transforms-1\files-1.1\paypal-android-sdk-2.14.2.aar\ac55b907516567927e74a110be5ea3e1\AndroidManifest.xml:15:19-88
+activity#com.paypal.android.sdk.payments.LoginActivity
+ADDED from [com.paypal.sdk:paypal-android-sdk:2.14.2] C:\Users\IZ-Parimala\.gradle\caches\transforms-1\files-1.1\paypal-android-sdk-2.14.2.aar\ac55b907516567927e74a110be5ea3e1\AndroidManifest.xml:16:9-82
+	android:name
+		ADDED from [com.paypal.sdk:paypal-android-sdk:2.14.2] C:\Users\IZ-Parimala\.gradle\caches\transforms-1\files-1.1\paypal-android-sdk-2.14.2.aar\ac55b907516567927e74a110be5ea3e1\AndroidManifest.xml:16:19-79
+activity#com.paypal.android.sdk.payments.PayPalFuturePaymentActivity
+ADDED from [com.paypal.sdk:paypal-android-sdk:2.14.2] C:\Users\IZ-Parimala\.gradle\caches\transforms-1\files-1.1\paypal-android-sdk-2.14.2.aar\ac55b907516567927e74a110be5ea3e1\AndroidManifest.xml:17:9-96
+	android:name
+		ADDED from [com.paypal.sdk:paypal-android-sdk:2.14.2] C:\Users\IZ-Parimala\.gradle\caches\transforms-1\files-1.1\paypal-android-sdk-2.14.2.aar\ac55b907516567927e74a110be5ea3e1\AndroidManifest.xml:17:19-93
+activity#com.paypal.android.sdk.payments.FuturePaymentConsentActivity
+ADDED from [com.paypal.sdk:paypal-android-sdk:2.14.2] C:\Users\IZ-Parimala\.gradle\caches\transforms-1\files-1.1\paypal-android-sdk-2.14.2.aar\ac55b907516567927e74a110be5ea3e1\AndroidManifest.xml:18:9-97
+	android:name
+		ADDED from [com.paypal.sdk:paypal-android-sdk:2.14.2] C:\Users\IZ-Parimala\.gradle\caches\transforms-1\files-1.1\paypal-android-sdk-2.14.2.aar\ac55b907516567927e74a110be5ea3e1\AndroidManifest.xml:18:19-94
+activity#com.paypal.android.sdk.payments.FuturePaymentInfoActivity
+ADDED from [com.paypal.sdk:paypal-android-sdk:2.14.2] C:\Users\IZ-Parimala\.gradle\caches\transforms-1\files-1.1\paypal-android-sdk-2.14.2.aar\ac55b907516567927e74a110be5ea3e1\AndroidManifest.xml:19:9-94
+	android:name
+		ADDED from [com.paypal.sdk:paypal-android-sdk:2.14.2] C:\Users\IZ-Parimala\.gradle\caches\transforms-1\files-1.1\paypal-android-sdk-2.14.2.aar\ac55b907516567927e74a110be5ea3e1\AndroidManifest.xml:19:19-91
+activity#com.paypal.android.sdk.payments.PayPalProfileSharingActivity
+ADDED from [com.paypal.sdk:paypal-android-sdk:2.14.2] C:\Users\IZ-Parimala\.gradle\caches\transforms-1\files-1.1\paypal-android-sdk-2.14.2.aar\ac55b907516567927e74a110be5ea3e1\AndroidManifest.xml:20:9-97
+	android:name
+		ADDED from [com.paypal.sdk:paypal-android-sdk:2.14.2] C:\Users\IZ-Parimala\.gradle\caches\transforms-1\files-1.1\paypal-android-sdk-2.14.2.aar\ac55b907516567927e74a110be5ea3e1\AndroidManifest.xml:20:19-94
+activity#com.paypal.android.sdk.payments.ProfileSharingConsentActivity
+ADDED from [com.paypal.sdk:paypal-android-sdk:2.14.2] C:\Users\IZ-Parimala\.gradle\caches\transforms-1\files-1.1\paypal-android-sdk-2.14.2.aar\ac55b907516567927e74a110be5ea3e1\AndroidManifest.xml:21:9-98
+	android:name
+		ADDED from [com.paypal.sdk:paypal-android-sdk:2.14.2] C:\Users\IZ-Parimala\.gradle\caches\transforms-1\files-1.1\paypal-android-sdk-2.14.2.aar\ac55b907516567927e74a110be5ea3e1\AndroidManifest.xml:21:19-95
+service#com.paypal.android.sdk.payments.PayPalService
+ADDED from [com.paypal.sdk:paypal-android-sdk:2.14.2] C:\Users\IZ-Parimala\.gradle\caches\transforms-1\files-1.1\paypal-android-sdk-2.14.2.aar\ac55b907516567927e74a110be5ea3e1\AndroidManifest.xml:23:9-25:40
+	android:exported
+		ADDED from [com.paypal.sdk:paypal-android-sdk:2.14.2] C:\Users\IZ-Parimala\.gradle\caches\transforms-1\files-1.1\paypal-android-sdk-2.14.2.aar\ac55b907516567927e74a110be5ea3e1\AndroidManifest.xml:25:13-37
+	android:name
+		ADDED from [com.paypal.sdk:paypal-android-sdk:2.14.2] C:\Users\IZ-Parimala\.gradle\caches\transforms-1\files-1.1\paypal-android-sdk-2.14.2.aar\ac55b907516567927e74a110be5ea3e1\AndroidManifest.xml:24:13-73
+activity#com.facebook.CustomTabMainActivity
+ADDED from [com.facebook.android:facebook-common:4.40.0] C:\Users\IZ-Parimala\.gradle\caches\transforms-1\files-1.1\jetified-facebook-common-4.40.0.aar\1d1de7b2c4cbcd6c1888ec67a73c87b7\AndroidManifest.xml:33:9-71
+	android:name
+		ADDED from [com.facebook.android:facebook-common:4.40.0] C:\Users\IZ-Parimala\.gradle\caches\transforms-1\files-1.1\jetified-facebook-common-4.40.0.aar\1d1de7b2c4cbcd6c1888ec67a73c87b7\AndroidManifest.xml:33:19-68
+activity#com.facebook.CustomTabActivity
+ADDED from [com.facebook.android:facebook-common:4.40.0] C:\Users\IZ-Parimala\.gradle\caches\transforms-1\files-1.1\jetified-facebook-common-4.40.0.aar\1d1de7b2c4cbcd6c1888ec67a73c87b7\AndroidManifest.xml:34:9-67
+	android:name
+		ADDED from [com.facebook.android:facebook-common:4.40.0] C:\Users\IZ-Parimala\.gradle\caches\transforms-1\files-1.1\jetified-facebook-common-4.40.0.aar\1d1de7b2c4cbcd6c1888ec67a73c87b7\AndroidManifest.xml:34:19-64
+uses-feature#0x00020000
+ADDED from [com.google.android.gms:play-services-maps:16.0.0] C:\Users\IZ-Parimala\.gradle\caches\transforms-1\files-1.1\jetified-play-services-maps-16.0.0.aar\61fe0225a99611376b86f9f9583bf2ce\AndroidManifest.xml:26:5-28:35
+	android:glEsVersion
+		ADDED from [com.google.android.gms:play-services-maps:16.0.0] C:\Users\IZ-Parimala\.gradle\caches\transforms-1\files-1.1\jetified-play-services-maps-16.0.0.aar\61fe0225a99611376b86f9f9583bf2ce\AndroidManifest.xml:27:9-41
+	android:required
+		ADDED from [com.google.android.gms:play-services-maps:16.0.0] C:\Users\IZ-Parimala\.gradle\caches\transforms-1\files-1.1\jetified-play-services-maps-16.0.0.aar\61fe0225a99611376b86f9f9583bf2ce\AndroidManifest.xml:28:9-32
+activity#com.google.firebase.auth.internal.FederatedSignInActivity
+ADDED from [com.google.firebase:firebase-auth:16.0.5] C:\Users\IZ-Parimala\.gradle\caches\transforms-1\files-1.1\jetified-firebase-auth-16.0.5.aar\c177a358dd27485afce062e6f539c823\AndroidManifest.xml:24:9-31:50
+	android:excludeFromRecents
+		ADDED from [com.google.firebase:firebase-auth:16.0.5] C:\Users\IZ-Parimala\.gradle\caches\transforms-1\files-1.1\jetified-firebase-auth-16.0.5.aar\c177a358dd27485afce062e6f539c823\AndroidManifest.xml:26:13-46
+	android:launchMode
+		ADDED from [com.google.firebase:firebase-auth:16.0.5] C:\Users\IZ-Parimala\.gradle\caches\transforms-1\files-1.1\jetified-firebase-auth-16.0.5.aar\c177a358dd27485afce062e6f539c823\AndroidManifest.xml:28:13-44
+	android:exported
+		ADDED from [com.google.firebase:firebase-auth:16.0.5] C:\Users\IZ-Parimala\.gradle\caches\transforms-1\files-1.1\jetified-firebase-auth-16.0.5.aar\c177a358dd27485afce062e6f539c823\AndroidManifest.xml:27:13-36
+	android:permission
+		ADDED from [com.google.firebase:firebase-auth:16.0.5] C:\Users\IZ-Parimala\.gradle\caches\transforms-1\files-1.1\jetified-firebase-auth-16.0.5.aar\c177a358dd27485afce062e6f539c823\AndroidManifest.xml:29:13-102
+	android:theme
+		ADDED from [com.google.firebase:firebase-auth:16.0.5] C:\Users\IZ-Parimala\.gradle\caches\transforms-1\files-1.1\jetified-firebase-auth-16.0.5.aar\c177a358dd27485afce062e6f539c823\AndroidManifest.xml:30:13-72
+	tools:replace
+		ADDED from [com.google.firebase:firebase-auth:16.0.5] C:\Users\IZ-Parimala\.gradle\caches\transforms-1\files-1.1\jetified-firebase-auth-16.0.5.aar\c177a358dd27485afce062e6f539c823\AndroidManifest.xml:31:13-47
+	android:name
+		ADDED from [com.google.firebase:firebase-auth:16.0.5] C:\Users\IZ-Parimala\.gradle\caches\transforms-1\files-1.1\jetified-firebase-auth-16.0.5.aar\c177a358dd27485afce062e6f539c823\AndroidManifest.xml:25:13-85
+service#com.google.firebase.components.ComponentDiscoveryService
+ADDED from [com.google.firebase:firebase-auth:16.0.5] C:\Users\IZ-Parimala\.gradle\caches\transforms-1\files-1.1\jetified-firebase-auth-16.0.5.aar\c177a358dd27485afce062e6f539c823\AndroidManifest.xml:33:9-39:19
+MERGED from [com.google.firebase:firebase-measurement-connector-impl:16.0.0] C:\Users\IZ-Parimala\.gradle\caches\transforms-1\files-1.1\jetified-firebase-measurement-connector-impl-16.0.0.aar\fc9d1035837a504b02da961ceef068fe\AndroidManifest.xml:27:9-31:19
+MERGED from [com.google.firebase:firebase-measurement-connector-impl:16.0.0] C:\Users\IZ-Parimala\.gradle\caches\transforms-1\files-1.1\jetified-firebase-measurement-connector-impl-16.0.0.aar\fc9d1035837a504b02da961ceef068fe\AndroidManifest.xml:27:9-31:19
+MERGED from [com.google.firebase:firebase-iid:17.0.4] C:\Users\IZ-Parimala\.gradle\caches\transforms-1\files-1.1\jetified-firebase-iid-17.0.4.aar\911371cef86e717a3926e39aad5206c2\AndroidManifest.xml:29:9-35:19
+MERGED from [com.google.firebase:firebase-iid:17.0.4] C:\Users\IZ-Parimala\.gradle\caches\transforms-1\files-1.1\jetified-firebase-iid-17.0.4.aar\911371cef86e717a3926e39aad5206c2\AndroidManifest.xml:29:9-35:19
+	android:exported
+		ADDED from [com.google.firebase:firebase-auth:16.0.5] C:\Users\IZ-Parimala\.gradle\caches\transforms-1\files-1.1\jetified-firebase-auth-16.0.5.aar\c177a358dd27485afce062e6f539c823\AndroidManifest.xml:35:13-37
+	android:name
+		ADDED from [com.google.firebase:firebase-auth:16.0.5] C:\Users\IZ-Parimala\.gradle\caches\transforms-1\files-1.1\jetified-firebase-auth-16.0.5.aar\c177a358dd27485afce062e6f539c823\AndroidManifest.xml:34:13-84
+meta-data#com.google.firebase.components:com.google.firebase.auth.FirebaseAuthRegistrar
+ADDED from [com.google.firebase:firebase-auth:16.0.5] C:\Users\IZ-Parimala\.gradle\caches\transforms-1\files-1.1\jetified-firebase-auth-16.0.5.aar\c177a358dd27485afce062e6f539c823\AndroidManifest.xml:36:13-38:85
+	android:value
+		ADDED from [com.google.firebase:firebase-auth:16.0.5] C:\Users\IZ-Parimala\.gradle\caches\transforms-1\files-1.1\jetified-firebase-auth-16.0.5.aar\c177a358dd27485afce062e6f539c823\AndroidManifest.xml:38:17-82
+	android:name
+		ADDED from [com.google.firebase:firebase-auth:16.0.5] C:\Users\IZ-Parimala\.gradle\caches\transforms-1\files-1.1\jetified-firebase-auth-16.0.5.aar\c177a358dd27485afce062e6f539c823\AndroidManifest.xml:37:17-109
+service#com.google.firebase.messaging.FirebaseMessagingService
+ADDED from [com.google.firebase:firebase-messaging:17.3.4] C:\Users\IZ-Parimala\.gradle\caches\transforms-1\files-1.1\jetified-firebase-messaging-17.3.4.aar\47135fa6b274aa4f40de1fe628f243bf\AndroidManifest.xml:28:9-34:19
+	android:exported
+		ADDED from [com.google.firebase:firebase-messaging:17.3.4] C:\Users\IZ-Parimala\.gradle\caches\transforms-1\files-1.1\jetified-firebase-messaging-17.3.4.aar\47135fa6b274aa4f40de1fe628f243bf\AndroidManifest.xml:30:13-36
+	android:name
+		ADDED from [com.google.firebase:firebase-messaging:17.3.4] C:\Users\IZ-Parimala\.gradle\caches\transforms-1\files-1.1\jetified-firebase-messaging-17.3.4.aar\47135fa6b274aa4f40de1fe628f243bf\AndroidManifest.xml:29:13-82
+meta-data#com.google.firebase.components:com.google.firebase.analytics.connector.internal.AnalyticsConnectorRegistrar
+ADDED from [com.google.firebase:firebase-measurement-connector-impl:16.0.0] C:\Users\IZ-Parimala\.gradle\caches\transforms-1\files-1.1\jetified-firebase-measurement-connector-impl-16.0.0.aar\fc9d1035837a504b02da961ceef068fe\AndroidManifest.xml:28:13-30:85
+	android:value
+		ADDED from [com.google.firebase:firebase-measurement-connector-impl:16.0.0] C:\Users\IZ-Parimala\.gradle\caches\transforms-1\files-1.1\jetified-firebase-measurement-connector-impl-16.0.0.aar\fc9d1035837a504b02da961ceef068fe\AndroidManifest.xml:30:17-82
+	android:name
+		ADDED from [com.google.firebase:firebase-measurement-connector-impl:16.0.0] C:\Users\IZ-Parimala\.gradle\caches\transforms-1\files-1.1\jetified-firebase-measurement-connector-impl-16.0.0.aar\fc9d1035837a504b02da961ceef068fe\AndroidManifest.xml:29:17-139
+uses-permission#com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE
+ADDED from [com.google.firebase:firebase-analytics:16.0.0] C:\Users\IZ-Parimala\.gradle\caches\transforms-1\files-1.1\jetified-firebase-analytics-16.0.0.aar\1f6e724ccc3338ebbc2a57b459540762\AndroidManifest.xml:26:5-110
+MERGED from [com.google.firebase:firebase-analytics-impl:16.0.0] C:\Users\IZ-Parimala\.gradle\caches\transforms-1\files-1.1\jetified-firebase-analytics-impl-16.0.0.aar\45b2a8e3005734c3aa9de30f1593daa2\AndroidManifest.xml:26:5-110
+MERGED from [com.google.firebase:firebase-analytics-impl:16.0.0] C:\Users\IZ-Parimala\.gradle\caches\transforms-1\files-1.1\jetified-firebase-analytics-impl-16.0.0.aar\45b2a8e3005734c3aa9de30f1593daa2\AndroidManifest.xml:26:5-110
+	android:name
+		ADDED from [com.google.firebase:firebase-analytics:16.0.0] C:\Users\IZ-Parimala\.gradle\caches\transforms-1\files-1.1\jetified-firebase-analytics-16.0.0.aar\1f6e724ccc3338ebbc2a57b459540762\AndroidManifest.xml:26:22-107
+receiver#com.google.android.gms.measurement.AppMeasurementReceiver
+ADDED from [com.google.firebase:firebase-analytics:16.0.0] C:\Users\IZ-Parimala\.gradle\caches\transforms-1\files-1.1\jetified-firebase-analytics-16.0.0.aar\1f6e724ccc3338ebbc2a57b459540762\AndroidManifest.xml:29:9-33:20
+MERGED from [com.google.firebase:firebase-analytics-impl:16.0.0] C:\Users\IZ-Parimala\.gradle\caches\transforms-1\files-1.1\jetified-firebase-analytics-impl-16.0.0.aar\45b2a8e3005734c3aa9de30f1593daa2\AndroidManifest.xml:29:9-33:20
+MERGED from [com.google.firebase:firebase-analytics-impl:16.0.0] C:\Users\IZ-Parimala\.gradle\caches\transforms-1\files-1.1\jetified-firebase-analytics-impl-16.0.0.aar\45b2a8e3005734c3aa9de30f1593daa2\AndroidManifest.xml:29:9-33:20
+	android:enabled
+		ADDED from [com.google.firebase:firebase-analytics:16.0.0] C:\Users\IZ-Parimala\.gradle\caches\transforms-1\files-1.1\jetified-firebase-analytics-16.0.0.aar\1f6e724ccc3338ebbc2a57b459540762\AndroidManifest.xml:31:13-35
+	android:exported
+		ADDED from [com.google.firebase:firebase-analytics:16.0.0] C:\Users\IZ-Parimala\.gradle\caches\transforms-1\files-1.1\jetified-firebase-analytics-16.0.0.aar\1f6e724ccc3338ebbc2a57b459540762\AndroidManifest.xml:32:13-37
+	android:name
+		ADDED from [com.google.firebase:firebase-analytics:16.0.0] C:\Users\IZ-Parimala\.gradle\caches\transforms-1\files-1.1\jetified-firebase-analytics-16.0.0.aar\1f6e724ccc3338ebbc2a57b459540762\AndroidManifest.xml:30:13-85
+receiver#com.google.android.gms.measurement.AppMeasurementInstallReferrerReceiver
+ADDED from [com.google.firebase:firebase-analytics:16.0.0] C:\Users\IZ-Parimala\.gradle\caches\transforms-1\files-1.1\jetified-firebase-analytics-16.0.0.aar\1f6e724ccc3338ebbc2a57b459540762\AndroidManifest.xml:34:9-42:20
+	android:enabled
+		ADDED from [com.google.firebase:firebase-analytics:16.0.0] C:\Users\IZ-Parimala\.gradle\caches\transforms-1\files-1.1\jetified-firebase-analytics-16.0.0.aar\1f6e724ccc3338ebbc2a57b459540762\AndroidManifest.xml:36:13-35
+	android:exported
+		ADDED from [com.google.firebase:firebase-analytics:16.0.0] C:\Users\IZ-Parimala\.gradle\caches\transforms-1\files-1.1\jetified-firebase-analytics-16.0.0.aar\1f6e724ccc3338ebbc2a57b459540762\AndroidManifest.xml:37:13-36
+	android:permission
+		ADDED from [com.google.firebase:firebase-analytics:16.0.0] C:\Users\IZ-Parimala\.gradle\caches\transforms-1\files-1.1\jetified-firebase-analytics-16.0.0.aar\1f6e724ccc3338ebbc2a57b459540762\AndroidManifest.xml:38:13-69
+	android:name
+		ADDED from [com.google.firebase:firebase-analytics:16.0.0] C:\Users\IZ-Parimala\.gradle\caches\transforms-1\files-1.1\jetified-firebase-analytics-16.0.0.aar\1f6e724ccc3338ebbc2a57b459540762\AndroidManifest.xml:35:13-100
+intent-filter#action:name:com.android.vending.INSTALL_REFERRER
+ADDED from [com.google.firebase:firebase-analytics:16.0.0] C:\Users\IZ-Parimala\.gradle\caches\transforms-1\files-1.1\jetified-firebase-analytics-16.0.0.aar\1f6e724ccc3338ebbc2a57b459540762\AndroidManifest.xml:39:13-41:29
+action#com.android.vending.INSTALL_REFERRER
+ADDED from [com.google.firebase:firebase-analytics:16.0.0] C:\Users\IZ-Parimala\.gradle\caches\transforms-1\files-1.1\jetified-firebase-analytics-16.0.0.aar\1f6e724ccc3338ebbc2a57b459540762\AndroidManifest.xml:40:17-79
+	android:name
+		ADDED from [com.google.firebase:firebase-analytics:16.0.0] C:\Users\IZ-Parimala\.gradle\caches\transforms-1\files-1.1\jetified-firebase-analytics-16.0.0.aar\1f6e724ccc3338ebbc2a57b459540762\AndroidManifest.xml:40:25-76
+service#com.google.android.gms.measurement.AppMeasurementService
+ADDED from [com.google.firebase:firebase-analytics:16.0.0] C:\Users\IZ-Parimala\.gradle\caches\transforms-1\files-1.1\jetified-firebase-analytics-16.0.0.aar\1f6e724ccc3338ebbc2a57b459540762\AndroidManifest.xml:44:9-47:40
+MERGED from [com.google.firebase:firebase-analytics-impl:16.0.0] C:\Users\IZ-Parimala\.gradle\caches\transforms-1\files-1.1\jetified-firebase-analytics-impl-16.0.0.aar\45b2a8e3005734c3aa9de30f1593daa2\AndroidManifest.xml:35:9-38:40
+MERGED from [com.google.firebase:firebase-analytics-impl:16.0.0] C:\Users\IZ-Parimala\.gradle\caches\transforms-1\files-1.1\jetified-firebase-analytics-impl-16.0.0.aar\45b2a8e3005734c3aa9de30f1593daa2\AndroidManifest.xml:35:9-38:40
+	android:enabled
+		ADDED from [com.google.firebase:firebase-analytics:16.0.0] C:\Users\IZ-Parimala\.gradle\caches\transforms-1\files-1.1\jetified-firebase-analytics-16.0.0.aar\1f6e724ccc3338ebbc2a57b459540762\AndroidManifest.xml:46:13-35
+	android:exported
+		ADDED from [com.google.firebase:firebase-analytics:16.0.0] C:\Users\IZ-Parimala\.gradle\caches\transforms-1\files-1.1\jetified-firebase-analytics-16.0.0.aar\1f6e724ccc3338ebbc2a57b459540762\AndroidManifest.xml:47:13-37
+	android:name
+		ADDED from [com.google.firebase:firebase-analytics:16.0.0] C:\Users\IZ-Parimala\.gradle\caches\transforms-1\files-1.1\jetified-firebase-analytics-16.0.0.aar\1f6e724ccc3338ebbc2a57b459540762\AndroidManifest.xml:45:13-84
+service#com.google.android.gms.measurement.AppMeasurementJobService
+ADDED from [com.google.firebase:firebase-analytics:16.0.0] C:\Users\IZ-Parimala\.gradle\caches\transforms-1\files-1.1\jetified-firebase-analytics-16.0.0.aar\1f6e724ccc3338ebbc2a57b459540762\AndroidManifest.xml:48:9-52:72
+	android:enabled
+		ADDED from [com.google.firebase:firebase-analytics:16.0.0] C:\Users\IZ-Parimala\.gradle\caches\transforms-1\files-1.1\jetified-firebase-analytics-16.0.0.aar\1f6e724ccc3338ebbc2a57b459540762\AndroidManifest.xml:50:13-35
+	android:exported
+		ADDED from [com.google.firebase:firebase-analytics:16.0.0] C:\Users\IZ-Parimala\.gradle\caches\transforms-1\files-1.1\jetified-firebase-analytics-16.0.0.aar\1f6e724ccc3338ebbc2a57b459540762\AndroidManifest.xml:51:13-37
+	android:permission
+		ADDED from [com.google.firebase:firebase-analytics:16.0.0] C:\Users\IZ-Parimala\.gradle\caches\transforms-1\files-1.1\jetified-firebase-analytics-16.0.0.aar\1f6e724ccc3338ebbc2a57b459540762\AndroidManifest.xml:52:13-69
+	android:name
+		ADDED from [com.google.firebase:firebase-analytics:16.0.0] C:\Users\IZ-Parimala\.gradle\caches\transforms-1\files-1.1\jetified-firebase-analytics-16.0.0.aar\1f6e724ccc3338ebbc2a57b459540762\AndroidManifest.xml:49:13-87
+uses-permission#com.google.android.c2dm.permission.RECEIVE
+ADDED from [com.google.firebase:firebase-iid:17.0.4] C:\Users\IZ-Parimala\.gradle\caches\transforms-1\files-1.1\jetified-firebase-iid-17.0.4.aar\911371cef86e717a3926e39aad5206c2\AndroidManifest.xml:26:5-82
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:17.0.4] C:\Users\IZ-Parimala\.gradle\caches\transforms-1\files-1.1\jetified-firebase-iid-17.0.4.aar\911371cef86e717a3926e39aad5206c2\AndroidManifest.xml:26:22-79
+meta-data#com.google.firebase.components:com.google.firebase.iid.Registrar
+ADDED from [com.google.firebase:firebase-iid:17.0.4] C:\Users\IZ-Parimala\.gradle\caches\transforms-1\files-1.1\jetified-firebase-iid-17.0.4.aar\911371cef86e717a3926e39aad5206c2\AndroidManifest.xml:32:13-34:85
+	android:value
+		ADDED from [com.google.firebase:firebase-iid:17.0.4] C:\Users\IZ-Parimala\.gradle\caches\transforms-1\files-1.1\jetified-firebase-iid-17.0.4.aar\911371cef86e717a3926e39aad5206c2\AndroidManifest.xml:34:17-82
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:17.0.4] C:\Users\IZ-Parimala\.gradle\caches\transforms-1\files-1.1\jetified-firebase-iid-17.0.4.aar\911371cef86e717a3926e39aad5206c2\AndroidManifest.xml:33:17-96
+receiver#com.google.firebase.iid.FirebaseInstanceIdReceiver
+ADDED from [com.google.firebase:firebase-iid:17.0.4] C:\Users\IZ-Parimala\.gradle\caches\transforms-1\files-1.1\jetified-firebase-iid-17.0.4.aar\911371cef86e717a3926e39aad5206c2\AndroidManifest.xml:37:9-44:20
+	android:exported
+		ADDED from [com.google.firebase:firebase-iid:17.0.4] C:\Users\IZ-Parimala\.gradle\caches\transforms-1\files-1.1\jetified-firebase-iid-17.0.4.aar\911371cef86e717a3926e39aad5206c2\AndroidManifest.xml:39:13-36
+	android:permission
+		ADDED from [com.google.firebase:firebase-iid:17.0.4] C:\Users\IZ-Parimala\.gradle\caches\transforms-1\files-1.1\jetified-firebase-iid-17.0.4.aar\911371cef86e717a3926e39aad5206c2\AndroidManifest.xml:40:13-73
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:17.0.4] C:\Users\IZ-Parimala\.gradle\caches\transforms-1\files-1.1\jetified-firebase-iid-17.0.4.aar\911371cef86e717a3926e39aad5206c2\AndroidManifest.xml:38:13-78
+intent-filter#action:name:com.google.android.c2dm.intent.RECEIVE
+ADDED from [com.google.firebase:firebase-iid:17.0.4] C:\Users\IZ-Parimala\.gradle\caches\transforms-1\files-1.1\jetified-firebase-iid-17.0.4.aar\911371cef86e717a3926e39aad5206c2\AndroidManifest.xml:41:13-43:29
+action#com.google.android.c2dm.intent.RECEIVE
+ADDED from [com.google.firebase:firebase-iid:17.0.4] C:\Users\IZ-Parimala\.gradle\caches\transforms-1\files-1.1\jetified-firebase-iid-17.0.4.aar\911371cef86e717a3926e39aad5206c2\AndroidManifest.xml:42:17-81
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:17.0.4] C:\Users\IZ-Parimala\.gradle\caches\transforms-1\files-1.1\jetified-firebase-iid-17.0.4.aar\911371cef86e717a3926e39aad5206c2\AndroidManifest.xml:42:25-78
+service#com.google.firebase.iid.FirebaseInstanceIdService
+ADDED from [com.google.firebase:firebase-iid:17.0.4] C:\Users\IZ-Parimala\.gradle\caches\transforms-1\files-1.1\jetified-firebase-iid-17.0.4.aar\911371cef86e717a3926e39aad5206c2\AndroidManifest.xml:50:9-56:19
+	android:exported
+		ADDED from [com.google.firebase:firebase-iid:17.0.4] C:\Users\IZ-Parimala\.gradle\caches\transforms-1\files-1.1\jetified-firebase-iid-17.0.4.aar\911371cef86e717a3926e39aad5206c2\AndroidManifest.xml:52:13-36
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:17.0.4] C:\Users\IZ-Parimala\.gradle\caches\transforms-1\files-1.1\jetified-firebase-iid-17.0.4.aar\911371cef86e717a3926e39aad5206c2\AndroidManifest.xml:51:13-77
+activity#com.google.android.gms.common.api.GoogleApiActivity
+ADDED from [com.google.android.gms:play-services-base:16.0.1] C:\Users\IZ-Parimala\.gradle\caches\transforms-1\files-1.1\jetified-play-services-base-16.0.1.aar\db6253749013d2f99e4b79df5d41b095\AndroidManifest.xml:23:9-26:75
+	android:exported
+		ADDED from [com.google.android.gms:play-services-base:16.0.1] C:\Users\IZ-Parimala\.gradle\caches\transforms-1\files-1.1\jetified-play-services-base-16.0.1.aar\db6253749013d2f99e4b79df5d41b095\AndroidManifest.xml:25:13-37
+	android:theme
+		ADDED from [com.google.android.gms:play-services-base:16.0.1] C:\Users\IZ-Parimala\.gradle\caches\transforms-1\files-1.1\jetified-play-services-base-16.0.1.aar\db6253749013d2f99e4b79df5d41b095\AndroidManifest.xml:26:13-72
+	android:name
+		ADDED from [com.google.android.gms:play-services-base:16.0.1] C:\Users\IZ-Parimala\.gradle\caches\transforms-1\files-1.1\jetified-play-services-base-16.0.1.aar\db6253749013d2f99e4b79df5d41b095\AndroidManifest.xml:24:13-79
+provider#com.google.firebase.provider.FirebaseInitProvider
+ADDED from [com.google.firebase:firebase-common:16.0.4] C:\Users\IZ-Parimala\.gradle\caches\transforms-1\files-1.1\jetified-firebase-common-16.0.4.aar\995b2ec12d399a678b49d5444117f8f1\AndroidManifest.xml:10:9-14:39
+	android:authorities
+		ADDED from [com.google.firebase:firebase-common:16.0.4] C:\Users\IZ-Parimala\.gradle\caches\transforms-1\files-1.1\jetified-firebase-common-16.0.4.aar\995b2ec12d399a678b49d5444117f8f1\AndroidManifest.xml:12:13-72
+	android:exported
+		ADDED from [com.google.firebase:firebase-common:16.0.4] C:\Users\IZ-Parimala\.gradle\caches\transforms-1\files-1.1\jetified-firebase-common-16.0.4.aar\995b2ec12d399a678b49d5444117f8f1\AndroidManifest.xml:13:13-37
+	android:initOrder
+		ADDED from [com.google.firebase:firebase-common:16.0.4] C:\Users\IZ-Parimala\.gradle\caches\transforms-1\files-1.1\jetified-firebase-common-16.0.4.aar\995b2ec12d399a678b49d5444117f8f1\AndroidManifest.xml:14:13-36
+	android:name
+		ADDED from [com.google.firebase:firebase-common:16.0.4] C:\Users\IZ-Parimala\.gradle\caches\transforms-1\files-1.1\jetified-firebase-common-16.0.4.aar\995b2ec12d399a678b49d5444117f8f1\AndroidManifest.xml:11:13-77
+provider#com.facebook.marketing.internal.MarketingInitProvider
+ADDED from [com.facebook.android:facebook-marketing:4.40.0] C:\Users\IZ-Parimala\.gradle\caches\transforms-1\files-1.1\jetified-facebook-marketing-4.40.0.aar\11b12ce078759e0aa995b7053951ac0c\AndroidManifest.xml:29:9-32:40
+	android:authorities
+		ADDED from [com.facebook.android:facebook-marketing:4.40.0] C:\Users\IZ-Parimala\.gradle\caches\transforms-1\files-1.1\jetified-facebook-marketing-4.40.0.aar\11b12ce078759e0aa995b7053951ac0c\AndroidManifest.xml:31:13-73
+	android:exported
+		ADDED from [com.facebook.android:facebook-marketing:4.40.0] C:\Users\IZ-Parimala\.gradle\caches\transforms-1\files-1.1\jetified-facebook-marketing-4.40.0.aar\11b12ce078759e0aa995b7053951ac0c\AndroidManifest.xml:32:13-37
+	android:name
+		ADDED from [com.facebook.android:facebook-marketing:4.40.0] C:\Users\IZ-Parimala\.gradle\caches\transforms-1\files-1.1\jetified-facebook-marketing-4.40.0.aar\11b12ce078759e0aa995b7053951ac0c\AndroidManifest.xml:30:13-81
+provider#com.facebook.internal.FacebookInitProvider
+ADDED from [com.facebook.android:facebook-core:4.40.0] C:\Users\IZ-Parimala\.gradle\caches\transforms-1\files-1.1\jetified-facebook-core-4.40.0.aar\1fd35f18a939d1bd69c9244a1d61232a\AndroidManifest.xml:39:9-42:40
+	android:authorities
+		ADDED from [com.facebook.android:facebook-core:4.40.0] C:\Users\IZ-Parimala\.gradle\caches\transforms-1\files-1.1\jetified-facebook-core-4.40.0.aar\1fd35f18a939d1bd69c9244a1d61232a\AndroidManifest.xml:41:13-72
+	android:exported
+		ADDED from [com.facebook.android:facebook-core:4.40.0] C:\Users\IZ-Parimala\.gradle\caches\transforms-1\files-1.1\jetified-facebook-core-4.40.0.aar\1fd35f18a939d1bd69c9244a1d61232a\AndroidManifest.xml:42:13-37
+	android:name
+		ADDED from [com.facebook.android:facebook-core:4.40.0] C:\Users\IZ-Parimala\.gradle\caches\transforms-1\files-1.1\jetified-facebook-core-4.40.0.aar\1fd35f18a939d1bd69c9244a1d61232a\AndroidManifest.xml:40:13-70
+receiver#com.facebook.CurrentAccessTokenExpirationBroadcastReceiver
+ADDED from [com.facebook.android:facebook-core:4.40.0] C:\Users\IZ-Parimala\.gradle\caches\transforms-1\files-1.1\jetified-facebook-core-4.40.0.aar\1fd35f18a939d1bd69c9244a1d61232a\AndroidManifest.xml:44:9-50:20
+	android:exported
+		ADDED from [com.facebook.android:facebook-core:4.40.0] C:\Users\IZ-Parimala\.gradle\caches\transforms-1\files-1.1\jetified-facebook-core-4.40.0.aar\1fd35f18a939d1bd69c9244a1d61232a\AndroidManifest.xml:46:13-37
+	android:name
+		ADDED from [com.facebook.android:facebook-core:4.40.0] C:\Users\IZ-Parimala\.gradle\caches\transforms-1\files-1.1\jetified-facebook-core-4.40.0.aar\1fd35f18a939d1bd69c9244a1d61232a\AndroidManifest.xml:45:13-86
+intent-filter#action:name:com.facebook.sdk.ACTION_CURRENT_ACCESS_TOKEN_CHANGED
+ADDED from [com.facebook.android:facebook-core:4.40.0] C:\Users\IZ-Parimala\.gradle\caches\transforms-1\files-1.1\jetified-facebook-core-4.40.0.aar\1fd35f18a939d1bd69c9244a1d61232a\AndroidManifest.xml:47:13-49:29
+action#com.facebook.sdk.ACTION_CURRENT_ACCESS_TOKEN_CHANGED
+ADDED from [com.facebook.android:facebook-core:4.40.0] C:\Users\IZ-Parimala\.gradle\caches\transforms-1\files-1.1\jetified-facebook-core-4.40.0.aar\1fd35f18a939d1bd69c9244a1d61232a\AndroidManifest.xml:48:17-95
+	android:name
+		ADDED from [com.facebook.android:facebook-core:4.40.0] C:\Users\IZ-Parimala\.gradle\caches\transforms-1\files-1.1\jetified-facebook-core-4.40.0.aar\1fd35f18a939d1bd69c9244a1d61232a\AndroidManifest.xml:48:25-92

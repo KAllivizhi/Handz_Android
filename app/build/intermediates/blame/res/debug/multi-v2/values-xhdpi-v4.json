@@ -1,0 +1,26 @@
+{
+    "logs": [
+        {
+            "outputFile": "D:\\Anderoid Projects\\Handz_11101\\H\\Handz_1110\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-xhdpi-v4\\values-xhdpi-v4.xml",
+            "map": [
+                {
+                    "source": "D:\\Anderoid Projects\\Handz_11101\\H\\Handz_1110\\app\\src\\main\\res\\values-xhdpi\\dimens.xml",
+                    "from": {
+                        "startLines": "3,4,7,5,6,9,11,2,8,15,10,13,14",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "137,196,357,253,306,461,554,90,411,771,507,661,717",
+                        "endColumns": "57,55,52,51,49,44,49,45,48,56,45,54,52",
+                        "endOffsets": "190,247,405,300,351,501,599,131,455,823,548,711,765"
+                    },
+                    "to": {
+                        "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "55,113,169,222,274,324,369,419,465,514,571,617,672",
+                        "endColumns": "57,55,52,51,49,44,49,45,48,56,45,54,52",
+                        "endOffsets": "108,164,217,269,319,364,414,460,509,566,612,667,720"
+                    }
+                }
+            ]
+        }
+    ]
+}

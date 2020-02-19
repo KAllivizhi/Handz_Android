@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/H-Handz_1110.iml" filepath="$PROJECT_DIR$/H-Handz_1110.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Handz_1110.iml" filepath="$PROJECT_DIR$/Handz_1110.iml" />
+      <module fileurl="file://$PROJECT_DIR$/app/Handz_1110-app.iml" filepath="$PROJECT_DIR$/app/Handz_1110-app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/eventsapp/Handz_1110-eventsapp.iml" filepath="$PROJECT_DIR$/eventsapp/Handz_1110-eventsapp.iml" />
+      <module fileurl="file://$PROJECT_DIR$/library/Handz_1110-library.iml" filepath="$PROJECT_DIR$/library/Handz_1110-library.iml" />
+      <module fileurl="file://$PROJECT_DIR$/linkedin-sdk/Handz_1110-linkedin-sdk.iml" filepath="$PROJECT_DIR$/linkedin-sdk/Handz_1110-linkedin-sdk.iml" />
+      <module fileurl="file://$PROJECT_DIR$/sampleapp/Handz_1110-sampleapp.iml" filepath="$PROJECT_DIR$/sampleapp/Handz_1110-sampleapp.iml" />
+      <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/eventsapp/eventsapp.iml" filepath="$PROJECT_DIR$/eventsapp/eventsapp.iml" />
+      <module fileurl="file://$PROJECT_DIR$/library/library.iml" filepath="$PROJECT_DIR$/library/library.iml" />
+      <module fileurl="file://$PROJECT_DIR$/linkedin-sdk/linkedin-sdk.iml" filepath="$PROJECT_DIR$/linkedin-sdk/linkedin-sdk.iml" />
+      <module fileurl="file://$PROJECT_DIR$/sampleapp/sampleapp.iml" filepath="$PROJECT_DIR$/sampleapp/sampleapp.iml" />
+    </modules>
+  </component>
+</project>
